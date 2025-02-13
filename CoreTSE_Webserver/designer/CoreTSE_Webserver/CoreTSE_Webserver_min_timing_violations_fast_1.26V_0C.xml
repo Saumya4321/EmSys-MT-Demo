@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Timing Violation Report Min Delay Analysis
+</title>
+<text>SmartTime Version 11.7.2.2</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v11.7 SP2 (Version 11.7.2.2)</text>
+<text>Date: Thu Nov 17 15:36:53 2016
+</text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>CoreTSE_Webserver</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2S090TS</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>484 FBGA</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Design State</cell>
+ <cell>Post-Layout</cell>
+</row>
+<row>
+ <cell>Data source</cell>
+ <cell>Production</cell>
+</row>
+<row>
+ <cell>Min Operating Conditions</cell>
+ <cell>BEST - 1.26 V - 0 C</cell>
+</row>
+<row>
+ <cell>Max Operating Conditions</cell>
+ <cell>WORST - 1.14 V - 85 C</cell>
+</row>
+<row>
+ <cell>Scenario for Timing Analysis</cell>
+ <cell>timing_analysis</cell>
+</row>
+</table>
+<text></text>
+<text>No Path</text>
+</doc>

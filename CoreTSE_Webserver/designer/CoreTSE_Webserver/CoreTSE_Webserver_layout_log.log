@@ -1,0 +1,88 @@
+INFO: Reading User SDC file D:\CASES\coretse\CoreTSE_Webserver\constraint\CoreTSE_Webserver_derived_constraints.sdc.
+INFO: Reading User SDC file D:\CASES\coretse\CoreTSE_Webserver\constraint\user.sdc.
+No errors or warnings found.
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+TDPR scenario            : place_and_route
+
+INFO: Reading User PDC file D:\CASES\coretse\CoreTSE_Webserver\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file D:\CASES\coretse\CoreTSE_Webserver\constraint\fp\CoreTSE_Webserver_derived_constraints.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 23 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified bank 'Bank2' as being fixed at VCCI:2.50V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank3' as being fixed at VCCI:2.50V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank5' as being fixed at VCCI:2.50V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank6' as being fixed at VCCI:2.50V VCCR:1.25V
+Info:  I/O Bank and Globals Assigner identified bank 'Bank8' as being fixed at VCCI:2.50V VCCR:n/a
+Info:   I/O Bank and Globals Assigner detected (5) out of (9) I/O Bank(s) with locked I/O technologies.
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 1 seconds
+
+Placer V4.0 - 11.7.2 
+Design: CoreTSE_Webserver               Started: Thu Nov 17 15:28:52 2016
+
+Initializing Timing-Driven Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 33 seconds
+Placement Runtime            : 64 seconds
+
+Placer completed successfully.
+
+Design: CoreTSE_Webserver               
+Finished: Thu Nov 17 15:31:11 2016
+Total CPU Time:     00:02:14            Total Elapsed Time: 00:02:19
+Total Memory Usage: 841.6 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: D:\CASES\coretse\CoreTSE_Webserver\designer\CoreTSE_Webserver\CoreTSE_WebserverStarted: Thu Nov 17 15:31:24 2016
+
+
+Router completed successfully.
+
+Design: D:\CASES\coretse\CoreTSE_Webserver\designer\CoreTSE_Webserver\CoreTSE_Webserver
+Finished: Thu Nov 17 15:32:51 2016
+Total CPU Time:     00:01:24            Total Elapsed Time: 00:01:27
+Total Memory Usage: 2864.5 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 22
+  Worst minimum delay slack: -3.809 ns
+
+Router 
+Design: D:\CASES\coretse\CoreTSE_Webserver\designer\CoreTSE_Webserver\CoreTSE_WebserverStarted: Thu Nov 17 15:33:46 2016
+
+Loading routing information for ECO mode...
+After loading previous routing information: Shorts = 0. Open nets = 44.
+
+Router completed successfully.
+
+Design: D:\CASES\coretse\CoreTSE_Webserver\designer\CoreTSE_Webserver\CoreTSE_Webserver
+Finished: Thu Nov 17 15:34:20 2016
+Total CPU Time:     00:00:32            Total Elapsed Time: 00:00:34
+Total Memory Usage: 2880.2 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 2:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+-------+-------+------------+
+| Type          | Used  | Total | Percentage |
++---------------+-------+-------+------------+
+| 4LUT          | 10384 | 86184 | 12.05      |
+| DFF           | 5676  | 86184 | 6.59       |
+| I/O Register  | 0     | 795   | 0.00       |
+| Logic Element | 10997 | 86184 | 12.76      |
++---------------+-------+-------+------------+
+

@@ -1,0 +1,42 @@
+Software Version: 11.7.2.2
+Embedded FlashPro5 programmer detected.
+programmer 'E200KEE4R' : FlashPro5
+Opened 'D:\CASES\coretse\CoreTSE_Webserver\designer\CoreTSE_Webserver\CoreTSE_Webserver_fp\CoreTSE_Webserver.pro'
+The 'open_project' command succeeded.
+IPD file 'D:/CASES/coretse/CoreTSE_Webserver/designer/CoreTSE_Webserver/CoreTSE_Webserver.ipd' has been loaded successfully.
+DESIGN : CoreTSE_Webserver;  CHECKSUM : BF74;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S090TS'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E200KEE4R' : Scan Chain...
+Warning: programmer 'E200KEE4R' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'E200KEE4R' : Check Chain...
+programmer 'E200KEE4R' : Scan and Check Chain PASSED.
+programmer 'E200KEE4R' : device 'M2S090TS' : Executing action PROGRAM
+programmer 'E200KEE4R' : device 'M2S090TS' : Family: SmartFusion2
+programmer 'E200KEE4R' : device 'M2S090TS' : Product:      M2S090
+programmer 'E200KEE4R' : device 'M2S090TS' : EXPORT ISC_ENABLE_RESULT[32] = 00786444
+programmer 'E200KEE4R' : device 'M2S090TS' : EXPORT CRCERR: [1] = 0
+programmer 'E200KEE4R' : device 'M2S090TS' : EXPORT EDCERR: [1] = 0
+programmer 'E200KEE4R' : device 'M2S090TS' : TEMPGRADE: ROOM
+programmer 'E200KEE4R' : device 'M2S090TS' : EXPORT VPPRANGE: [3] = 2
+programmer 'E200KEE4R' : device 'M2S090TS' : VPPRANGE: HIGH
+programmer 'E200KEE4R' : device 'M2S090TS' : EXPORT TEMP: [8] = 64
+programmer 'E200KEE4R' : device 'M2S090TS' : EXPORT VPP: [8] = 78
+programmer 'E200KEE4R' : device 'M2S090TS' : Programming FPGA Array and eNVM...
+programmer 'E200KEE4R' : device 'M2S090TS' : ===================================================================================
+programmer 'E200KEE4R' : device 'M2S090TS' : EXPORT DSN[128] = 895a1a6622c86ddd53a6855e04ed204b
+programmer 'E200KEE4R' : device 'M2S090TS' : ===================================================================================
+programmer 'E200KEE4R' : device 'M2S090TS' : Finished: Thu Nov 17 16:15:33 2016 (Elapsed time 00:01:58)
+programmer 'E200KEE4R' : device 'M2S090TS' : Executing action PROGRAM PASSED.
+programmer 'E200KEE4R' : Chain programming PASSED.
+Chain Programming Finished: Thu Nov 17 16:15:33 2016 (Elapsed time 00:01:58)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

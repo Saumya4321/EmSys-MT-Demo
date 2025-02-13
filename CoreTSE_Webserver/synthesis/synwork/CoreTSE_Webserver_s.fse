@@ -1,0 +1,286 @@
+
+fsm_encoding {99449444916} onehot
+
+fsm_state_encoding {99449444916} M0EXTEND {0000000000000001}
+
+fsm_state_encoding {99449444916} M0DONE {0000000000000010}
+
+fsm_state_encoding {99449444916} M0LOCK {0000000000000100}
+
+fsm_state_encoding {99449444916} M0LOCKEXTEND {0000000000001000}
+
+fsm_state_encoding {99449444916} M1EXTEND {0000000000010000}
+
+fsm_state_encoding {99449444916} M1DONE {0000000000100000}
+
+fsm_state_encoding {99449444916} M1LOCK {0000000001000000}
+
+fsm_state_encoding {99449444916} M1LOCKEXTEND {0000000010000000}
+
+fsm_state_encoding {99449444916} M2EXTEND {0000000100000000}
+
+fsm_state_encoding {99449444916} M2DONE {0000001000000000}
+
+fsm_state_encoding {99449444916} M2LOCK {0000010000000000}
+
+fsm_state_encoding {99449444916} M2LOCKEXTEND {0000100000000000}
+
+fsm_state_encoding {99449444916} M3EXTEND {0001000000000000}
+
+fsm_state_encoding {99449444916} M3DONE {0010000000000000}
+
+fsm_state_encoding {99449444916} M3LOCK {0100000000000000}
+
+fsm_state_encoding {99449444916} M3LOCKEXTEND {1000000000000000}
+
+fsm_registers {99449444916} {arbRegSMCurrentState[15]}  {arbRegSMCurrentState[14]}  {arbRegSMCurrentState[13]}  {arbRegSMCurrentState[12]}  {arbRegSMCurrentState[11]}  {arbRegSMCurrentState[10]}  {arbRegSMCurrentState[9]}  {arbRegSMCurrentState[8]}  {arbRegSMCurrentState[7]}  {arbRegSMCurrentState[6]}  {arbRegSMCurrentState[5]}  {arbRegSMCurrentState[4]}  {arbRegSMCurrentState[3]}  {arbRegSMCurrentState[2]}  {arbRegSMCurrentState[1]}  {arbRegSMCurrentState[0]} 
+
+fsm_encoding {99449444916} onehot
+
+fsm_state_encoding {99449444916} M0EXTEND {0000000000000001}
+
+fsm_state_encoding {99449444916} M0DONE {0000000000000010}
+
+fsm_state_encoding {99449444916} M0LOCK {0000000000000100}
+
+fsm_state_encoding {99449444916} M0LOCKEXTEND {0000000000001000}
+
+fsm_state_encoding {99449444916} M1EXTEND {0000000000010000}
+
+fsm_state_encoding {99449444916} M1DONE {0000000000100000}
+
+fsm_state_encoding {99449444916} M1LOCK {0000000001000000}
+
+fsm_state_encoding {99449444916} M1LOCKEXTEND {0000000010000000}
+
+fsm_state_encoding {99449444916} M2EXTEND {0000000100000000}
+
+fsm_state_encoding {99449444916} M2DONE {0000001000000000}
+
+fsm_state_encoding {99449444916} M2LOCK {0000010000000000}
+
+fsm_state_encoding {99449444916} M2LOCKEXTEND {0000100000000000}
+
+fsm_state_encoding {99449444916} M3EXTEND {0001000000000000}
+
+fsm_state_encoding {99449444916} M3DONE {0010000000000000}
+
+fsm_state_encoding {99449444916} M3LOCK {0100000000000000}
+
+fsm_state_encoding {99449444916} M3LOCKEXTEND {1000000000000000}
+
+fsm_registers {99449444916} {arbRegSMCurrentState[15]}  {arbRegSMCurrentState[14]}  {arbRegSMCurrentState[13]}  {arbRegSMCurrentState[12]}  {arbRegSMCurrentState[11]}  {arbRegSMCurrentState[10]}  {arbRegSMCurrentState[9]}  {arbRegSMCurrentState[8]}  {arbRegSMCurrentState[7]}  {arbRegSMCurrentState[6]}  {arbRegSMCurrentState[5]}  {arbRegSMCurrentState[4]}  {arbRegSMCurrentState[3]}  {arbRegSMCurrentState[2]}  {arbRegSMCurrentState[1]}  {arbRegSMCurrentState[0]} 
+
+fsm_encoding {5447444715} sequential
+
+fsm_state_encoding {5447444715} S0 {00}
+
+fsm_state_encoding {5447444715} S1 {01}
+
+fsm_state_encoding {5447444715} S2 {10}
+
+fsm_registers {5447444715} {state[1]}  {state[0]} 
+
+fsm_encoding {710894108914} onehot
+
+fsm_state_encoding {710894108914} 000 {0000001}
+
+fsm_state_encoding {710894108914} 001 {0000010}
+
+fsm_state_encoding {710894108914} 010 {0000100}
+
+fsm_state_encoding {710894108914} 011 {0001000}
+
+fsm_state_encoding {710894108914} 100 {0010000}
+
+fsm_state_encoding {710894108914} 101 {0100000}
+
+fsm_state_encoding {710894108914} 110 {1000000}
+
+fsm_registers {710894108914} {sm0_state[6]}  {sm0_state[5]}  {sm0_state[4]}  {sm0_state[3]}  {sm0_state[2]}  {sm0_state[1]}  {sm0_state[0]} 
+
+fsm_encoding {711704117013} sequential
+
+fsm_state_encoding {711704117013} 000 {00}
+
+fsm_state_encoding {711704117013} 001 {01}
+
+fsm_state_encoding {711704117013} 010 {10}
+
+fsm_state_encoding {711704117013} 011 {11}
+
+fsm_registers {711704117013} {sdif0_state[1]}  {sdif0_state[0]} 
+
+fsm_encoding {3856605669} sequential
+
+fsm_state_encoding {3856605669} 00 {00}
+
+fsm_state_encoding {3856605669} 01 {01}
+
+fsm_state_encoding {3856605669} 10 {10}
+
+fsm_state_encoding {3856605669} 11 {11}
+
+fsm_registers {3856605669} {CORETSE_AHBOOol[1]}  {CORETSE_AHBOOol[0]} 
+
+fsm_encoding {381110011108} sequential
+
+fsm_state_encoding {381110011108} 000 {00}
+
+fsm_state_encoding {381110011108} 100 {01}
+
+fsm_state_encoding {381110011108} 110 {10}
+
+fsm_state_encoding {381110011108} 111 {11}
+
+fsm_registers {381110011108} {CORETSE_AHBI0ol[1]}  {CORETSE_AHBI0ol[0]} 
+
+fsm_encoding {361039010396} sequential
+
+fsm_state_encoding {361039010396} 000 {00}
+
+fsm_state_encoding {361039010396} 100 {01}
+
+fsm_state_encoding {361039010396} 110 {10}
+
+fsm_state_encoding {361039010396} 111 {11}
+
+fsm_registers {361039010396} {CORETSE_AHBI0ol[1]}  {CORETSE_AHBI0ol[0]} 
+
+fsm_encoding {3650105017} sequential
+
+fsm_state_encoding {3650105017} 00 {00}
+
+fsm_state_encoding {3650105017} 01 {01}
+
+fsm_state_encoding {3650105017} 10 {10}
+
+fsm_state_encoding {3650105017} 11 {11}
+
+fsm_registers {3650105017} {CORETSE_AHBOOol[1]}  {CORETSE_AHBOOol[0]} 
+
+fsm_encoding {3080408045} onehot
+
+fsm_state_encoding {3080408045} 000001 {000001}
+
+fsm_state_encoding {3080408045} 000010 {000010}
+
+fsm_state_encoding {3080408045} 000100 {000100}
+
+fsm_state_encoding {3080408045} 001000 {001000}
+
+fsm_state_encoding {3080408045} 010000 {010000}
+
+fsm_state_encoding {3080408045} 100000 {100000}
+
+fsm_registers {3080408045} {CORETSE_AHBOIiI[5]}  {CORETSE_AHBOIiI[4]}  {CORETSE_AHBOIiI[3]}  {CORETSE_AHBOIiI[2]}  {CORETSE_AHBOIiI[1]}  {CORETSE_AHBOIiI[0]} 
+
+fsm_encoding {2758805884} onehot
+
+fsm_state_encoding {2758805884} 0000 {00001}
+
+fsm_state_encoding {2758805884} 1000 {00010}
+
+fsm_state_encoding {2758805884} 1100 {00100}
+
+fsm_state_encoding {2758805884} 1110 {01000}
+
+fsm_state_encoding {2758805884} 1111 {10000}
+
+fsm_registers {2758805884} {CORETSE_AHBIi0I[4]}  {CORETSE_AHBIi0I[3]}  {CORETSE_AHBIi0I[2]}  {CORETSE_AHBIi0I[1]}  {CORETSE_AHBIi0I[0]} 
+
+fsm_encoding {3126802683} onehot
+
+fsm_state_encoding {3126802683} 000001 {000001}
+
+fsm_state_encoding {3126802683} 000010 {000010}
+
+fsm_state_encoding {3126802683} 000100 {000100}
+
+fsm_state_encoding {3126802683} 001000 {001000}
+
+fsm_state_encoding {3126802683} 010000 {010000}
+
+fsm_state_encoding {3126802683} 100000 {100000}
+
+fsm_registers {3126802683} {CORETSE_AHBiOOl[5]}  {CORETSE_AHBiOOl[4]}  {CORETSE_AHBiOOl[3]}  {CORETSE_AHBiOOl[2]}  {CORETSE_AHBiOOl[1]}  {CORETSE_AHBiOOl[0]} 
+
+fsm_encoding {5554705472} onehot
+
+fsm_state_encoding {5554705472} 00000 {00000000000000000000000000000001}
+
+fsm_state_encoding {5554705472} 00001 {00000000000000000000000000000010}
+
+fsm_state_encoding {5554705472} 00010 {00000000000000000000000000000100}
+
+fsm_state_encoding {5554705472} 00011 {00000000000000000000000000001000}
+
+fsm_state_encoding {5554705472} 00100 {00000000000000000000000000010000}
+
+fsm_state_encoding {5554705472} 00101 {00000000000000000000000000100000}
+
+fsm_state_encoding {5554705472} 00110 {00000000000000000000000001000000}
+
+fsm_state_encoding {5554705472} 00111 {00000000000000000000000010000000}
+
+fsm_state_encoding {5554705472} 01000 {00000000000000000000000100000000}
+
+fsm_state_encoding {5554705472} 01001 {00000000000000000000001000000000}
+
+fsm_state_encoding {5554705472} 01010 {00000000000000000000010000000000}
+
+fsm_state_encoding {5554705472} 01011 {00000000000000000000100000000000}
+
+fsm_state_encoding {5554705472} 01100 {00000000000000000001000000000000}
+
+fsm_state_encoding {5554705472} 01101 {00000000000000000010000000000000}
+
+fsm_state_encoding {5554705472} 01110 {00000000000000000100000000000000}
+
+fsm_state_encoding {5554705472} 01111 {00000000000000001000000000000000}
+
+fsm_state_encoding {5554705472} 10000 {00000000000000010000000000000000}
+
+fsm_state_encoding {5554705472} 10001 {00000000000000100000000000000000}
+
+fsm_state_encoding {5554705472} 10010 {00000000000001000000000000000000}
+
+fsm_state_encoding {5554705472} 10011 {00000000000010000000000000000000}
+
+fsm_state_encoding {5554705472} 10100 {00000000000100000000000000000000}
+
+fsm_state_encoding {5554705472} 10101 {00000000001000000000000000000000}
+
+fsm_state_encoding {5554705472} 10110 {00000000010000000000000000000000}
+
+fsm_state_encoding {5554705472} 10111 {00000000100000000000000000000000}
+
+fsm_state_encoding {5554705472} 11000 {00000001000000000000000000000000}
+
+fsm_state_encoding {5554705472} 11001 {00000010000000000000000000000000}
+
+fsm_state_encoding {5554705472} 11010 {00000100000000000000000000000000}
+
+fsm_state_encoding {5554705472} 11011 {00001000000000000000000000000000}
+
+fsm_state_encoding {5554705472} 11100 {00010000000000000000000000000000}
+
+fsm_state_encoding {5554705472} 11101 {00100000000000000000000000000000}
+
+fsm_state_encoding {5554705472} 11110 {01000000000000000000000000000000}
+
+fsm_state_encoding {5554705472} 11111 {10000000000000000000000000000000}
+
+fsm_registers {5554705472} {CORETSE_AHBiooo[31]}  {CORETSE_AHBiooo[30]}  {CORETSE_AHBiooo[29]}  {CORETSE_AHBiooo[28]}  {CORETSE_AHBiooo[27]}  {CORETSE_AHBiooo[26]}  {CORETSE_AHBiooo[25]}  {CORETSE_AHBiooo[24]}  {CORETSE_AHBiooo[23]}  {CORETSE_AHBiooo[22]}  {CORETSE_AHBiooo[21]}  {CORETSE_AHBiooo[20]}  {CORETSE_AHBiooo[19]}  {CORETSE_AHBiooo[18]}  {CORETSE_AHBiooo[17]}  {CORETSE_AHBiooo[16]}  {CORETSE_AHBiooo[15]}  {CORETSE_AHBiooo[14]}  {CORETSE_AHBiooo[13]}  {CORETSE_AHBiooo[12]}  {CORETSE_AHBiooo[11]}  {CORETSE_AHBiooo[10]}  {CORETSE_AHBiooo[9]}  {CORETSE_AHBiooo[8]}  {CORETSE_AHBiooo[7]}  {CORETSE_AHBiooo[6]}  {CORETSE_AHBiooo[5]}  {CORETSE_AHBiooo[4]}  {CORETSE_AHBiooo[3]}  {CORETSE_AHBiooo[2]}  {CORETSE_AHBiooo[1]}  {CORETSE_AHBiooo[0]} 
+
+fsm_encoding {164633046331} sequential
+
+fsm_state_encoding {164633046331} 00 {00}
+
+fsm_state_encoding {164633046331} 01 {01}
+
+fsm_state_encoding {164633046331} 10 {10}
+
+fsm_state_encoding {164633046331} 11 {11}
+
+fsm_registers {164633046331} {CORETSE_AHBIii0_1[1]}  {CORETSE_AHBIii0_1[0]} 

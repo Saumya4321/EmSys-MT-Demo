@@ -1,0 +1,821 @@
+Timing Violation Report Min Delay Analysis
+
+SmartTime Version 
+Microsemi Corporation - Microsemi Libero Software Release  (Version 11.7.0.113)
+Date: Tue Jan 12 11:27:52 2016
+
+
+Design: CoreTSE_Webserver
+Family: SmartFusion2
+Die: M2S090TS
+Package: 484 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.14 - 1.26 V
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Production
+Min Operating Conditions: BEST - 1.26 V - 0 C
+Max Operating Conditions: WORST - 1.14 V - 85 C
+Scenario for Timing Analysis: timing_analysis
+
+
+Path 1
+  From:                        CoreConfigP_0/control_reg_1[0]:CLK
+  To:                          CoreResetP_0/CONFIG1_DONE_q1:D
+  Delay (ns):                  0.373                                                                           
+  Slack (ns):                  -1.796                                                                          
+  Arrival (ns):                3.532                                                                           
+  Required (ns):               5.328                                                                           
+
+Path 2
+  From:                        CoreConfigP_0/control_reg_1[1]:CLK
+  To:                          CoreResetP_0/CONFIG2_DONE_q1:D
+  Delay (ns):                  0.365                                                                           
+  Slack (ns):                  -1.796                                                                          
+  Arrival (ns):                3.531                                                                           
+  Required (ns):               5.327                                                                           
+
+Path 3
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[11]:D
+  Delay (ns):                  4.746                                                                           
+  Slack (ns):                  0.000                                                                           
+  Arrival (ns):                4.746                                                                           
+  Required (ns):               4.746                                                                           
+
+Path 4
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/state[0]:D
+  Delay (ns):                  3.241                                                                           
+  Slack (ns):                  0.025                                                                           
+  Arrival (ns):                3.241                                                                           
+  Required (ns):               3.216                                                                           
+
+Path 5
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/control_reg_1[0]:D
+  Delay (ns):                  3.247                                                                           
+  Slack (ns):                  0.042                                                                           
+  Arrival (ns):                3.247                                                                           
+  Required (ns):               3.205                                                                           
+
+Path 6
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[0]:D
+  Delay (ns):                  3.247                                                                           
+  Slack (ns):                  0.042                                                                           
+  Arrival (ns):                3.247                                                                           
+  Required (ns):               3.205                                                                           
+
+Path 7
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[12]:D
+  Delay (ns):                  4.784                                                                           
+  Slack (ns):                  0.044                                                                           
+  Arrival (ns):                4.784                                                                           
+  Required (ns):               4.740                                                                           
+
+Path 8
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[7]:D
+  Delay (ns):                  4.773                                                                           
+  Slack (ns):                  0.046                                                                           
+  Arrival (ns):                4.773                                                                           
+  Required (ns):               4.727                                                                           
+
+Path 9
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/paddr[5]:D
+  Delay (ns):                  3.256                                                                           
+  Slack (ns):                  0.048                                                                           
+  Arrival (ns):                3.256                                                                           
+  Required (ns):               3.208                                                                           
+
+Path 10
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/paddr[8]:D
+  Delay (ns):                  3.253                                                                           
+  Slack (ns):                  0.048                                                                           
+  Arrival (ns):                3.253                                                                           
+  Required (ns):               3.205                                                                           
+
+Path 11
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/control_reg_1[1]:EN
+  Delay (ns):                  3.270                                                                           
+  Slack (ns):                  0.057                                                                           
+  Arrival (ns):                3.270                                                                           
+  Required (ns):               3.213                                                                           
+
+Path 12
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[9]:D
+  Delay (ns):                  4.796                                                                           
+  Slack (ns):                  0.062                                                                           
+  Arrival (ns):                4.796                                                                           
+  Required (ns):               4.734                                                                           
+
+Path 13
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[4]:D
+  Delay (ns):                  3.271                                                                           
+  Slack (ns):                  0.063                                                                           
+  Arrival (ns):                3.271                                                                           
+  Required (ns):               3.208                                                                           
+
+Path 14
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[10]:D
+  Delay (ns):                  3.281                                                                           
+  Slack (ns):                  0.063                                                                           
+  Arrival (ns):                3.281                                                                           
+  Required (ns):               3.218                                                                           
+
+Path 15
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[17]:D
+  Delay (ns):                  3.277                                                                           
+  Slack (ns):                  0.064                                                                           
+  Arrival (ns):                3.277                                                                           
+  Required (ns):               3.213                                                                           
+
+Path 16
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/control_reg_1[0]:EN
+  Delay (ns):                  3.271                                                                           
+  Slack (ns):                  0.066                                                                           
+  Arrival (ns):                3.271                                                                           
+  Required (ns):               3.205                                                                           
+
+Path 17
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[14]:D
+  Delay (ns):                  3.289                                                                           
+  Slack (ns):                  0.071                                                                           
+  Arrival (ns):                3.289                                                                           
+  Required (ns):               3.218                                                                           
+
+Path 18
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/paddr[3]:D
+  Delay (ns):                  3.292                                                                           
+  Slack (ns):                  0.087                                                                           
+  Arrival (ns):                3.292                                                                           
+  Required (ns):               3.205                                                                           
+
+Path 19
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[6]:D
+  Delay (ns):                  3.299                                                                           
+  Slack (ns):                  0.094                                                                           
+  Arrival (ns):                3.299                                                                           
+  Required (ns):               3.205                                                                           
+
+Path 20
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/paddr[11]:D
+  Delay (ns):                  3.306                                                                           
+  Slack (ns):                  0.098                                                                           
+  Arrival (ns):                3.306                                                                           
+  Required (ns):               3.208                                                                           
+
+Path 21
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[31]:D
+  Delay (ns):                  3.316                                                                           
+  Slack (ns):                  0.100                                                                           
+  Arrival (ns):                3.316                                                                           
+  Required (ns):               3.216                                                                           
+
+Path 22
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[20]:D
+  Delay (ns):                  3.316                                                                           
+  Slack (ns):                  0.102                                                                           
+  Arrival (ns):                3.316                                                                           
+  Required (ns):               3.214                                                                           
+
+Path 23
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/paddr[7]:D
+  Delay (ns):                  3.317                                                                           
+  Slack (ns):                  0.112                                                                           
+  Arrival (ns):                3.317                                                                           
+  Required (ns):               3.205                                                                           
+
+Path 24
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[3]:D
+  Delay (ns):                  4.846                                                                           
+  Slack (ns):                  0.117                                                                           
+  Arrival (ns):                4.846                                                                           
+  Required (ns):               4.729                                                                           
+
+Path 25
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[27]:D
+  Delay (ns):                  3.343                                                                           
+  Slack (ns):                  0.119                                                                           
+  Arrival (ns):                3.343                                                                           
+  Required (ns):               3.224                                                                           
+
+Path 26
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[1]:D
+  Delay (ns):                  4.868                                                                           
+  Slack (ns):                  0.128                                                                           
+  Arrival (ns):                4.868                                                                           
+  Required (ns):               4.740                                                                           
+
+Path 27
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[15]:D
+  Delay (ns):                  3.345                                                                           
+  Slack (ns):                  0.130                                                                           
+  Arrival (ns):                3.345                                                                           
+  Required (ns):               3.215                                                                           
+
+Path 28
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[13]:D
+  Delay (ns):                  3.339                                                                           
+  Slack (ns):                  0.131                                                                           
+  Arrival (ns):                3.339                                                                           
+  Required (ns):               3.208                                                                           
+
+Path 29
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/paddr[6]:D
+  Delay (ns):                  3.351                                                                           
+  Slack (ns):                  0.135                                                                           
+  Arrival (ns):                3.351                                                                           
+  Required (ns):               3.216                                                                           
+
+Path 30
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[5]:D
+  Delay (ns):                  3.371                                                                           
+  Slack (ns):                  0.146                                                                           
+  Arrival (ns):                3.371                                                                           
+  Required (ns):               3.225                                                                           
+
+Path 31
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[28]:D
+  Delay (ns):                  3.374                                                                           
+  Slack (ns):                  0.147                                                                           
+  Arrival (ns):                3.374                                                                           
+  Required (ns):               3.227                                                                           
+
+Path 32
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[24]:D
+  Delay (ns):                  3.368                                                                           
+  Slack (ns):                  0.152                                                                           
+  Arrival (ns):                3.368                                                                           
+  Required (ns):               3.216                                                                           
+
+Path 33
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[7]:D
+  Delay (ns):                  3.380                                                                           
+  Slack (ns):                  0.155                                                                           
+  Arrival (ns):                3.380                                                                           
+  Required (ns):               3.225                                                                           
+
+Path 34
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[3]:D
+  Delay (ns):                  3.392                                                                           
+  Slack (ns):                  0.168                                                                           
+  Arrival (ns):                3.392                                                                           
+  Required (ns):               3.224                                                                           
+
+Path 35
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_TXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]:D
+  Delay (ns):                  4.897                                                                           
+  Slack (ns):                  0.168                                                                           
+  Arrival (ns):                4.897                                                                           
+  Required (ns):               4.729                                                                           
+
+Path 36
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[10]:D
+  Delay (ns):                  4.912                                                                           
+  Slack (ns):                  0.169                                                                           
+  Arrival (ns):                4.912                                                                           
+  Required (ns):               4.743                                                                           
+
+Path 37
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwrite:D
+  Delay (ns):                  3.385                                                                           
+  Slack (ns):                  0.172                                                                           
+  Arrival (ns):                3.385                                                                           
+  Required (ns):               3.213                                                                           
+
+Path 38
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[19]:D
+  Delay (ns):                  4.918                                                                           
+  Slack (ns):                  0.172                                                                           
+  Arrival (ns):                4.918                                                                           
+  Required (ns):               4.746                                                                           
+
+Path 39
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[26]:D
+  Delay (ns):                  3.391                                                                           
+  Slack (ns):                  0.173                                                                           
+  Arrival (ns):                3.391                                                                           
+  Required (ns):               3.218                                                                           
+
+Path 40
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[17]:D
+  Delay (ns):                  4.911                                                                           
+  Slack (ns):                  0.174                                                                           
+  Arrival (ns):                4.911                                                                           
+  Required (ns):               4.737                                                                           
+
+Path 41
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[13]:D
+  Delay (ns):                  4.917                                                                           
+  Slack (ns):                  0.178                                                                           
+  Arrival (ns):                4.917                                                                           
+  Required (ns):               4.739                                                                           
+
+Path 42
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[2]:D
+  Delay (ns):                  4.913                                                                           
+  Slack (ns):                  0.179                                                                           
+  Arrival (ns):                4.913                                                                           
+  Required (ns):               4.734                                                                           
+
+Path 43
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/paddr[10]:D
+  Delay (ns):                  3.417                                                                           
+  Slack (ns):                  0.202                                                                           
+  Arrival (ns):                3.417                                                                           
+  Required (ns):               3.215                                                                           
+
+Path 44
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/FIC_2_APB_M_PRDATA[0]:D
+  Delay (ns):                  3.422                                                                           
+  Slack (ns):                  0.207                                                                           
+  Arrival (ns):                3.422                                                                           
+  Required (ns):               3.215                                                                           
+
+Path 45
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/paddr[13]:D
+  Delay (ns):                  3.427                                                                           
+  Slack (ns):                  0.208                                                                           
+  Arrival (ns):                3.427                                                                           
+  Required (ns):               3.219                                                                           
+
+Path 46
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/control_reg_1[1]:D
+  Delay (ns):                  3.424                                                                           
+  Slack (ns):                  0.211                                                                           
+  Arrival (ns):                3.424                                                                           
+  Required (ns):               3.213                                                                           
+
+Path 47
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBIOooI/CORETSE_AHBOil0/CORETSE_AHBi0l0:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBOlooI.CORETSE_AHBO0ooI/CORETSE_AHBo1li/CORETSE_AHBlI0i:D
+  Delay (ns):                  0.275                                                                           
+  Slack (ns):                  0.222                                                                           
+  Arrival (ns):                5.556                                                                           
+  Required (ns):               5.334                                                                           
+
+Path 48
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBil11/CORETSE_AHBl1IOI:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBil11/CORETSE_AHBo1IOI:D
+  Delay (ns):                  0.275                                                                           
+  Slack (ns):                  0.222                                                                           
+  Arrival (ns):                4.955                                                                           
+  Required (ns):               4.733                                                                           
+
+Path 49
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[4]:D
+  Delay (ns):                  4.951                                                                           
+  Slack (ns):                  0.223                                                                           
+  Arrival (ns):                4.951                                                                           
+  Required (ns):               4.728                                                                           
+
+Path 50
+  From:                        CoreResetP_0/count_sdif0_enable_q1:CLK
+  To:                          CoreResetP_0/count_sdif0_enable_rcosc:D
+  Delay (ns):                  0.279                                                                           
+  Slack (ns):                  0.227                                                                           
+  Arrival (ns):                5.204                                                                           
+  Required (ns):               4.977                                                                           
+
+Path 51
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBI0lo:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBIoI1:D
+  Delay (ns):                  0.283                                                                           
+  Slack (ns):                  0.227                                                                           
+  Arrival (ns):                5.003                                                                           
+  Required (ns):               4.776                                                                           
+
+Path 52
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[29]:D
+  Delay (ns):                  3.444                                                                           
+  Slack (ns):                  0.228                                                                           
+  Arrival (ns):                3.444                                                                           
+  Required (ns):               3.216                                                                           
+
+Path 53
+  From:                        CoreResetP_0/sm0_areset_n_rcosc_q1:CLK
+  To:                          CoreResetP_0/sm0_areset_n_rcosc:D
+  Delay (ns):                  0.275                                                                           
+  Slack (ns):                  0.228                                                                           
+  Arrival (ns):                5.205                                                                           
+  Required (ns):               4.977                                                                           
+
+Path 54
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[12]:D
+  Delay (ns):                  3.445                                                                           
+  Slack (ns):                  0.229                                                                           
+  Arrival (ns):                3.445                                                                           
+  Required (ns):               3.216                                                                           
+
+Path 55
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[15]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBoOlOI[15]:D
+  Delay (ns):                  0.283                                                                           
+  Slack (ns):                  0.229                                                                           
+  Arrival (ns):                4.968                                                                           
+  Required (ns):               4.739                                                                           
+
+Path 56
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBiIlo:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBi0I1:D
+  Delay (ns):                  0.271                                                                           
+  Slack (ns):                  0.230                                                                           
+  Arrival (ns):                4.995                                                                           
+  Required (ns):               4.765                                                                           
+
+Path 57
+  From:                        CoreResetP_0/FIC_2_APB_M_PRESET_N_q1:CLK
+  To:                          CoreResetP_0/FIC_2_APB_M_PRESET_N_clk_base:D
+  Delay (ns):                  0.271                                                                           
+  Slack (ns):                  0.231                                                                           
+  Arrival (ns):                5.545                                                                           
+  Required (ns):               5.314                                                                           
+
+Path 58
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBooOo/CORETSE_AHBilio:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBooOo/CORETSE_AHBO0io:D
+  Delay (ns):                  0.287                                                                           
+  Slack (ns):                  0.231                                                                           
+  Arrival (ns):                5.569                                                                           
+  Required (ns):               5.338                                                                           
+
+Path 59
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[5]:D
+  Delay (ns):                  4.967                                                                           
+  Slack (ns):                  0.232                                                                           
+  Arrival (ns):                4.967                                                                           
+  Required (ns):               4.735                                                                           
+
+Path 60
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBooOo/CORETSE_AHBoIio:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBooOo/CORETSE_AHBiIio:D
+  Delay (ns):                  0.286                                                                           
+  Slack (ns):                  0.232                                                                           
+  Arrival (ns):                5.565                                                                           
+  Required (ns):               5.333                                                                           
+
+Path 61
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[19]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBoOlOI[19]:D
+  Delay (ns):                  0.274                                                                           
+  Slack (ns):                  0.232                                                                           
+  Arrival (ns):                4.972                                                                           
+  Required (ns):               4.740                                                                           
+
+Path 62
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBooOo/CORETSE_AHBIlOi:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBooOo/CORETSE_AHBO11:D
+  Delay (ns):                  0.280                                                                           
+  Slack (ns):                  0.233                                                                           
+  Arrival (ns):                5.563                                                                           
+  Required (ns):               5.330                                                                           
+
+Path 63
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBOlooI.CORETSE_AHBolooI/CORETSE_AHBiO0oI.CORETSE_AHBII0oI/CORETSE_AHBIoloI.CORETSE_AHBl1loI[0]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBOlooI.CORETSE_AHBolooI/CORETSE_AHBiO0oI.CORETSE_AHBII0oI/CORETSE_AHBIoloI.CORETSE_AHBo1loI[0]:D
+  Delay (ns):                  0.286                                                                           
+  Slack (ns):                  0.233                                                                           
+  Arrival (ns):                5.558                                                                           
+  Required (ns):               5.325                                                                           
+
+Path 64
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBOlooI.CORETSE_AHBilooI/CORETSE_AHBiO0oI.CORETSE_AHBII0oI/CORETSE_AHBIoloI.CORETSE_AHBl1loI[0]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBOlooI.CORETSE_AHBilooI/CORETSE_AHBiO0oI.CORETSE_AHBII0oI/CORETSE_AHBIoloI.CORETSE_AHBo1loI[0]:D
+  Delay (ns):                  0.287                                                                           
+  Slack (ns):                  0.233                                                                           
+  Arrival (ns):                5.569                                                                           
+  Required (ns):               5.336                                                                           
+
+Path 65
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBil11/CORETSE_AHBiOoi:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBil11/CORETSE_AHBOIoi:D
+  Delay (ns):                  0.286                                                                           
+  Slack (ns):                  0.233                                                                           
+  Arrival (ns):                4.964                                                                           
+  Required (ns):               4.731                                                                           
+
+Path 66
+  From:                        CoreResetP_0/release_sdif3_core_q1:CLK
+  To:                          CoreResetP_0/release_sdif3_core_clk_base:D
+  Delay (ns):                  0.287                                                                           
+  Slack (ns):                  0.234                                                                           
+  Arrival (ns):                5.573                                                                           
+  Required (ns):               5.339                                                                           
+
+Path 67
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBlllo:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBl1I1:D
+  Delay (ns):                  0.291                                                                           
+  Slack (ns):                  0.234                                                                           
+  Arrival (ns):                5.012                                                                           
+  Required (ns):               4.778                                                                           
+
+Path 68
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBi0II/CORETSE_AHBI1oI:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBi0II/CORETSE_AHBl1oI:D
+  Delay (ns):                  0.280                                                                           
+  Slack (ns):                  0.234                                                                           
+  Arrival (ns):                5.559                                                                           
+  Required (ns):               5.325                                                                           
+
+Path 69
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBIIlo:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBl0I1:D
+  Delay (ns):                  0.291                                                                           
+  Slack (ns):                  0.234                                                                           
+  Arrival (ns):                5.011                                                                           
+  Required (ns):               4.777                                                                           
+
+Path 70
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[14]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBoOlOI[14]:D
+  Delay (ns):                  0.289                                                                           
+  Slack (ns):                  0.235                                                                           
+  Arrival (ns):                4.974                                                                           
+  Required (ns):               4.739                                                                           
+
+Path 71
+  From:                        SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[15]:D
+  Delay (ns):                  4.967                                                                           
+  Slack (ns):                  0.236                                                                           
+  Arrival (ns):                4.967                                                                           
+  Required (ns):               4.731                                                                           
+
+Path 72
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBIOooI/CORETSE_AHBOil0/CORETSE_AHBOl0oI[0]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBIOooI/CORETSE_AHBOil0/CORETSE_AHBOl0oI[1]:D
+  Delay (ns):                  0.277                                                                           
+  Slack (ns):                  0.236                                                                           
+  Arrival (ns):                5.564                                                                           
+  Required (ns):               5.328                                                                           
+
+Path 73
+  From:                        CoreResetP_0/sm0_state[0]:CLK
+  To:                          CoreResetP_0/sm0_state[1]:D
+  Delay (ns):                  0.286                                                                           
+  Slack (ns):                  0.237                                                                           
+  Arrival (ns):                5.587                                                                           
+  Required (ns):               5.350                                                                           
+
+Path 74
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[17]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBoOlOI[17]:D
+  Delay (ns):                  0.284                                                                           
+  Slack (ns):                  0.237                                                                           
+  Arrival (ns):                4.974                                                                           
+  Required (ns):               4.737                                                                           
+
+Path 75
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBiI11/CORETSE_AHBollII[2]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBiI11/CORETSE_AHBOI1II[2]:D
+  Delay (ns):                  0.286                                                                           
+  Slack (ns):                  0.237                                                                           
+  Arrival (ns):                5.019                                                                           
+  Required (ns):               4.782                                                                           
+
+Path 76
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBollo:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBo1I1:D
+  Delay (ns):                  0.283                                                                           
+  Slack (ns):                  0.237                                                                           
+  Arrival (ns):                4.997                                                                           
+  Required (ns):               4.760                                                                           
+
+Path 77
+  From:                        CoreResetP_0/sdif0_spll_lock_q1:CLK
+  To:                          CoreResetP_0/sdif0_spll_lock_q2:D
+  Delay (ns):                  0.278                                                                           
+  Slack (ns):                  0.237                                                                           
+  Arrival (ns):                5.578                                                                           
+  Required (ns):               5.341                                                                           
+
+Path 78
+  From:                        CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:                          CoreConfigP_0/pwdata[23]:D
+  Delay (ns):                  3.443                                                                           
+  Slack (ns):                  0.238                                                                           
+  Arrival (ns):                3.443                                                                           
+  Required (ns):               3.205                                                                           
+
+Path 79
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBi011/CORETSE_AHBIOlII:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBi011/CORETSE_AHBlOlII:D
+  Delay (ns):                  0.283                                                                           
+  Slack (ns):                  0.238                                                                           
+  Arrival (ns):                4.952                                                                           
+  Required (ns):               4.714                                                                           
+
+Path 80
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBi0II/CORETSE_AHBOOiI:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBi0II/CORETSE_AHBIOiI:D
+  Delay (ns):                  0.286                                                                           
+  Slack (ns):                  0.238                                                                           
+  Arrival (ns):                5.577                                                                           
+  Required (ns):               5.339                                                                           
+
+Path 81
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBooOo/CORETSE_AHBoioo:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBooOo/CORETSE_AHBiioo:D
+  Delay (ns):                  0.288                                                                           
+  Slack (ns):                  0.239                                                                           
+  Arrival (ns):                5.577                                                                           
+  Required (ns):               5.338                                                                           
+
+Path 82
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBi011/CORETSE_AHBoiIII:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBi011/CORETSE_AHBiiIII:D
+  Delay (ns):                  0.280                                                                           
+  Slack (ns):                  0.239                                                                           
+  Arrival (ns):                4.961                                                                           
+  Required (ns):               4.722                                                                           
+
+Path 83
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBo1i0/CORETSE_AHBII10:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBo1i0/CORETSE_AHBlI10:D
+  Delay (ns):                  0.284                                                                           
+  Slack (ns):                  0.239                                                                           
+  Arrival (ns):                4.993                                                                           
+  Required (ns):               4.754                                                                           
+
+Path 84
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBOlooI.CORETSE_AHBO0ooI/CORETSE_AHBo1li/CORETSE_AHBIl0i:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBOlooI.CORETSE_AHBO0ooI/CORETSE_AHBo1li/CORETSE_AHBll0i:D
+  Delay (ns):                  0.279                                                                           
+  Slack (ns):                  0.239                                                                           
+  Arrival (ns):                5.543                                                                           
+  Required (ns):               5.304                                                                           
+
+Path 85
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBoIlo:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBo101:D
+  Delay (ns):                  0.278                                                                           
+  Slack (ns):                  0.239                                                                           
+  Arrival (ns):                4.994                                                                           
+  Required (ns):               4.755                                                                           
+
+Path 86
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBIllo:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBI1I1:D
+  Delay (ns):                  0.280                                                                           
+  Slack (ns):                  0.239                                                                           
+  Arrival (ns):                5.008                                                                           
+  Required (ns):               4.769                                                                           
+
+Path 87
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBi0II/CORETSE_AHBo1oI:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBi0II/CORETSE_AHBi1oI:D
+  Delay (ns):                  0.279                                                                           
+  Slack (ns):                  0.240                                                                           
+  Arrival (ns):                5.546                                                                           
+  Required (ns):               5.306                                                                           
+
+Path 88
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBlOO1/CORETSE_AHBoi10[0]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBlOO1/CORETSE_AHBllo0[9]:D
+  Delay (ns):                  0.297                                                                           
+  Slack (ns):                  0.240                                                                           
+  Arrival (ns):                4.989                                                                           
+  Required (ns):               4.749                                                                           
+
+Path 89
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBlIlo:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBO011/CORETSE_AHBi101/CORETSE_AHBo0I1:D
+  Delay (ns):                  0.280                                                                           
+  Slack (ns):                  0.240                                                                           
+  Arrival (ns):                5.009                                                                           
+  Required (ns):               4.769                                                                           
+
+Path 90
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBi0II/CORETSE_AHBiloI[10]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBi0II/CORETSE_AHBOoi[10]:D
+  Delay (ns):                  0.289                                                                           
+  Slack (ns):                  0.241                                                                           
+  Arrival (ns):                5.578                                                                           
+  Required (ns):               5.337                                                                           
+
+Path 91
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBi0II/CORETSE_AHBlioI[11]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBi0II/CORETSE_AHBoioI:D
+  Delay (ns):                  0.290                                                                           
+  Slack (ns):                  0.242                                                                           
+  Arrival (ns):                5.582                                                                           
+  Required (ns):               5.340                                                                           
+
+Path 92
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[1]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[2]:D
+  Delay (ns):                  0.290                                                                           
+  Slack (ns):                  0.242                                                                           
+  Arrival (ns):                5.027                                                                           
+  Required (ns):               4.785                                                                           
+
+Path 93
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBooOo/CORETSE_AHBOlOi:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBooOo/CORETSE_AHBI11:D
+  Delay (ns):                  0.288                                                                           
+  Slack (ns):                  0.243                                                                           
+  Arrival (ns):                5.570                                                                           
+  Required (ns):               5.327                                                                           
+
+Path 94
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBi011/CORETSE_AHBIO0o:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBi011/CORETSE_AHBlO0o:D
+  Delay (ns):                  0.288                                                                           
+  Slack (ns):                  0.243                                                                           
+  Arrival (ns):                5.006                                                                           
+  Required (ns):               4.763                                                                           
+
+Path 95
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[16]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBoOlOI[16]:D
+  Delay (ns):                  0.286                                                                           
+  Slack (ns):                  0.244                                                                           
+  Arrival (ns):                4.981                                                                           
+  Required (ns):               4.737                                                                           
+
+Path 96
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBiI11/CORETSE_AHBl1lII:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBiI11/CORETSE_AHBl1lII:D
+  Delay (ns):                  0.290                                                                           
+  Slack (ns):                  0.244                                                                           
+  Arrival (ns):                5.004                                                                           
+  Required (ns):               4.760                                                                           
+
+Path 97
+  From:                        CoreResetP_0/release_sdif2_core_q1:CLK
+  To:                          CoreResetP_0/release_sdif2_core_clk_base:D
+  Delay (ns):                  0.286                                                                           
+  Slack (ns):                  0.244                                                                           
+  Arrival (ns):                5.577                                                                           
+  Required (ns):               5.333                                                                           
+
+Path 98
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBi0II/CORETSE_AHBiloI[4]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBi0II/CORETSE_AHBOoi[4]:D
+  Delay (ns):                  0.285                                                                           
+  Slack (ns):                  0.245                                                                           
+  Arrival (ns):                5.583                                                                           
+  Required (ns):               5.338                                                                           
+
+Path 99
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBlOO1/CORETSE_AHBIi10[0]:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBlOO1/CORETSE_AHBilo0[8]:D
+  Delay (ns):                  0.292                                                                           
+  Slack (ns):                  0.245                                                                           
+  Arrival (ns):                4.973                                                                           
+  Required (ns):               4.728                                                                           
+
+Path 100
+  From:                        CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBiI11/CORETSE_AHBlI0II:CLK
+  To:                          CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBiI11/CORETSE_AHBlI0II:D
+  Delay (ns):                  0.293                                                                           
+  Slack (ns):                  0.245                                                                           
+  Arrival (ns):                5.021                                                                           
+  Required (ns):               4.776                                                                           
+

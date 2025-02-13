@@ -1,0 +1,69 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.7 SP2 11.7.2.2
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S090TS , Package: 484 FBGA , Speed grade: -1 
+
+# Date generated: Thu Nov 17 15:28:13 2016 
+
+
+#
+# IO banks setting
+#
+
+set_iobank Bank2 -vcci 2.50 -fixed no
+set_iobank Bank3 -vcci 2.50 -fixed no
+set_iobank Bank6 -vcci 2.50 -fixed no
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+set_io DEVRST_N -DIRECTION INPUT -pinname R15
+set_io MMUART_1_RXD -DIRECTION INPUT -pinname G18 -fixed yes
+set_io MMUART_1_TXD -DIRECTION OUTPUT -pinname H19 -fixed yes
+set_io REFCLK1_N -DIRECTION INPUT -pinname U4 -fixed yes
+set_io REFCLK1_P -DIRECTION INPUT -pinname U3 -fixed yes
+set_io RXD0_N -DIRECTION INPUT -pinname Y1
+set_io RXD0_P -DIRECTION INPUT -pinname W1
+set_io RXD1_N -DIRECTION INPUT -pinname Y3
+set_io RXD1_P -DIRECTION INPUT -pinname W3
+set_io RXD2_N -DIRECTION INPUT -pinname Y5
+set_io RXD2_P -DIRECTION INPUT -pinname W5
+set_io RXD3_N -DIRECTION INPUT -pinname Y7
+set_io RXD3_P -DIRECTION INPUT -pinname W7
+set_io SPI_0_CLK -DIRECTION INOUT -pinname N19 -fixed yes
+set_io SPI_0_DI -DIRECTION INPUT -pinname N20 -fixed yes
+set_io SPI_0_DO -DIRECTION OUTPUT -pinname N21 -fixed yes
+set_io SPI_0_SS0 -DIRECTION INOUT -pinname N22 -fixed yes
+set_io SPI_1_CLK -DIRECTION INOUT -pinname M21 -fixed yes
+set_io SPI_1_DI -DIRECTION INPUT -pinname M22 -fixed yes
+set_io SPI_1_DO -DIRECTION OUTPUT -pinname L21 -fixed yes
+set_io SPI_1_SS0 -DIRECTION INOUT -pinname L20 -fixed yes
+set_io TXD0_N -DIRECTION OUTPUT -pinname AA2
+set_io TXD0_P -DIRECTION OUTPUT -pinname AB2
+set_io TXD1_N -DIRECTION OUTPUT -pinname AA4
+set_io TXD1_P -DIRECTION OUTPUT -pinname AB4
+set_io TXD2_N -DIRECTION OUTPUT -pinname AA6
+set_io TXD2_P -DIRECTION OUTPUT -pinname AB6
+set_io TXD3_N -DIRECTION OUTPUT -pinname AA8
+set_io TXD3_P -DIRECTION OUTPUT -pinname AB8
+
+#
+# Core cell constraints
+#
+

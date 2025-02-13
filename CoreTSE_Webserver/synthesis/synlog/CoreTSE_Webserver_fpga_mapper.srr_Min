@@ -1,0 +1,775 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Nov 17 15:27:54 2016
+#
+
+
+Top view:               CoreTSE_Webserver
+Requested Frequency:    12.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\CASES\coretse\CoreTSE_Webserver\designer\CoreTSE_Webserver\synthesis.fdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.278
+
+                                             Requested     Estimated     Requested     Estimated                Clock                                                         Clock              
+Starting Clock                               Frequency     Frequency     Period        Period        Slack      Type                                                          Group              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLK1_PAD                                     50.0 MHz      NA            20.000        NA            NA         declared                                                      default_clkgroup   
+CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB       12.5 MHz      107.9 MHz     80.000        9.270         35.365     declared                                                      default_clkgroup   
+FCCC_0/GL0                                   50.0 MHz      35.8 MHz      20.000        27.933        -1.275     generated (from CLK1_PAD)                                     default_clkgroup   
+FCCC_1/GL0                                   62.5 MHz      65.8 MHz      16.000        15.192        2.685      generated (from SERDES_IF2_0/SERDESIF_INST/EPCS_RXCLK[1])     default_clkgroup   
+FCCC_1/GL1                                   62.5 MHz      80.2 MHz      16.000        12.466        7.106      generated (from SERDES_IF2_0/SERDESIF_INST/EPCS_RXCLK[1])     default_clkgroup   
+FCCC_2/GL0                                   125.0 MHz     160.4 MHz     8.000         6.233         2.738      generated (from SERDES_IF2_0/SERDESIF_INST/EPCS_TXCLK[1])     default_clkgroup   
+FCCC_3/GL0                                   125.0 MHz     NA            8.000         NA            NA         generated (from SERDES_IF2_0/SERDESIF_INST/EPCS_TXCLK[1])     default_clkgroup   
+FCCC_3/GL1                                   125.0 MHz     89.5 MHz      8.000         11.173        -1.587     generated (from SERDES_IF2_0/SERDESIF_INST/EPCS_TXCLK[1])     default_clkgroup   
+OSC_0/I_RCOSC_25_50MHZ/CLKOUT                50.0 MHz      431.2 MHz     20.000        2.319         17.681     declared                                                      default_clkgroup   
+SERDES_IF2_0/SERDESIF_INST/EPCS_RXCLK[1]     125.0 MHz     NA            8.000         NA            NA         declared                                                      default_clkgroup   
+SERDES_IF2_0/SERDESIF_INST/EPCS_TXCLK[1]     125.0 MHz     NA            8.000         NA            NA         declared                                                      default_clkgroup   
+pemgt|CORETSE_AHBi01_inferred_clock          100.0 MHz     152.0 MHz     10.000        6.580         3.420      inferred                                                      Inferred_clkgroup_0
+System                                       100.0 MHz     477.6 MHz     10.000        2.094         7.906      system                                                        system_clkgroup    
+=================================================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall    |    fall  to  rise  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                Ending                                  |  constraint  slack  |  constraint  slack  |  constraint  slack   |  constraint  slack 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                  System                                  |  0.000       1.431  |  No paths    -      |  No paths    -       |  No paths    -     
+CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB  CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB  |  0.000       0.315  |  No paths    -      |  40.000      40.541  |  40.000      41.057
+CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB  FCCC_0/GL0                              |  0.000       False  |  No paths    -      |  No paths    -       |  No paths    -     
+OSC_0/I_RCOSC_25_50MHZ/CLKOUT           OSC_0/I_RCOSC_25_50MHZ/CLKOUT           |  0.000       0.315  |  No paths    -      |  No paths    -       |  No paths    -     
+OSC_0/I_RCOSC_25_50MHZ/CLKOUT           FCCC_0/GL0                              |  0.000       False  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_0/GL0                              System                                  |  0.000       0.737  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_0/GL0                              CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB  |  0.000       False  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_0/GL0                              OSC_0/I_RCOSC_25_50MHZ/CLKOUT           |  0.000       False  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_0/GL0                              FCCC_0/GL0                              |  0.000       0.278  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_0/GL0                              FCCC_1/GL0                              |  0.000       1.198  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_0/GL0                              FCCC_1/GL1                              |  0.000       1.969  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_0/GL0                              FCCC_2/GL0                              |  0.000       0.811  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_0/GL0                              FCCC_3/GL1                              |  0.000       0.315  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_0/GL0                              pemgt|CORETSE_AHBi01_inferred_clock     |  0.000       0.589  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_1/GL0                              FCCC_1/GL0                              |  0.000       0.315  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_1/GL0                              FCCC_2/GL0                              |  0.000       0.419  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_1/GL0                              FCCC_3/GL1                              |  0.000       0.452  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_1/GL1                              FCCC_1/GL0                              |  8.000       8.315  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_1/GL1                              FCCC_1/GL1                              |  0.000       0.315  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_2/GL0                              FCCC_1/GL0                              |  0.000       0.744  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_2/GL0                              FCCC_1/GL1                              |  0.000       1.214  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_2/GL0                              FCCC_2/GL0                              |  0.000       0.315  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_2/GL0                              FCCC_3/GL1                              |  0.000       0.563  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_2/GL0                              pemgt|CORETSE_AHBi01_inferred_clock     |  0.000       0.398  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_3/GL1                              FCCC_0/GL0                              |  0.000       0.315  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_3/GL1                              FCCC_2/GL0                              |  0.000       0.498  |  No paths    -      |  No paths    -       |  No paths    -     
+FCCC_3/GL1                              FCCC_3/GL1                              |  0.000       0.315  |  No paths    -      |  No paths    -       |  No paths    -     
+pemgt|CORETSE_AHBi01_inferred_clock     FCCC_0/GL0                              |  0.000       1.298  |  No paths    -      |  No paths    -       |  No paths    -     
+pemgt|CORETSE_AHBi01_inferred_clock     FCCC_1/GL0                              |  0.000       0.419  |  No paths    -      |  No paths    -       |  No paths    -     
+pemgt|CORETSE_AHBi01_inferred_clock     FCCC_1/GL1                              |  0.000       0.724  |  No paths    -      |  No paths    -       |  No paths    -     
+pemgt|CORETSE_AHBi01_inferred_clock     FCCC_2/GL0                              |  0.000       0.315  |  No paths    -      |  No paths    -       |  No paths    -     
+pemgt|CORETSE_AHBi01_inferred_clock     pemgt|CORETSE_AHBi01_inferred_clock     |  0.000       0.315  |  No paths    -      |  No paths    -       |  No paths    -     
+========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                                                                                Arrival          
+Instance                           Reference                                  Type     Pin     Net                                         Time        Slack
+                                   Clock                                                                                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreConfigP_0.INIT_DONE_q1         CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      Q       INIT_DONE_q1                                0.053       0.315
+CoreConfigP_0.SDIF_RELEASED_q1     CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      Q       SDIF_RELEASED_q1                            0.053       0.315
+CoreConfigP_0.state[0]             CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      Q       state[0]                                    0.053       0.515
+CoreConfigP_0.SDIF_RELEASED_q2     CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      Q       SDIF_RELEASED_q2                            0.053       0.836
+CoreConfigP_0.state[1]             CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      Q       state[1]                                    0.066       0.862
+CoreConfigP_0.paddr[16]            CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      Q       paddr[16]                                   0.053       0.931
+CoreConfigP_0.paddr[15]            CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      Q       paddr[15]                                   0.053       1.047
+CoreConfigP_0.control_reg_1[0]     CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      Q       CoreConfigP_0_CONFIG1_DONE                  0.053       1.187
+CoreConfigP_0.control_reg_1[1]     CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      Q       CoreConfigP_0_CONFIG2_DONE                  0.053       1.217
+CoreConfigP_0.paddr[13]            CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      Q       CoreConfigP_0_SDIF0_APBmslave_PADDR[13]     0.066       1.337
+============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                        Starting                                                                         Required          
+Instance                                Reference                                  Type     Pin     Net                  Time         Slack
+                                        Clock                                                                                              
+-------------------------------------------------------------------------------------------------------------------------------------------
+CoreConfigP_0.INIT_DONE_q2              CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      D       INIT_DONE_q1         0.155        0.315
+CoreConfigP_0.SDIF_RELEASED_q2          CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      D       SDIF_RELEASED_q1     0.155        0.315
+CoreConfigP_0.state[1]                  CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      D       state_ns[1]          0.155        0.515
+CoreConfigP_0.FIC_2_APB_M_PRDATA[1]     CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      D       prdata[1]            0.155        0.836
+CoreConfigP_0.FIC_2_APB_M_PRDATA[0]     CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      EN      state[1]             0.205        0.862
+CoreConfigP_0.FIC_2_APB_M_PRDATA[1]     CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      EN      state[1]             0.205        0.862
+CoreConfigP_0.FIC_2_APB_M_PRDATA[2]     CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      EN      state[1]             0.205        0.862
+CoreConfigP_0.FIC_2_APB_M_PRDATA[3]     CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      EN      state[1]             0.205        0.862
+CoreConfigP_0.FIC_2_APB_M_PRDATA[4]     CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      EN      state[1]             0.205        0.862
+CoreConfigP_0.FIC_2_APB_M_PRDATA[5]     CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB     SLE      EN      state[1]             0.205        0.862
+===========================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.315
+
+    Number of logic level(s):                0
+    Starting point:                          CoreConfigP_0.INIT_DONE_q1 / Q
+    Ending point:                            CoreConfigP_0.INIT_DONE_q2 / D
+    The start point is clocked by            CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB [rising] on pin CLK
+    The end   point is clocked by            CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                           Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+CoreConfigP_0.INIT_DONE_q1     SLE      Q        Out     0.053     0.053       -         
+INIT_DONE_q1                   Net      -        -       0.417     -           1         
+CoreConfigP_0.INIT_DONE_q2     SLE      D        In      -         0.470       -         
+=========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: FCCC_0/GL0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                     Starting                                               Arrival          
+Instance                                                                                                             Reference      Type     Pin     Net                    Time        Slack
+                                                                                                                     Clock                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreResetP_0.sm0_state[6]                                                                                            FCCC_0/GL0     SLE      Q       sm0_state[6]           0.066       0.278
+CoreResetP_0.CONFIG1_DONE_q1                                                                                         FCCC_0/GL0     SLE      Q       CONFIG1_DONE_q1        0.053       0.315
+CoreResetP_0.CONFIG2_DONE_q1                                                                                         FCCC_0/GL0     SLE      Q       CONFIG2_DONE_q1        0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBi0II.CORETSE_AHBI1oI                       FCCC_0/GL0     SLE      Q       CORETSE_AHBI1oI        0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBOoII.CORETSE_AHBIiII                       FCCC_0/GL0     SLE      Q       CORETSE_AHBIiII        0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBOlooI\.CORETSE_AHBO0ooI.CORETSE_AHBo1li.CORETSE_AHBIl0i     FCCC_0/GL0     SLE      Q       CORETSE_AHBIl0i        0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBiOooI.CORETSE_AHBooOo.CORETSE_AHBIlOi                       FCCC_0/GL0     SLE      Q       CORETSE_AHBIlOi        0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBiOooI.CORETSE_AHBooOo.CORETSE_AHBIlio                       FCCC_0/GL0     SLE      Q       CORETSE_AHBIlio        0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBI1II.CORETSE_AHBIo0I[0]                    FCCC_0/GL0     SLE      Q       CORETSE_AHBIo0I[0]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBi0II.CORETSE_AHBIoi                        FCCC_0/GL0     SLE      Q       CORETSE_AHBIoi         0.053       0.315
+=============================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                      Starting                                              Required          
+Instance                                                                                              Reference      Type     Pin     Net                   Time         Slack
+                                                                                                      Clock                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreResetP_0.INIT_DONE_int                                                                            FCCC_0/GL0     SLE      EN      sm0_state[6]          0.205        0.278
+CoreResetP_0.CONFIG1_DONE_clk_base                                                                    FCCC_0/GL0     SLE      D       CONFIG1_DONE_q1       0.155        0.315
+CoreResetP_0.CONFIG2_DONE_clk_base                                                                    FCCC_0/GL0     SLE      D       CONFIG2_DONE_q1       0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBiOooI.CORETSE_AHBooOo.CORETSE_AHBI0Oi        FCCC_0/GL0     SLE      D       CORETSE_AHBilOi       0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBO1II.CORETSE_AHBI0oI        FCCC_0/GL0     SLE      D       CORETSE_AHBIoi        0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBI1II.CORETSE_AHBI10I        FCCC_0/GL0     SLE      D       CORETSE_AHBl10I       0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBiOooI.CORETSE_AHBooOo.CORETSE_AHBI11         FCCC_0/GL0     SLE      D       CORETSE_AHBOlOi       0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBi0II.CORETSE_AHBIOiI        FCCC_0/GL0     SLE      D       CORETSE_AHBOOiI       0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBO1II.CORETSE_AHBIliI[0]     FCCC_0/GL0     SLE      D       CORETSE_AHBOoi[0]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBO1II.CORETSE_AHBIliI[1]     FCCC_0/GL0     SLE      D       CORETSE_AHBOoi[1]     0.155        0.315
+==============================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.483
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.205
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.277
+
+    Number of logic level(s):                0
+    Starting point:                          CoreResetP_0.sm0_state[6] / Q
+    Ending point:                            CoreResetP_0.INIT_DONE_int / EN
+    The start point is clocked by            FCCC_0/GL0 [rising] on pin CLK
+    The end   point is clocked by            FCCC_0/GL0 [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                           Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+CoreResetP_0.sm0_state[6]      SLE      Q        Out     0.066     0.066       -         
+sm0_state[6]                   Net      -        -       0.417     -           1         
+CoreResetP_0.INIT_DONE_int     SLE      EN       In      -         0.483       -         
+=========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: FCCC_1/GL0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                     Starting                                               Arrival          
+Instance                                                                                                             Reference      Type     Pin     Net                    Time        Slack
+                                                                                                                     Clock                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBi011.CORETSE_AHBIOlII       FCCC_1/GL0     SLE      Q       CORETSE_AHBIOlII       0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBil11.CORETSE_AHBOii0[0]     FCCC_1/GL0     SLE      Q       CORETSE_AHBO110[0]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBil11.CORETSE_AHBOii0[1]     FCCC_1/GL0     SLE      Q       CORETSE_AHBO110[1]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBil11.CORETSE_AHBOii0[2]     FCCC_1/GL0     SLE      Q       CORETSE_AHBO110[2]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBil11.CORETSE_AHBOii0[3]     FCCC_1/GL0     SLE      Q       CORETSE_AHBO110[3]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBil11.CORETSE_AHBOii0[4]     FCCC_1/GL0     SLE      Q       CORETSE_AHBO110[4]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBil11.CORETSE_AHBOii0[5]     FCCC_1/GL0     SLE      Q       CORETSE_AHBO110[5]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBil11.CORETSE_AHBOii0[6]     FCCC_1/GL0     SLE      Q       CORETSE_AHBO110[6]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBil11.CORETSE_AHBOii0[7]     FCCC_1/GL0     SLE      Q       CORETSE_AHBO110[7]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBil11.CORETSE_AHBOii0[8]     FCCC_1/GL0     SLE      Q       CORETSE_AHBO110[8]     0.053       0.315
+=============================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                  Starting                                               Required          
+Instance                                                                                                          Reference      Type     Pin     Net                    Time         Slack
+                                                                                                                  Clock                                                                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBil11.CORETSE_AHBOIoi     FCCC_1/GL0     SLE      D       CORETSE_AHBiOoi        0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBlOO1.CORETSE_AHBOi10[0]                  FCCC_1/GL0     SLE      D       CORETSE_AHBO110[0]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBlOO1.CORETSE_AHBOi10[1]                  FCCC_1/GL0     SLE      D       CORETSE_AHBO110[1]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBlOO1.CORETSE_AHBOi10[2]                  FCCC_1/GL0     SLE      D       CORETSE_AHBO110[2]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBlOO1.CORETSE_AHBOi10[3]                  FCCC_1/GL0     SLE      D       CORETSE_AHBO110[3]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBlOO1.CORETSE_AHBOi10[4]                  FCCC_1/GL0     SLE      D       CORETSE_AHBO110[4]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBlOO1.CORETSE_AHBOi10[5]                  FCCC_1/GL0     SLE      D       CORETSE_AHBO110[5]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBlOO1.CORETSE_AHBOi10[6]                  FCCC_1/GL0     SLE      D       CORETSE_AHBO110[6]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBlOO1.CORETSE_AHBOi10[7]                  FCCC_1/GL0     SLE      D       CORETSE_AHBO110[7]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBlOO1.CORETSE_AHBOi10[8]                  FCCC_1/GL0     SLE      D       CORETSE_AHBO110[8]     0.155        0.315
+===========================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.315
+
+    Number of logic level(s):                0
+    Starting point:                          CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBi011.CORETSE_AHBIOlII / Q
+    Ending point:                            CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBi011.CORETSE_AHBlOlII / D
+    The start point is clocked by            FCCC_1/GL0 [rising] on pin CLK
+    The end   point is clocked by            FCCC_1/GL0 [rising] on pin CLK
+
+Instance / Net                                                                                                              Pin      Pin               Arrival     No. of    
+Name                                                                                                               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBi011.CORETSE_AHBIOlII     SLE      Q        Out     0.053     0.053       -         
+CORETSE_AHBIOlII                                                                                                   Net      -        -       0.417     -           1         
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBi011.CORETSE_AHBlOlII     SLE      D        In      -         0.470       -         
+=============================================================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: FCCC_1/GL1
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                      Starting                                                Arrival          
+Instance                                                                                                              Reference      Type     Pin     Net                     Time        Slack
+                                                                                                                      Clock                                                                    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBi011.CORETSE_AHBoiIII        FCCC_1/GL1     SLE      Q       CORETSE_AHBoiIII        0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBooIOI[0]     FCCC_1/GL1     SLE      Q       CORETSE_AHBooIOI[0]     0.053       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBooIOI[1]     FCCC_1/GL1     SLE      Q       CORETSE_AHBooIOI[1]     0.053       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBooIOI[2]     FCCC_1/GL1     SLE      Q       CORETSE_AHBooIOI[2]     0.053       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBooIOI[3]     FCCC_1/GL1     SLE      Q       CORETSE_AHBooIOI[3]     0.053       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBooIOI[4]     FCCC_1/GL1     SLE      Q       CORETSE_AHBooIOI[4]     0.053       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBooIOI[5]     FCCC_1/GL1     SLE      Q       CORETSE_AHBooIOI[5]     0.053       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBooIOI[6]     FCCC_1/GL1     SLE      Q       CORETSE_AHBooIOI[6]     0.053       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBooIOI[7]     FCCC_1/GL1     SLE      Q       CORETSE_AHBooIOI[7]     0.053       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBooIOI[8]     FCCC_1/GL1     SLE      Q       CORETSE_AHBooIOI[8]     0.053       8.315
+===============================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                      Starting                                                Required          
+Instance                                                                                                              Reference      Type     Pin     Net                     Time         Slack
+                                                                                                                      Clock                                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBi011.CORETSE_AHBiiIII        FCCC_1/GL1     SLE      D       CORETSE_AHBoiIII        0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBioIOI[0]     FCCC_1/GL1     SLE      D       CORETSE_AHBooIOI[0]     -7.845       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBioIOI[1]     FCCC_1/GL1     SLE      D       CORETSE_AHBooIOI[1]     -7.845       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBioIOI[2]     FCCC_1/GL1     SLE      D       CORETSE_AHBooIOI[2]     -7.845       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBioIOI[3]     FCCC_1/GL1     SLE      D       CORETSE_AHBooIOI[3]     -7.845       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBioIOI[4]     FCCC_1/GL1     SLE      D       CORETSE_AHBooIOI[4]     -7.845       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBioIOI[5]     FCCC_1/GL1     SLE      D       CORETSE_AHBooIOI[5]     -7.845       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBioIOI[6]     FCCC_1/GL1     SLE      D       CORETSE_AHBooIOI[6]     -7.845       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBioIOI[7]     FCCC_1/GL1     SLE      D       CORETSE_AHBooIOI[7]     -7.845       8.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBol11.CORETSE_AHBioIOI[8]     FCCC_1/GL1     SLE      D       CORETSE_AHBooIOI[8]     -7.845       8.315
+================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.315
+
+    Number of logic level(s):                0
+    Starting point:                          CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBi011.CORETSE_AHBoiIII / Q
+    Ending point:                            CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBi011.CORETSE_AHBiiIII / D
+    The start point is clocked by            FCCC_1/GL1 [rising] on pin CLK
+    The end   point is clocked by            FCCC_1/GL1 [rising] on pin CLK
+
+Instance / Net                                                                                                              Pin      Pin               Arrival     No. of    
+Name                                                                                                               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBi011.CORETSE_AHBoiIII     SLE      Q        Out     0.053     0.053       -         
+CORETSE_AHBoiIII                                                                                                   Net      -        -       0.417     -           1         
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBi011.CORETSE_AHBiiIII     SLE      D        In      -         0.470       -         
+=============================================================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: FCCC_2/GL0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                                  Starting                                              Arrival          
+Instance                                                                                                                          Reference      Type     Pin     Net                   Time        Slack
+                                                                                                                                  Clock                                                                  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBI0lo     FCCC_2/GL0     SLE      Q       CORETSE_AHBI0lo       0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBo1i0.CORETSE_AHBII10                                     FCCC_2/GL0     SLE      Q       CORETSE_AHBII10       0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBIIlo     FCCC_2/GL0     SLE      Q       CORETSE_AHBIIlo       0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBi011.CORETSE_AHBIO0o                     FCCC_2/GL0     SLE      Q       CORETSE_AHBIO0o       0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[0]                                                                                  FCCC_2/GL0     SLE      Q       CORETSE_AHBIOI[0]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[1]                                                                                  FCCC_2/GL0     SLE      Q       CORETSE_AHBIOI[1]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[2]                                                                                  FCCC_2/GL0     SLE      Q       CORETSE_AHBIOI[2]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[3]                                                                                  FCCC_2/GL0     SLE      Q       CORETSE_AHBIOI[3]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[4]                                                                                  FCCC_2/GL0     SLE      Q       CORETSE_AHBIOI[4]     0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[5]                                                                                  FCCC_2/GL0     SLE      Q       CORETSE_AHBIOI[5]     0.053       0.315
+=========================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                                  Starting                                              Required          
+Instance                                                                                                                          Reference      Type     Pin     Net                   Time         Slack
+                                                                                                                                  Clock                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBI1I1     FCCC_2/GL0     SLE      D       CORETSE_AHBIllo       0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[1]                                                                                  FCCC_2/GL0     SLE      D       CORETSE_AHBIOI[0]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[2]                                                                                  FCCC_2/GL0     SLE      D       CORETSE_AHBIOI[1]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[3]                                                                                  FCCC_2/GL0     SLE      D       CORETSE_AHBIOI[2]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[4]                                                                                  FCCC_2/GL0     SLE      D       CORETSE_AHBIOI[3]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[5]                                                                                  FCCC_2/GL0     SLE      D       CORETSE_AHBIOI[4]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[6]                                                                                  FCCC_2/GL0     SLE      D       CORETSE_AHBIOI[5]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[7]                                                                                  FCCC_2/GL0     SLE      D       CORETSE_AHBIOI[6]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBIOI[8]                                                                                  FCCC_2/GL0     SLE      D       CORETSE_AHBIOI[7]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBIoI1     FCCC_2/GL0     SLE      D       CORETSE_AHBI0lo       0.155        0.315
+==========================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.315
+
+    Number of logic level(s):                0
+    Starting point:                          CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBI0lo / Q
+    Ending point:                            CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBIoI1 / D
+    The start point is clocked by            FCCC_2/GL0 [rising] on pin CLK
+    The end   point is clocked by            FCCC_2/GL0 [rising] on pin CLK
+
+Instance / Net                                                                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                                                                              Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBI0lo     SLE      Q        Out     0.053     0.053       -         
+CORETSE_AHBI0lo                                                                                                                   Net      -        -       0.417     -           1         
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBIoI1     SLE      D        In      -         0.470       -         
+============================================================================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: FCCC_3/GL1
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                       Starting                                                Arrival          
+Instance                                                                                               Reference      Type     Pin     Net                     Time        Slack
+                                                                                                       Clock                                                                    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBo1II.CORETSE_AHBI0Ol         FCCC_3/GL1     SLE      Q       CORETSE_AHBI0Ol         0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBO1II.CORETSE_AHBI0iI[2]      FCCC_3/GL1     SLE      Q       CORETSE_AHBI0iI[2]      0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBO1II.CORETSE_AHBI0iI[3]      FCCC_3/GL1     SLE      Q       CORETSE_AHBI0iI[3]      0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBO1II.CORETSE_AHBI0iI[4]      FCCC_3/GL1     SLE      Q       CORETSE_AHBI0iI[4]      0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBO1II.CORETSE_AHBI0iI[5]      FCCC_3/GL1     SLE      Q       CORETSE_AHBI0iI[5]      0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBO1II.CORETSE_AHBI0iI[6]      FCCC_3/GL1     SLE      Q       CORETSE_AHBI0iI[6]      0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBO1II.CORETSE_AHBI0iI[7]      FCCC_3/GL1     SLE      Q       CORETSE_AHBI0iI[7]      0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBO1II.CORETSE_AHBI0iI[8]      FCCC_3/GL1     SLE      Q       CORETSE_AHBI0iI[8]      0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBO1II.CORETSE_AHBI0iI[9]      FCCC_3/GL1     SLE      Q       CORETSE_AHBI0iI[9]      0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBO1II.CORETSE_AHBI0iI[10]     FCCC_3/GL1     SLE      Q       CORETSE_AHBI0iI[10]     0.053       0.315
+================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                      Starting                                              Required          
+Instance                                                                                              Reference      Type     Pin     Net                   Time         Slack
+                                                                                                      Clock                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBI1II.CORETSE_AHBI00I[0]     FCCC_3/GL1     SLE      D       CORETSE_AHBIii[0]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBI1II.CORETSE_AHBI00I[1]     FCCC_3/GL1     SLE      D       CORETSE_AHBIii[1]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBI1II.CORETSE_AHBI00I[2]     FCCC_3/GL1     SLE      D       CORETSE_AHBIii[2]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBI1II.CORETSE_AHBI00I[3]     FCCC_3/GL1     SLE      D       CORETSE_AHBIii[3]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBI1II.CORETSE_AHBI00I[4]     FCCC_3/GL1     SLE      D       CORETSE_AHBIii[4]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBI1II.CORETSE_AHBI00I[5]     FCCC_3/GL1     SLE      D       CORETSE_AHBIii[5]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBI1II.CORETSE_AHBI00I[6]     FCCC_3/GL1     SLE      D       CORETSE_AHBIii[6]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBI1II.CORETSE_AHBI00I[7]     FCCC_3/GL1     SLE      D       CORETSE_AHBIii[7]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBI1II.CORETSE_AHBI00I[8]     FCCC_3/GL1     SLE      D       CORETSE_AHBIii[8]     0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBI1II.CORETSE_AHBI00I[9]     FCCC_3/GL1     SLE      D       CORETSE_AHBIii[9]     0.155        0.315
+==============================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.315
+
+    Number of logic level(s):                0
+    Starting point:                          CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBo1II.CORETSE_AHBI0Ol / Q
+    Ending point:                            CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBo1II.CORETSE_AHBl0Ol / D
+    The start point is clocked by            FCCC_3/GL1 [rising] on pin CLK
+    The end   point is clocked by            FCCC_3/GL1 [rising] on pin CLK
+
+Instance / Net                                                                                              Pin      Pin               Arrival     No. of    
+Name                                                                                               Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBo1II.CORETSE_AHBI0Ol     SLE      Q        Out     0.053     0.053       -         
+CORETSE_AHBI0Ol                                                                                    Net      -        -       0.417     -           1         
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBilI.CORETSE_AHBoOooI.CORETSE_AHBo1II.CORETSE_AHBl0Ol     SLE      D        In      -         0.470       -         
+=============================================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: OSC_0/I_RCOSC_25_50MHZ/CLKOUT
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                          Starting                                                                        Arrival          
+Instance                                  Reference                         Type     Pin     Net                          Time        Slack
+                                          Clock                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------
+CoreResetP_0.count_sdif0_enable_q1        OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_sdif0_enable_q1        0.053       0.315
+CoreResetP_0.sdif0_areset_n_rcosc_q1      OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       sdif0_areset_n_rcosc_q1      0.053       0.315
+CoreResetP_0.sdif1_areset_n_rcosc_q1      OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       sdif1_areset_n_rcosc_q1      0.053       0.315
+CoreResetP_0.sdif2_areset_n_rcosc_q1      OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       sdif2_areset_n_rcosc_q1      0.053       0.315
+CoreResetP_0.sdif3_areset_n_rcosc_q1      OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       sdif3_areset_n_rcosc_q1      0.053       0.315
+CoreResetP_0.sm0_areset_n_rcosc_q1        OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       sm0_areset_n_rcosc_q1        0.053       0.315
+CoreResetP_0.count_sdif0[6]               OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_sdif0[6]               0.066       0.495
+CoreResetP_0.count_sdif0[0]               OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_sdif0[0]               0.066       0.514
+CoreResetP_0.count_sdif0_enable_rcosc     OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_sdif0_enable_rcosc     0.066       0.707
+CoreResetP_0.count_sdif0[11]              OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_sdif0[11]              0.066       0.828
+===========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                          Starting                                                                        Required          
+Instance                                  Reference                         Type     Pin     Net                          Time         Slack
+                                          Clock                                                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------
+CoreResetP_0.count_sdif0_enable_rcosc     OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       count_sdif0_enable_q1        0.155        0.315
+CoreResetP_0.sdif0_areset_n_rcosc         OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       sdif0_areset_n_rcosc_q1      0.155        0.315
+CoreResetP_0.sdif1_areset_n_rcosc         OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       sdif1_areset_n_rcosc_q1      0.155        0.315
+CoreResetP_0.sdif2_areset_n_rcosc         OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       sdif2_areset_n_rcosc_q1      0.155        0.315
+CoreResetP_0.sdif3_areset_n_rcosc         OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       sdif3_areset_n_rcosc_q1      0.155        0.315
+CoreResetP_0.sm0_areset_n_rcosc           OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       sm0_areset_n_rcosc_q1        0.155        0.315
+CoreResetP_0.release_sdif0_core           OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      EN      release_sdif0_core4          0.205        0.495
+CoreResetP_0.count_sdif0[0]               OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       count_sdif0_s[0]             0.155        0.514
+CoreResetP_0.count_sdif0[0]               OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      EN      count_sdif0_enable_rcosc     0.205        0.707
+CoreResetP_0.count_sdif0[1]               OSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      EN      count_sdif0_enable_rcosc     0.205        0.707
+============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.315
+
+    Number of logic level(s):                0
+    Starting point:                          CoreResetP_0.count_sdif0_enable_q1 / Q
+    Ending point:                            CoreResetP_0.count_sdif0_enable_rcosc / D
+    The start point is clocked by            OSC_0/I_RCOSC_25_50MHZ/CLKOUT [rising] on pin CLK
+    The end   point is clocked by            OSC_0/I_RCOSC_25_50MHZ/CLKOUT [rising] on pin CLK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+CoreResetP_0.count_sdif0_enable_q1        SLE      Q        Out     0.053     0.053       -         
+count_sdif0_enable_q1                     Net      -        -       0.417     -           1         
+CoreResetP_0.count_sdif0_enable_rcosc     SLE      D        In      -         0.470       -         
+====================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: pemgt|CORETSE_AHBi01_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                       Starting                                                                          Arrival          
+Instance                                                                                                               Reference                               Type     Pin     Net                      Time        Slack
+                                                                                                                       Clock                                                                                              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBI0O1          pemgt|CORETSE_AHBi01_inferred_clock     SLE      Q       CORETSE_AHBI0O1          0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBO0O1          pemgt|CORETSE_AHBi01_inferred_clock     SLE      Q       CORETSE_AHBO0O1          0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBiiOII         pemgt|CORETSE_AHBi01_inferred_clock     SLE      Q       CORETSE_AHBiiOII         0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBlOIII         pemgt|CORETSE_AHBi01_inferred_clock     SLE      Q       CORETSE_AHBlOIII         0.053       0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBO1O1          pemgt|CORETSE_AHBi01_inferred_clock     SLE      Q       CORETSE_AHBO1O1          0.053       0.378
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBi0O1          pemgt|CORETSE_AHBi01_inferred_clock     SLE      Q       CORETSE_AHBi0O1          0.053       0.378
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBo0O1          pemgt|CORETSE_AHBi01_inferred_clock     SLE      Q       CORETSE_AHBo0O1          0.053       0.378
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBIiOII[10]     pemgt|CORETSE_AHBi01_inferred_clock     SLE      Q       CORETSE_AHBIiOII[10]     0.053       0.419
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBOOIII         pemgt|CORETSE_AHBi01_inferred_clock     SLE      Q       CORETSE_AHBOOIII         0.053       0.419
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBOlO1          pemgt|CORETSE_AHBi01_inferred_clock     SLE      Q       CORETSE_AHBOlO1          0.053       0.419
+==========================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                                  Starting                                                                          Required          
+Instance                                                                                                                          Reference                               Type     Pin     Net                      Time         Slack
+                                                                                                                                  Clock                                                                                               
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBIllo     pemgt|CORETSE_AHBi01_inferred_clock     SLE      D       CORETSE_AHBO0O1          0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBIo01                     pemgt|CORETSE_AHBi01_inferred_clock     SLE      D       CORETSE_AHBiiOII         0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBOlO1                     pemgt|CORETSE_AHBi01_inferred_clock     SLE      D       CORETSE_AHBlOIII         0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBlllo     pemgt|CORETSE_AHBi01_inferred_clock     SLE      D       CORETSE_AHBI0O1          0.155        0.315
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBiIlo     pemgt|CORETSE_AHBi01_inferred_clock     SLE      D       CORETSE_AHBo0O1          0.155        0.378
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBlIlo     pemgt|CORETSE_AHBi01_inferred_clock     SLE      D       CORETSE_AHBi0O1          0.155        0.378
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBoIlo     pemgt|CORETSE_AHBi01_inferred_clock     SLE      D       CORETSE_AHBO1O1          0.155        0.378
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBIIlo     pemgt|CORETSE_AHBi01_inferred_clock     SLE      D       CORETSE_AHBOlO1          0.155        0.419
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBIOIII                    pemgt|CORETSE_AHBi01_inferred_clock     SLE      D       CORETSE_AHBOOIII         0.155        0.419
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBIlO1[10]                 pemgt|CORETSE_AHBi01_inferred_clock     SLE      D       CORETSE_AHBIiOII[10]     0.155        0.419
+======================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.315
+
+    Number of logic level(s):                0
+    Starting point:                          CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBI0O1 / Q
+    Ending point:                            CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBlllo / D
+    The start point is clocked by            pemgt|CORETSE_AHBi01_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            FCCC_2/GL0 [rising] on pin CLK
+
+Instance / Net                                                                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                                                                              Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBI011.CORETSE_AHBI0O1                     SLE      Q        Out     0.053     0.053       -         
+CORETSE_AHBI0O1                                                                                                                   Net      -        -       0.417     -           1         
+CORETSE_AHB_0.CoreTSE_top_inst.CORETSE_AHBio0\.CORETSE_AHBOi0.CORETSE_AHBIoi0.CORETSE_AHBO011.CORETSE_AHBi101.CORETSE_AHBlllo     SLE      D        In      -         0.470       -         
+============================================================================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                        Arrival          
+Instance            Reference     Type     Pin      Net             Time        Slack
+                    Clock                                                            
+-------------------------------------------------------------------------------------
+FCCC_2.CCC_INST     System        CCC      LOCK     FCCC_2_LOCK     0.000       1.431
+FCCC_1.CCC_INST     System        CCC      LOCK     FCCC_1_LOCK     0.000       1.504
+=====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                               Required          
+Instance            Reference     Type     Pin               Net           Time         Slack
+                    Clock                                                                    
+---------------------------------------------------------------------------------------------
+FCCC_3.CCC_INST     System        CCC      NGMUX0_ARST_N     PHY_RST_c     0.000        1.431
+FCCC_3.CCC_INST     System        CCC      NGMUX1_ARST_N     PHY_RST_c     0.000        1.431
+=============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        1.431
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.000
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (non-critical) :                 1.431
+
+    Number of logic level(s):                1
+    Starting point:                          FCCC_2.CCC_INST / LOCK
+    Ending point:                            FCCC_3.CCC_INST / NGMUX0_ARST_N
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net               Pin               Pin               Arrival     No. of    
+Name                Type     Name              Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+FCCC_2.CCC_INST     CCC      LOCK              Out     0.000     0.000       -         
+FCCC_2_LOCK         Net      -                 -       0.680     -           1         
+AND2_0              AND2     A                 In      -         0.680       -         
+AND2_0              AND2     Y                 Out     0.065     0.745       -         
+PHY_RST_c           Net      -                 -       0.686     -           3         
+FCCC_3.CCC_INST     CCC      NGMUX0_ARST_N     In      -         1.431       -         
+=======================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+@W: MT447 :"d:/cases/coretse/coretse_webserver/designer/coretse_webserver/synthesis.fdc":20:0:20:0|Timing constraint (from [get_cells { CoreResetP_0.MSS_HPMS_READY_int }] to [get_cells { CoreResetP_0.sm0_areset_n_rcosc CoreResetP_0.sm0_areset_n_rcosc_q1 }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"d:/cases/coretse/coretse_webserver/designer/coretse_webserver/synthesis.fdc":21:0:21:0|Timing constraint (from [get_cells { CoreResetP_0.MSS_HPMS_READY_int CoreResetP_0.SDIF*_PERST_N_re }] to [get_cells { CoreResetP_0.sdif*_areset_n_rcosc* }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT445 :"d:/cases/coretse/coretse_webserver/designer/coretse_webserver/synthesis.fdc":24:0:24:0|Timing constraint (through [get_nets { CoreConfigP_0.FIC_2_APB_M_PWRITE CoreConfigP_0.FIC_2_APB_M_PADDR[*] CoreConfigP_0.FIC_2_APB_M_PWDATA[*] CoreConfigP_0.FIC_2_APB_M_PSEL CoreConfigP_0.FIC_2_APB_M_PENABLE }]) (min delay -24.000000) was not applied to the design because none of the paths specified by the constraint exist in the design 

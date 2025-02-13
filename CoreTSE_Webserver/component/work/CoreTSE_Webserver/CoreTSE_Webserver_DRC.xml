@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>CoreTSE_Webserver</header>
+  <drc>
+    <status>\\idm\captures\pc\11_7_0_113_hugo\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Missing Core Definition</message>
+    <detail>Core 'Actel:SgCore:SERDES_IF2:1.2.212 ' is missing from the vault.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/CoreTSE_Webserver/instances/SERDES_IF2_0</crossprobe>
+  </drc>
+</drcreport>

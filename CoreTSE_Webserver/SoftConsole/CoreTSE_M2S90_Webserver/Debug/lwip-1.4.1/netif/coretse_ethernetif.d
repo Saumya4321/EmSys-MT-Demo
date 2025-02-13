@@ -1,0 +1,80 @@
+lwip-1.4.1/netif/coretse_ethernetif.o: \
+ ../lwip-1.4.1/netif/coretse_ethernetif.c \
+ ../lwip-1.4.1/netif/../../drivers/CoreTSE/core_tse.h \
+ ../lwip-1.4.1/netif/../../drivers/CoreTSE/coretse_types.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\hal\CortexM3\GNU/cpu_types.h \
+ ../lwip-1.4.1/netif/../../drivers/CoreTSE/coretse_user_config.h \
+ ../lwip-1.4.1/netif/../../CMSIS/m2sxxx.h \
+ C:/Microsemi/SoftConsole_v4.0/CMSIS/V4.3/Include/core_cm3.h \
+ C:/Microsemi/SoftConsole_v4.0/CMSIS/V4.3/Include/core_cmInstr.h \
+ C:/Microsemi/SoftConsole_v4.0/CMSIS/V4.3/Include/core_cmFunc.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver/sys_cfg.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver/platform.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver/FreeRTOSConfig.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/err.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/opt.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1/lwipopts.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1/lwipopts.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/debug.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/arch.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\port\FreeRTOS\M2SXXX/arch/cc.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\port\FreeRTOS\M2SXXX/arch/cpu.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\CMSIS/m2sxxx.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/netif.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include\ipv4/lwip/ip_addr.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/def.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/pbuf.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/netif/etharp.h \
+ D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include\ipv4/lwip/ip.h
+
+../lwip-1.4.1/netif/../../drivers/CoreTSE/core_tse.h:
+
+../lwip-1.4.1/netif/../../drivers/CoreTSE/coretse_types.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\hal\CortexM3\GNU/cpu_types.h:
+
+../lwip-1.4.1/netif/../../drivers/CoreTSE/coretse_user_config.h:
+
+../lwip-1.4.1/netif/../../CMSIS/m2sxxx.h:
+
+C:/Microsemi/SoftConsole_v4.0/CMSIS/V4.3/Include/core_cm3.h:
+
+C:/Microsemi/SoftConsole_v4.0/CMSIS/V4.3/Include/core_cmInstr.h:
+
+C:/Microsemi/SoftConsole_v4.0/CMSIS/V4.3/Include/core_cmFunc.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver/sys_cfg.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver/platform.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver/FreeRTOSConfig.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/err.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/opt.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1/lwipopts.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1/lwipopts.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/debug.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/arch.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\port\FreeRTOS\M2SXXX/arch/cc.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\port\FreeRTOS\M2SXXX/arch/cpu.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\CMSIS/m2sxxx.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/netif.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include\ipv4/lwip/ip_addr.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/def.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/lwip/pbuf.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include/netif/etharp.h:
+
+D:\CASES\coretse\CoreTSE_Webserver\SoftConsole\CoreTSE_M2S90_Webserver\lwip-1.4.1\include\ipv4/lwip/ip.h:

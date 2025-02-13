@@ -1,0 +1,10 @@
+Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+File D:\CASES\coretse\CoreTSE_Webserver_SC4.0\synthesis\synwork\CoreTSE_Webserver_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Nov 17 15:26:46 2016
+
+###########################################################]

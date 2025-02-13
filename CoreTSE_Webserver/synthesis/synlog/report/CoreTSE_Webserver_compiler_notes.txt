@@ -1,0 +1,174 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":126:7:126:10|Synthesizing module AND2
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v":20:7:20:25|Synthesizing module COREAHBLITE_ADDRDEC
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v":20:7:20:32|Synthesizing module COREAHBLITE_DEFAULTSLAVESM
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":22:7:22:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v":20:7:20:25|Synthesizing module COREAHBLITE_ADDRDEC
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":22:7:22:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v":20:7:20:25|Synthesizing module COREAHBLITE_ADDRDEC
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":22:7:22:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":20:7:20:30|Synthesizing module COREAHBLITE_SLAVEARBITER
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":22:7:22:28|Synthesizing module COREAHBLITE_SLAVESTAGE
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":23:7:23:28|Synthesizing module COREAHBLITE_MATRIX4X16
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":23:7:23:17|Synthesizing module CoreAHBLite
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vlog\core\coreconfigp.v":22:7:22:17|Synthesizing module CoreConfigP
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1.
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmatx.v":6:0:6:4|Synthesizing module dmatx
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmatx.v":1168:0:1168:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmatx.v":1176:0:1176:5|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmatx.v":1184:0:1184:5|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":6:0:6:4|Synthesizing module dmarx
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":1097:0:1097:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":1105:0:1105:5|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":1113:0:1113:5|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":6:0:6:7|Synthesizing module dma_dual
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":917:0:917:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":973:0:973:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\slave.v":6:0:6:4|Synthesizing module slave
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\decoder.v":6:0:6:6|Synthesizing module decoder
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsm_sysreg.v":4:0:4:9|Synthesizing module tsm_sysreg
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\mahbe_dual.v":5:0:5:9|Synthesizing module mahbe_dual
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\arfque.v":6:0:6:5|Synthesizing module arfque
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_fab.v":6:0:6:11|Synthesizing module amcxtfif_fab
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_sys.v":6:0:6:11|Synthesizing module amcxtfif_sys
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":6:0:6:11|Synthesizing module amcxrfif_fab
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":971:0:971:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":977:0:977:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":983:0:983:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":989:0:989:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":995:0:995:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_sys.v":6:0:6:11|Synthesizing module amcxrfif_sys
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_wtm.v":6:0:6:11|Synthesizing module amcxtfif_wtm
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxfif_hst.v":6:0:6:10|Synthesizing module amcxfif_hst
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxfif_clkrst.v":7:0:7:13|Synthesizing module amcxfif_clkrst
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxfif.v":6:0:6:6|Synthesizing module amcxfif
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petmc_top.v":6:0:6:8|Synthesizing module petmc_top
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pecrc.v":6:0:6:4|Synthesizing module pecrc
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":6:0:6:8|Synthesizing module petfn_top
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":9927:0:9927:15|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":9987:0:9987:15|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perfn_top.v":6:0:6:8|Synthesizing module perfn_top
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\permc_top.v":6:0:6:8|Synthesizing module permc_top
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pe_mcxmac_core.v":6:0:6:13|Synthesizing module pe_mcxmac_core
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemgt.v":6:0:6:4|Synthesizing module pemgt
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":6:0:6:4|Synthesizing module pehst
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pecar.v":6:0:6:4|Synthesizing module pecar
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pe_mcxmac.v":6:0:6:8|Synthesizing module pe_mcxmac
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":4:0:4:8|Synthesizing module tsmac_top
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\sib_sync_pulse.v":5:0:5:13|Synthesizing module sib_sync_pulse
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\sib_sync_2flp.v":5:0:5:12|Synthesizing module sib_sync_2flp
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_cntrl.v":6:0:6:12|Synthesizing module pemstat_cntrl
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_linc.v":6:0:6:11|Synthesizing module pemstat_linc
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_linc.v":183:0:183:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_linc.v":255:0:255:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_ladd.v":6:0:6:11|Synthesizing module pemstat_ladd
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_ladd.v":338:0:338:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinc.v":6:0:6:11|Synthesizing module pemstat_sinc
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinc.v":183:0:183:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinc.v":255:0:255:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinchd.v":6:0:6:13|Synthesizing module pemstat_sinchd
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinchd.v":183:0:183:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinchd.v":255:0:255:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sadd.v":6:0:6:11|Synthesizing module pemstat_sadd
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sadd.v":201:0:201:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sadd.v":278:0:278:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sincnf.v":6:0:6:13|Synthesizing module pemstat_sincnf
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sincnf.v":183:0:183:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sincnf.v":255:0:255:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_store.v":6:0:6:12|Synthesizing module pemstat_store
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_eim.v":6:0:6:10|Synthesizing module pemstat_eim
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat.v":6:0:6:6|Synthesizing module pemstat
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\mmcxwol.v":6:0:6:6|Synthesizing module mmcxwol
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\si_sal.v":4:0:4:5|Synthesizing module si_sal
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\si_sal.v":886:0:886:15|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tx2048x40.v":6:0:6:8|Synthesizing module tx2048x40
+@N: CL134 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tx2048x40.v":131:0:131:5|Found RAM CORETSE_AHBooOoI, depth=2048, width=40
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\rx4096x36.v":6:0:6:8|Synthesizing module rx4096x36
+@N: CL134 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\rx4096x36.v":131:0:131:5|Found RAM CORETSE_AHBooOoI, depth=4096, width=36
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":2:0:2:10|Synthesizing module CoreTSE_top
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_clkrst.v":7:0:7:12|Synthesizing module msgmii_clkrst
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvtxi.v":6:0:6:12|Synthesizing module msgmii_cnvtxi
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvtxo.v":6:0:6:12|Synthesizing module msgmii_cnvtxo
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\t8b10b.v":6:0:6:5|Synthesizing module t8b10b
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petex_top.v":6:0:6:8|Synthesizing module petex_top
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petex_top.v":2036:0:2036:15|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pma.v":6:0:6:8|Synthesizing module perex_pma
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\r10b8b.v":6:0:6:5|Synthesizing module r10b8b
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pcs.v":6:0:6:8|Synthesizing module perex_pcs
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pcs.v":3570:0:3570:5|Sharing sequential element CORETSE_AHBIiOOI.
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\peanx_sync.v":6:0:6:9|Synthesizing module peanx_sync
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_peanx_top.v":6:0:6:15|Synthesizing module msgmii_peanx_top
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_peanx_top.v":2255:0:2255:5|Sharing sequential element CORETSE_AHBI0l1.
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petbm.v":6:0:6:4|Synthesizing module petbm
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petcr.v":7:0:7:4|Synthesizing module petcr
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petcr.v":329:0:329:5|Sharing sequential element CORETSE_AHBOI0o.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petcr.v":470:0:470:5|Sharing sequential element CORETSE_AHBOIlII.
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_tbi.v":6:0:6:9|Synthesizing module msgmii_tbi
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvrxi.v":6:0:6:12|Synthesizing module msgmii_cnvrxi
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvrxo.v":6:0:6:12|Synthesizing module msgmii_cnvrxo
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_core.v":6:0:6:10|Synthesizing module msgmii_core
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\CORETSE_AHB_0\rtl\vlog\core_obfuscated\CoreTSE_AHB.v":2:0:2:42|Synthesizing module CoreTSE_Webserver_CORETSE_AHB_0_CORETSE_AHB
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver_MSS\CoreTSE_Webserver_MSS_syn.v":5:7:5:13|Synthesizing module MSS_075
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver_MSS\CoreTSE_Webserver_MSS.v":9:7:9:27|Synthesizing module CoreTSE_Webserver_MSS
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":727:7:727:9|Synthesizing module CCC
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\FCCC_0\CoreTSE_Webserver_FCCC_0_FCCC.v":5:7:5:35|Synthesizing module CoreTSE_Webserver_FCCC_0_FCCC
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\FCCC_1\CoreTSE_Webserver_FCCC_1_FCCC.v":5:7:5:35|Synthesizing module CoreTSE_Webserver_FCCC_1_FCCC
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\FCCC_2\CoreTSE_Webserver_FCCC_2_FCCC.v":5:7:5:35|Synthesizing module CoreTSE_Webserver_FCCC_2_FCCC
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\FCCC_3\CoreTSE_Webserver_FCCC_3_FCCC.v":5:7:5:35|Synthesizing module CoreTSE_Webserver_FCCC_3_FCCC
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\OSC_0\CoreTSE_Webserver_OSC_0_OSC.v":5:7:5:33|Synthesizing module CoreTSE_Webserver_OSC_0_OSC
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":320:7:320:16|Synthesizing module INBUF_DIFF
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\SERDES_IF2_0\CoreTSE_Webserver_SERDES_IF2_0_SERDES_IF2_syn.v":5:7:5:18|Synthesizing module SERDESIF_075
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\SERDES_IF2_0\CoreTSE_Webserver_SERDES_IF2_0_SERDES_IF2.v":5:7:5:47|Synthesizing module CoreTSE_Webserver_SERDES_IF2_0_SERDES_IF2
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":718:7:718:14|Synthesizing module SYSRESET
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\CoreTSE_Webserver.v":9:7:9:23|Synthesizing module CoreTSE_Webserver
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petcr.v":343:0:343:5|Sharing sequential element CORETSE_AHBII0o.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petcr.v":484:0:484:5|Sharing sequential element CORETSE_AHBIIlII.
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_peanx_top.v":3325:0:3325:5|Trying to extract state machine for register CORETSE_AHBil01
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pcs.v":4633:0:4633:5|Trying to extract state machine for register CORETSE_AHBIii0
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemgt.v":547:0:547:5|Trying to extract state machine for register CORETSE_AHBiooo
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perfn_top.v":5127:0:5127:5|Trying to extract state machine for register CORETSE_AHBl1o
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":6208:0:6208:5|Found seqShift CORETSE_AHBOlIlI, depth=3, width=8
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":7123:0:7123:5|Found seqShift CORETSE_AHBI0IlI, depth=4, width=1
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":6990:0:6990:5|Found seqShift CORETSE_AHBilIlI, depth=4, width=1
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":7241:0:7241:5|Found seqShift CORETSE_AHBo0IlI, depth=4, width=1
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":2644:0:2644:5|Found seqShift CORETSE_AHBlooII, depth=3, width=1
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":2813:0:2813:5|Found seqShift CORETSE_AHBOIiII, depth=3, width=4
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":8331:0:8331:5|Found seqShift CORETSE_AHBOl, depth=4, width=1
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":7636:0:7636:5|Found seqShift CORETSE_AHBoI, depth=4, width=1
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":10292:0:10292:5|Trying to extract state machine for register CORETSE_AHBlOo1
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_wtm.v":268:0:268:5|Trying to extract state machine for register CORETSE_AHBiOOl
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":1079:0:1079:5|Found seqShift CORETSE_AHBOIOI, depth=3, width=1
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":588:0:588:5|Trying to extract state machine for register CORETSE_AHBIi0I
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_sys.v":804:0:804:5|Trying to extract state machine for register CORETSE_AHBOIiI
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":1039:0:1039:5|Trying to extract state machine for register CORETSE_AHBI0ol
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":501:0:501:5|Trying to extract state machine for register CORETSE_AHBOOol
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmatx.v":1110:0:1110:5|Trying to extract state machine for register CORETSE_AHBI0ol
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmatx.v":566:0:566:5|Trying to extract state machine for register CORETSE_AHBOOol
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2.
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vlog\core\coreconfigp.v":447:4:447:9|Trying to extract state machine for register state
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Trying to extract state machine for register arbRegSMCurrentState
+@N|Running in 64-bit mode
+

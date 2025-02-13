@@ -1,0 +1,7 @@
+D:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe  -link  -top  CoreTSE_Webserver  -multisrs  D:\CASES\coretse\CoreTSE_Webserver\synthesis\synwork\CoreTSE_Webserver_comp.srs  -osyn  D:\CASES\coretse\CoreTSE_Webserver\synthesis\synwork\CoreTSE_Webserver_mult.srs  -log  D:\CASES\coretse\CoreTSE_Webserver\synthesis\synlog\CoreTSE_Webserver_multi_srs_gen.srr 
+rc:0 success:1
+D:\CASES\coretse\CoreTSE_Webserver\synthesis\synwork\CoreTSE_Webserver_comp.srs|i|1479376604|646692
+D:\CASES\coretse\CoreTSE_Webserver\synthesis\synwork\CoreTSE_Webserver_mult.srs|o|1479376606|55677
+D:\CASES\coretse\CoreTSE_Webserver\synthesis\synlog\CoreTSE_Webserver_multi_srs_gen.srr|o|1479376606|493
+D:\Microsemi\Libero_SoC_v11.7\Synplify\bin\syn_nfilter.exe|i|1449201924|3007488
+D:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe|i|1449201926|3974144

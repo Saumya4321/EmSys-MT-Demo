@@ -1,0 +1,10 @@
+DESIGN=CoreTSE_Webserver
+DESDIR=D:\CASES\coretse\CoreTSE_Webserver\designer\CoreTSE_Webserver
+TARGET_DIR=D:\CASES\coretse\CoreTSE_Webserver\designer\CoreTSE_Webserver
+FAM=SmartFusion2
+DIE=PA4M7500_TS
+PACKAGE=fg484
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

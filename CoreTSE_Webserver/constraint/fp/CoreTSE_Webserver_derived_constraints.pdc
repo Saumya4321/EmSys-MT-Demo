@@ -1,0 +1,8 @@
+# Microsemi Corp.
+# Date: 2016-Nov-17 15:26:12
+# This file was generated based on the following PDC source files:
+#   D:/Microsemi/Libero_SoC_v11.7/Designer/data/aPA4M/cores/constraints/PA4M7500/coreconfigp.pdc
+#
+
+define_region -name {auto_coreconfigp} -type inclusive 780 135 1019 251
+assign_region {auto_coreconfigp} {CoreConfigP_0}
