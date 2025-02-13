@@ -23,10 +23,10 @@
    <widget class="QFrame" name="terminal_cmd_frame">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>30</y>
-      <width>301</width>
-      <height>181</height>
+      <x>50</x>
+      <y>160</y>
+      <width>311</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -35,11 +35,11 @@
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="cmdSubmitButton">
      <property name="geometry">
       <rect>
-       <x>254</x>
-       <y>60</y>
+       <x>260</x>
+       <y>40</y>
        <width>41</width>
        <height>41</height>
       </rect>
@@ -75,14 +75,19 @@
       <string>Terminal</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit">
+    <widget class="QLineEdit" name="cmdLineEdit">
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>60</y>
-       <width>251</width>
+       <y>40</y>
+       <width>261</width>
        <height>41</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(0, 0, 0);
@@ -94,9 +99,9 @@ color: rgb(255, 255, 0);</string>
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>250</y>
+      <y>300</y>
       <width>311</width>
-      <height>301</height>
+      <height>231</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -105,25 +110,11 @@ color: rgb(255, 255, 0);</string>
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QListView" name="response_log">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>90</y>
-       <width>301</width>
-       <height>192</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0);
-color: rgb(255, 255, 0);</string>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_2">
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>60</y>
+       <y>10</y>
        <width>151</width>
        <height>16</height>
       </rect>
@@ -137,6 +128,27 @@ color: rgb(255, 255, 0);</string>
      </property>
      <property name="text">
       <string>Response Received</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="response_log">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>301</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:none;
+border-radius:0px;
+background-color: black;
+color: rgb(255, 255, 0);</string>
      </property>
     </widget>
    </widget>
@@ -155,20 +167,6 @@ color: rgb(255, 255, 0);</string>
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QListView" name="history_console">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>40</y>
-       <width>301</width>
-       <height>461</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0);
-color: rgb(255, 255, 0);</string>
-     </property>
-    </widget>
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
@@ -189,25 +187,120 @@ color: rgb(255, 255, 0);</string>
       <string>Command history</string>
      </property>
     </widget>
+    <widget class="QListWidget" name="history_console">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>291</width>
+       <height>461</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:none;
+border-radius:0px;
+background-color: black;
+color: rgb(255, 255, 0);</string>
+     </property>
+    </widget>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menuSettings">
-    <property name="title">
-     <string>Settings</string>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>311</width>
+      <height>141</height>
+     </rect>
     </property>
-    <addaction name="actionChange_baud_rate"/>
-    <addaction name="actionComm_ports"/>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QComboBox" name="baudRateComboBox">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>20</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="commPortComboBox">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>60</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ConnectButton">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>100</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>CONNECT</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>30</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Set baud rate</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>70</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Comm port</string>
+     </property>
+    </widget>
    </widget>
-   <addaction name="menuSettings"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionChange_baud_rate">

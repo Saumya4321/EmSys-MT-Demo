@@ -1,9 +1,12 @@
 
 # pyqt libraries
-from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5.QtWidgets import QApplication, QMainWindow, QListWidget, QComboBox, QPushButton, QLineEdit
+from PyQt5.QtWidgets import QListWidgetItem
+from PyQt5.QtGui import QColor
 from PyQt5 import uic
 from PyQt5.QtCore import pyqtSignal
 import sys
+
 
 
 # The main GUI class, which defines our application window with all of it's functionalities
@@ -17,6 +20,8 @@ class gui(QMainWindow):
         super().__init__()
         uic.loadUi("app.ui", self)
         self.setWindowTitle("UART Laser Testing")
+
+        self.init_ui_elements()
     
      
 
@@ -24,6 +29,71 @@ class gui(QMainWindow):
 
         self.show()
 
+    def init_ui_elements(self):
+        
+        self.baudRateComboBox = self.findChild(QComboBox, "baudRateComboBox")
+
+        self.commPortComboBox = self.findChild(QComboBox,"commPortComboBox")
+
+        self.connectButton = self.findChild(QPushButton,"ConnectButton")
+        self.connectButton.clicked.connect(self.connection_start)
+
+        self.cmdLineEdit = self.findChild(QLineEdit,"cmdLineEdit")
+
+        self.cmdSubmitButton = self.findChild(QPushButton, "cmdSubmitButton")
+        self.cmdSubmitButton.clicked.connect(self.submit_button_clicked)
+
+        self.response_log = self.findChild(QListWidget, "response_log")
+
+        self.history_console = self.findChild(QListWidget, "history_console")
+
+    def connection_start(self):
+        self.log_history({"info":"Connect Button clicked!!"})
+
+
+    def submit_button_clicked(self):
+        self.log_history({"info":"Submit Button clicked!!"})
+
+
+    def closeEvent(self, event):
+        """Ensure the serial port is closed on exit."""
+        
+        event.accept()
+
+
+
+    # ---------- Printing to consoles ----------------
+
+     # function used to add text to response log window
+    def log_response(self,dict):
+        if "error" in dict.keys():
+            self.addConsoleItem(self.response_log, dict["error"], is_error=True)
+        else:
+            self.addConsoleItem(self.response_log, dict["info"])
+
+    # function used to add text to history logs window
+    def log_history(self,dict):
+        if "error" in dict.keys():
+            self.addConsoleItem(self.history_console, dict["error"], is_error=True)
+        else:
+            self.addConsoleItem(self.history_console, dict["info"])
+
+
+    # function to add sentences to console; in case of error, text is printed in red. Else it is printed in white        
+    def addConsoleItem(self,console_widget, text, is_error=False):
+        # Create a new QListWidgetItem
+        item = QListWidgetItem(f"> {text}")
+    
+        # Set the color based on whether it's an error or not
+        if is_error:
+            item.setForeground(QColor("red"))  # Error color
+        else:
+            item.setForeground(QColor("white"))  # Regular log color
+                
+        # Add the item to the ListWidget
+        console_widget.addItem(item)
+        # scroll to bottom of list so that newly added line is visible
+        console_widget.scrollToBottom()
 
 if __name__ == "__main__":
     app=QApplication(sys.argv)
