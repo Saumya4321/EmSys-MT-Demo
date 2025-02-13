@@ -6,6 +6,7 @@ from PyQt5.QtGui import QColor
 from PyQt5 import uic
 from PyQt5.QtCore import pyqtSignal
 import sys
+from uart import SerialComm
 
 
 
@@ -21,17 +22,22 @@ class gui(QMainWindow):
         uic.loadUi("app.ui", self)
         self.setWindowTitle("UART Laser Testing")
 
+        self.init_default_values()
         self.init_ui_elements()
-    
+        self.init_classes()
+        self.refresh_port_list()
      
-
-
+    
+    
 
         self.show()
 
     def init_ui_elements(self):
         
         self.baudRateComboBox = self.findChild(QComboBox, "baudRateComboBox")
+        self.baudRateComboBox.currentTextChanged.connect(lambda: self.update_baud_rate(self.baudRateComboBox.currentText()))
+        self.baudRateComboBox.setCurrentIndex(2)
+
 
         self.commPortComboBox = self.findChild(QComboBox,"commPortComboBox")
 
@@ -47,18 +53,44 @@ class gui(QMainWindow):
 
         self.history_console = self.findChild(QListWidget, "history_console")
 
+    def init_default_values(self):
+        self.port_selected = None
+        self.baud_rate_selected = 9600
+
+    def init_classes(self):
+        self.serial_class = SerialComm(self)
+
+    def update_baud_rate(self,rate):
+        self.baud_rate_selected = int(rate)
+
+
     def connection_start(self):
+        self.port_selected = self.commPortComboBox.currentText()
+
         self.log_history({"info":"Connect Button clicked!!"})
+        if self.port_selected == None:
+            self.log_history({"error":"Select a comm port first!!"})
+        
+        else:
+            self.log_history({"info":f"Connecting to {self.port_selected} with a baud rate of {self.baud_rate_selected}"})
+            self.serial_class.connect(self.port_selected,self.baud_rate_selected)
 
 
     def submit_button_clicked(self):
         self.log_history({"info":"Submit Button clicked!!"})
+        self.serial_class.send_data(self.cmdLineEdit)
 
 
     def closeEvent(self, event):
         """Ensure the serial port is closed on exit."""
-        
+        self.serial_class.closeEvent()
         event.accept()
+
+    def refresh_port_list(self):
+        self.commPortComboBox.clear()
+        ports = self.serial_class.send_port_list()
+        for port in ports:
+            self.commPortComboBox.addItem(port.device)
 
 
 
