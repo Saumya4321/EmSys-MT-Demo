@@ -23,8 +23,8 @@ class gui(QMainWindow):
         self.setWindowTitle("UART Laser Testing")
 
         self.init_default_values()
-        self.init_ui_elements()
         self.init_classes()
+        self.init_ui_elements()
         self.refresh_port_list()
      
     
@@ -44,7 +44,11 @@ class gui(QMainWindow):
         self.connectButton = self.findChild(QPushButton,"ConnectButton")
         self.connectButton.clicked.connect(self.connection_start)
 
+        self.disconnectButton = self.findChild(QPushButton, "disconnectButton")
+        self.disconnectButton.clicked.connect(self.serial_class.disconnect)
+
         self.cmdLineEdit = self.findChild(QLineEdit,"cmdLineEdit")
+        self.cmdLineEdit.returnPressed.connect(self.submit_button_clicked)
 
         self.cmdSubmitButton = self.findChild(QPushButton, "cmdSubmitButton")
         self.cmdSubmitButton.clicked.connect(self.submit_button_clicked)
@@ -66,18 +70,15 @@ class gui(QMainWindow):
 
     def connection_start(self):
         self.port_selected = self.commPortComboBox.currentText()
-
-        self.log_history({"info":"Connect Button clicked!!"})
         if self.port_selected == None:
             self.log_history({"error":"Select a comm port first!!"})
         
         else:
-            self.log_history({"info":f"Connecting to {self.port_selected} with a baud rate of {self.baud_rate_selected}"})
+            self.log_history({"info":f"Connecting to {self.port_selected} with a baud rate of \n  {self.baud_rate_selected}"})
             self.serial_class.connect(self.port_selected,self.baud_rate_selected)
 
 
     def submit_button_clicked(self):
-        self.log_history({"info":"Submit Button clicked!!"})
         self.serial_class.send_data(self.cmdLineEdit)
 
 
