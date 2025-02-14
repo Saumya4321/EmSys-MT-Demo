@@ -38,9 +38,8 @@ class SerialComm:
     def connect(self, port, baud_rate):
             selected_port = port
             try:
-                self.serial_port = serial.Serial(selected_port, baudrate=baud_rate,timeout=2)
-                # self.parent.log_history({"info":f"Connection to {port} at baud rate {baud_rate} has been established!"})
-                # self.parent.log_response({"info":f"Connection to {port} at baud rate {baud_rate} has been established!"})
+                self.serial_port = serial.Serial(selected_port, baudrate=baud_rate,timeout=2, bytesize=serial.EIGHTBITS, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE)
+                
             except Exception as e:
                 self.parent.log_history({"error":f"Connection to {port} failed! \n {e}"})
                 self.parent.log_response({"error":f"Connection to {port} failed! \n {e}"})
