@@ -229,25 +229,18 @@ static const unsigned char data_Stock_ticker_htm[] = {
 		   <TR>\
 		    <TD></TD></TR>\
 		  <TR>\
-		    <TD class=tmp width=\"60%\"><A href=\"RTCdata\">RTC and Ethernet Interface data display </A></TD></TR>\
-		  <TR>\
 		      <TD class=tmp><A href=\"LED\">Blinking LED's\
 		    </A></TD></TR>\
 		  <TR>\
 		    <TD class=tmp align=right><A href=\"HyperTerminal\">HyperTerminal Display\
 		   </A></TD></TR>\
 		  <TR>\
-		<TD class=tmp align=right><A href=\"google_search.htm\">SmartFusion2 Google Search</A></TD></TR>\
-		<TR>\
-		    <TD>&nbsp;</TD></TR>\
-		  <TR>\
 		    <TD>&nbsp;</TD></TR></TBODY></TABLE>\
 		<TABLE class=tbl_text width=\"60%\" align=center>\
 		  <TBODY>\
 		 <TR>\
 		    <TD class=none align=middle>\
-		      <P>For More information about SmartFusion2 products, refer to the Microsemi SoC Products website:<br>\
-					<A href=\"http://www.microsemi.com/products/fpga-soc/soc-fpga/smartfusion2\")>http://www.microsemi.com/products/fpga-soc/soc-fpga/smartfusion2</A></P>\
+		      <P> Website under Construction. Come back Later for more features.</P>\
 		 </TD></TR></TBODY></TABLE></FORM></BODY></HTML>";
 		/*RTC and Ethernet Interface data display */
 
