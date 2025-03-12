@@ -1,0 +1,1569 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v"
+@I::"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\hypermods.v"
+@I::"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\umr_capim.v"
+@I::"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\scemi_objects.v"
+@I::"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\scemi_pipes.svh"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vlog\core\coreconfigp.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_clkrst.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvrxi.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvrxo.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvtxi.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvtxo.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\peanx_sync.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_peanx_top.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\r10b8b.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pcs.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pma.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petbm.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petcr.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\t8b10b.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petex_top.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_tbi.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_core.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\rx4096x36.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxfif_clkrst.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxfif_hst.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_sys.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_fab.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_sys.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_wtm.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxfif.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\arfque.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\decoder.v"
+@I:"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\decoder.v":"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\include.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmatx.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\slave.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsm_sysreg.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\mahbe_dual.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\mmcxwol.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pecrc.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perfn_top.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\permc_top.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petmc_top.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pe_mcxmac_core.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pecar.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemgt.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pe_mcxmac.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_cntrl.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_eim.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_ladd.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_linc.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sadd.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinc.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinchd.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sincnf.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_store.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\sib_fifo_mem2p.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\sib_sync_2flp.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\sib_fifo_top.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\ptp_hstinf.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\ptp_rfp.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\ptp_rtc.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\ptp_tfp.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\ptp_top.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\si_sal.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\sib_sync_pulse.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tx2048x40.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\CORETSE_AHB_0\rtl\vlog\core_obfuscated\CoreTSE_AHB.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\FCCC_0\CoreTSE_Webserver_FCCC_0_FCCC.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\FCCC_1\CoreTSE_Webserver_FCCC_1_FCCC.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\FCCC_2\CoreTSE_Webserver_FCCC_2_FCCC.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\FCCC_3\CoreTSE_Webserver_FCCC_3_FCCC.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver_MSS\CoreTSE_Webserver_MSS_syn.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver_MSS\CoreTSE_Webserver_MSS.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\SgCore\OSC\2.0.101\osc_comps.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\OSC_0\CoreTSE_Webserver_OSC_0_OSC.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\SERDES_IF2_0\CoreTSE_Webserver_SERDES_IF2_0_SERDES_IF2_syn.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\SERDES_IF2_0\CoreTSE_Webserver_SERDES_IF2_0_SERDES_IF2.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v"
+@I::"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\CoreTSE_Webserver.v"
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module CoreTSE_Webserver
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":126:7:126:10|Synthesizing module AND2
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF
+
+@W: CG775 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":23:7:23:17|Found Component CoreAHBLite in library COREAHBLITE_LIB
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v":20:7:20:25|Synthesizing module COREAHBLITE_ADDRDEC
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000000000000
+	M_AHBSLOTENABLE=17'b00000000000001000
+	MSB_ADDR=32'b00000000000000000000000000011111
+	SLAVE_0=16'b0000000000000001
+	SLAVE_1=16'b0000000000000010
+	SLAVE_2=16'b0000000000000100
+	SLAVE_3=16'b0000000000001000
+	SLAVE_4=16'b0000000000010000
+	SLAVE_5=16'b0000000000100000
+	SLAVE_6=16'b0000000001000000
+	SLAVE_7=16'b0000000010000000
+	SLAVE_8=16'b0000000100000000
+	SLAVE_9=16'b0000001000000000
+	SLAVE_10=16'b0000010000000000
+	SLAVE_11=16'b0000100000000000
+	SLAVE_12=16'b0001000000000000
+	SLAVE_13=16'b0010000000000000
+	SLAVE_14=16'b0100000000000000
+	SLAVE_15=16'b1000000000000000
+	NONE=16'b0000000000000000
+   Generated name = COREAHBLITE_ADDRDEC_Z1
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v":20:7:20:32|Synthesizing module COREAHBLITE_DEFAULTSLAVESM
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IDLE=1'b0
+	HRESPEXTEND=1'b1
+   Generated name = COREAHBLITE_DEFAULTSLAVESM_0s_0_1
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":22:7:22:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000000000000
+	M_AHBSLOTENABLE=17'b00000000000001000
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IDLE=1'b0
+	REGISTERED=1'b1
+	SLAVE_NONE=17'b00000000000000000
+   Generated name = COREAHBLITE_MASTERSTAGE_1_1_0_8_0s_0_1_0
+
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v":20:7:20:25|Synthesizing module COREAHBLITE_ADDRDEC
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000000000000
+	M_AHBSLOTENABLE=17'b00000000000000100
+	MSB_ADDR=32'b00000000000000000000000000011111
+	SLAVE_0=16'b0000000000000001
+	SLAVE_1=16'b0000000000000010
+	SLAVE_2=16'b0000000000000100
+	SLAVE_3=16'b0000000000001000
+	SLAVE_4=16'b0000000000010000
+	SLAVE_5=16'b0000000000100000
+	SLAVE_6=16'b0000000001000000
+	SLAVE_7=16'b0000000010000000
+	SLAVE_8=16'b0000000100000000
+	SLAVE_9=16'b0000001000000000
+	SLAVE_10=16'b0000010000000000
+	SLAVE_11=16'b0000100000000000
+	SLAVE_12=16'b0001000000000000
+	SLAVE_13=16'b0010000000000000
+	SLAVE_14=16'b0100000000000000
+	SLAVE_15=16'b1000000000000000
+	NONE=16'b0000000000000000
+   Generated name = COREAHBLITE_ADDRDEC_Z2
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":22:7:22:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000000000000
+	M_AHBSLOTENABLE=17'b00000000000000100
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IDLE=1'b0
+	REGISTERED=1'b1
+	SLAVE_NONE=17'b00000000000000000
+   Generated name = COREAHBLITE_MASTERSTAGE_1_1_0_4_0s_0_1_0
+
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v":20:7:20:25|Synthesizing module COREAHBLITE_ADDRDEC
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000000000000
+	M_AHBSLOTENABLE=17'b00000000000000000
+	MSB_ADDR=32'b00000000000000000000000000011111
+	SLAVE_0=16'b0000000000000001
+	SLAVE_1=16'b0000000000000010
+	SLAVE_2=16'b0000000000000100
+	SLAVE_3=16'b0000000000001000
+	SLAVE_4=16'b0000000000010000
+	SLAVE_5=16'b0000000000100000
+	SLAVE_6=16'b0000000001000000
+	SLAVE_7=16'b0000000010000000
+	SLAVE_8=16'b0000000100000000
+	SLAVE_9=16'b0000001000000000
+	SLAVE_10=16'b0000010000000000
+	SLAVE_11=16'b0000100000000000
+	SLAVE_12=16'b0001000000000000
+	SLAVE_13=16'b0010000000000000
+	SLAVE_14=16'b0100000000000000
+	SLAVE_15=16'b1000000000000000
+	NONE=16'b0000000000000000
+   Generated name = COREAHBLITE_ADDRDEC_Z3
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":22:7:22:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000000000000
+	M_AHBSLOTENABLE=17'b00000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IDLE=1'b0
+	REGISTERED=1'b1
+	SLAVE_NONE=17'b00000000000000000
+   Generated name = COREAHBLITE_MASTERSTAGE_1_1_0_0_0s_0_1_0
+
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":20:7:20:30|Synthesizing module COREAHBLITE_SLAVEARBITER
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	M0EXTEND=4'b0000
+	M0DONE=4'b0001
+	M0LOCK=4'b0010
+	M0LOCKEXTEND=4'b0011
+	M1EXTEND=4'b0100
+	M1DONE=4'b0101
+	M1LOCK=4'b0110
+	M1LOCKEXTEND=4'b0111
+	M2EXTEND=4'b1000
+	M2DONE=4'b1001
+	M2LOCK=4'b1010
+	M2LOCKEXTEND=4'b1011
+	M3EXTEND=4'b1100
+	M3DONE=4'b1101
+	M3LOCK=4'b1110
+	M3LOCKEXTEND=4'b1111
+	MASTER_0=4'b0001
+	MASTER_1=4'b0010
+	MASTER_2=4'b0100
+	MASTER_3=4'b1000
+	MASTER_NONE=4'b0000
+   Generated name = COREAHBLITE_SLAVEARBITER_Z4
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":22:7:22:28|Synthesizing module COREAHBLITE_SLAVESTAGE
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	TRN_IDLE=1'b0
+	MASTER_NONE=4'b0000
+   Generated name = COREAHBLITE_SLAVESTAGE_0s_0_0
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":23:7:23:28|Synthesizing module COREAHBLITE_MATRIX4X16
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000000000000
+	M0_AHBSLOTENABLE=17'b00000000000001000
+	M1_AHBSLOTENABLE=17'b00000000000000100
+	M2_AHBSLOTENABLE=17'b00000000000000100
+	M3_AHBSLOTENABLE=17'b00000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = COREAHBLITE_MATRIX4X16_1_1_0_8_4_4_0_0s
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":23:7:23:17|Synthesizing module CoreAHBLite
+
+	FAMILY=6'b010011
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	M0_AHBSLOT0ENABLE=1'b0
+	M0_AHBSLOT1ENABLE=1'b0
+	M0_AHBSLOT2ENABLE=1'b0
+	M0_AHBSLOT3ENABLE=1'b1
+	M0_AHBSLOT4ENABLE=1'b0
+	M0_AHBSLOT5ENABLE=1'b0
+	M0_AHBSLOT6ENABLE=1'b0
+	M0_AHBSLOT7ENABLE=1'b0
+	M0_AHBSLOT8ENABLE=1'b0
+	M0_AHBSLOT9ENABLE=1'b0
+	M0_AHBSLOT10ENABLE=1'b0
+	M0_AHBSLOT11ENABLE=1'b0
+	M0_AHBSLOT12ENABLE=1'b0
+	M0_AHBSLOT13ENABLE=1'b0
+	M0_AHBSLOT14ENABLE=1'b0
+	M0_AHBSLOT15ENABLE=1'b0
+	M0_AHBSLOT16ENABLE=1'b0
+	M1_AHBSLOT0ENABLE=1'b0
+	M1_AHBSLOT1ENABLE=1'b0
+	M1_AHBSLOT2ENABLE=1'b1
+	M1_AHBSLOT3ENABLE=1'b0
+	M1_AHBSLOT4ENABLE=1'b0
+	M1_AHBSLOT5ENABLE=1'b0
+	M1_AHBSLOT6ENABLE=1'b0
+	M1_AHBSLOT7ENABLE=1'b0
+	M1_AHBSLOT8ENABLE=1'b0
+	M1_AHBSLOT9ENABLE=1'b0
+	M1_AHBSLOT10ENABLE=1'b0
+	M1_AHBSLOT11ENABLE=1'b0
+	M1_AHBSLOT12ENABLE=1'b0
+	M1_AHBSLOT13ENABLE=1'b0
+	M1_AHBSLOT14ENABLE=1'b0
+	M1_AHBSLOT15ENABLE=1'b0
+	M1_AHBSLOT16ENABLE=1'b0
+	M2_AHBSLOT0ENABLE=1'b0
+	M2_AHBSLOT1ENABLE=1'b0
+	M2_AHBSLOT2ENABLE=1'b1
+	M2_AHBSLOT3ENABLE=1'b0
+	M2_AHBSLOT4ENABLE=1'b0
+	M2_AHBSLOT5ENABLE=1'b0
+	M2_AHBSLOT6ENABLE=1'b0
+	M2_AHBSLOT7ENABLE=1'b0
+	M2_AHBSLOT8ENABLE=1'b0
+	M2_AHBSLOT9ENABLE=1'b0
+	M2_AHBSLOT10ENABLE=1'b0
+	M2_AHBSLOT11ENABLE=1'b0
+	M2_AHBSLOT12ENABLE=1'b0
+	M2_AHBSLOT13ENABLE=1'b0
+	M2_AHBSLOT14ENABLE=1'b0
+	M2_AHBSLOT15ENABLE=1'b0
+	M2_AHBSLOT16ENABLE=1'b0
+	M3_AHBSLOT0ENABLE=1'b0
+	M3_AHBSLOT1ENABLE=1'b0
+	M3_AHBSLOT2ENABLE=1'b0
+	M3_AHBSLOT3ENABLE=1'b0
+	M3_AHBSLOT4ENABLE=1'b0
+	M3_AHBSLOT5ENABLE=1'b0
+	M3_AHBSLOT6ENABLE=1'b0
+	M3_AHBSLOT7ENABLE=1'b0
+	M3_AHBSLOT8ENABLE=1'b0
+	M3_AHBSLOT9ENABLE=1'b0
+	M3_AHBSLOT10ENABLE=1'b0
+	M3_AHBSLOT11ENABLE=1'b0
+	M3_AHBSLOT12ENABLE=1'b0
+	M3_AHBSLOT13ENABLE=1'b0
+	M3_AHBSLOT14ENABLE=1'b0
+	M3_AHBSLOT15ENABLE=1'b0
+	M3_AHBSLOT16ENABLE=1'b0
+	SYNC_RESET=32'b00000000000000000000000000000000
+	M0_AHBSLOTENABLE=17'b00000000000001000
+	M1_AHBSLOTENABLE=17'b00000000000000100
+	M2_AHBSLOTENABLE=17'b00000000000000100
+	M3_AHBSLOTENABLE=17'b00000000000000000
+	SC=16'b0000000000000000
+   Generated name = CoreAHBLite_Z5
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vlog\core\coreconfigp.v":22:7:22:17|Synthesizing module CoreConfigP
+
+	FAMILY=32'b00000000000000000000000000010011
+	MDDR_IN_USE=32'b00000000000000000000000000000000
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000001
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000000
+	DEVICE_090=32'b00000000000000000000000000000001
+	VERSION_MAJOR=32'b00000000000000000000000000000111
+	VERSION_MINOR=32'b00000000000000000000000000000000
+	VERSION_MAJOR_VECTOR=16'b0000000000000111
+	VERSION_MINOR_VECTOR=16'b0000000000000000
+	S0=2'b00
+	S1=2'b01
+	S2=2'b10
+   Generated name = CoreConfigP_Z6
+
+@W: CL113 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vlog\core\coreconfigp.v":626:4:626:9|Feedback mux created for signal soft_reset_reg[16:0].
+@W: CL207 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vlog\core\coreconfigp.v":461:4:461:9|All reachable assignments to SDIF1_PENABLE assign 0, register removed by optimization.
+@W: CL250 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vlog\core\coreconfigp.v":626:4:626:9|All reachable assignments to soft_reset_reg[16:0] assign 0, register removed by optimization
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP
+
+	FAMILY=32'b00000000000000000000000000010011
+	EXT_RESET_CFG=32'b00000000000000000000000000000000
+	DEVICE_VOLTAGE=32'b00000000000000000000000000000010
+	MDDR_IN_USE=32'b00000000000000000000000000000000
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000001
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	SDIF0_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF1_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF2_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF3_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF0_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF1_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF2_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF3_PCIE_L2P2=32'b00000000000000000000000000000001
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000000
+	DEVICE_090=32'b00000000000000000000000000000001
+	DDR_WAIT=32'b00000000000000000000000011001000
+	RCOSC_MEGAHERTZ=32'b00000000000000000000000000110010
+	SDIF_INTERVAL=32'b00000000000000000001100101100100
+	DDR_INTERVAL=32'b00000000000000000010011100010000
+	COUNT_WIDTH_SDIF=32'b00000000000000000000000000001101
+	COUNT_WIDTH_DDR=32'b00000000000000000000000000001110
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+   Generated name = CoreResetP_Z7
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Pruning register count_ddr[13:0] 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning register count_sdif3[12:0] 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning register count_sdif2[12:0] 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning register count_sdif1[12:0] 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_q1 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_q1 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_q1 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_rcosc 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_rcosc 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_rcosc 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_ddr_enable_q1 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_ddr_enable_rcosc 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning register count_sdif3_enable 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning register count_sdif2_enable 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning register count_sdif1_enable 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning register count_ddr_enable 
+
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1.
+@W: CL190 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning register release_ext_reset 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register EXT_RESET_OUT_int 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register sm2_state[2:0] 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_q1 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_clk_base 
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmatx.v":6:0:6:4|Synthesizing module dmatx
+
+	CORETSE_AHBoOI=32'b00000000000000000000000000000000
+   Generated name = dmatx_0s
+
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmatx.v":1168:0:1168:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmatx.v":1176:0:1176:5|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmatx.v":1184:0:1184:5|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":6:0:6:4|Synthesizing module dmarx
+
+	CORETSE_AHBoOI=32'b00000000000000000000000000000000
+   Generated name = dmarx_0s
+
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":1097:0:1097:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":1105:0:1105:5|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":1113:0:1113:5|Removing redundant assignment
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":297:0:297:14|No assignment to CORETSE_AHBoOol
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":6:0:6:7|Synthesizing module dma_dual
+
+	CORETSE_AHBoOI=32'b00000000000000000000000000000000
+	CORETSE_AHBOII=32'b00000000000000000000000000000000
+   Generated name = dma_dual_0s_0s
+
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":917:0:917:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":973:0:973:14|Removing redundant assignment
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":392:0:392:14|No assignment to wire CORETSE_AHBiO0l
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":395:0:395:14|No assignment to wire CORETSE_AHBOI0l
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":419:0:419:14|No assignment to wire CORETSE_AHBOl0l
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":421:0:421:14|No assignment to wire CORETSE_AHBIl0l
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":560:0:560:14|No assignment to wire CORETSE_AHBoi0l
+
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":568:0:568:14|No assignment to CORETSE_AHBii0l
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":576:0:576:14|No assignment to wire CORETSE_AHBOO1l
+
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":584:0:584:14|No assignment to CORETSE_AHBIO1l
+@W: CL265 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":1507:0:1507:5|Pruning bit 5 of CORETSE_AHBl00l[9:0] -- not in use ...
+
+@W: CL265 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":1507:0:1507:5|Pruning bit 2 of CORETSE_AHBl00l[9:0] -- not in use ...
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\slave.v":6:0:6:4|Synthesizing module slave
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\decoder.v":6:0:6:6|Synthesizing module decoder
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsm_sysreg.v":4:0:4:9|Synthesizing module tsm_sysreg
+
+	CORETSE_AHBOII=32'b00000000000000000000000000000000
+	CORETSE_AHBoOI=32'b00000000000000000000000000000000
+   Generated name = tsm_sysreg_0s_0s
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsm_sysreg.v":211:0:211:15|No assignment to wire CORETSE_AHBiO1oI
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsm_sysreg.v":214:0:214:15|No assignment to wire CORETSE_AHBOI1oI
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsm_sysreg.v":222:0:222:14|No assignment to wire CORETSE_AHBoi0l
+
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsm_sysreg.v":230:0:230:14|No assignment to CORETSE_AHBii0l
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsm_sysreg.v":238:0:238:14|No assignment to wire CORETSE_AHBOO1l
+
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsm_sysreg.v":246:0:246:14|No assignment to CORETSE_AHBIO1l
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\mahbe_dual.v":5:0:5:9|Synthesizing module mahbe_dual
+
+	CORETSE_AHBoOI=32'b00000000000000000000000000000000
+	CORETSE_AHBOII=32'b00000000000000000000000000000000
+   Generated name = mahbe_dual_0s_0s
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\arfque.v":6:0:6:5|Synthesizing module arfque
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_fab.v":6:0:6:11|Synthesizing module amcxtfif_fab
+
+	TABITS=32'b00000000000000000000000000001011
+	CORETSE_AHBIo1=32'b00000000000000000000000000100000
+	CORETSE_AHBlo1=32'b00000000000000000000000000000010
+	CORETSE_AHBoloI=11'b00000000000
+	CORETSE_AHBol0I=12'b000000000000
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+   Generated name = amcxtfif_fab_11s_32s_2s_0_0_1s
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_sys.v":6:0:6:11|Synthesizing module amcxtfif_sys
+
+	TABITS=32'b00000000000000000000000000001011
+	CORETSE_AHBIo1=32'b00000000000000000000000000100000
+	CORETSE_AHBlo1=32'b00000000000000000000000000000010
+	CORETSE_AHBoOI=32'b00000000000000000000000000000000
+	CORETSE_AHBol0I=12'b000000000000
+	CORETSE_AHBiOiI=14'b00000000000000
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+   Generated name = amcxtfif_sys_11s_32s_2s_0s_0_0_1s
+
+@W: CL271 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_sys.v":1656:0:1656:5|Pruning bits 1 to 0 of CORETSE_AHBl0iI[13:0] -- not in use ...
+
+@W: CL271 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_sys.v":1475:0:1475:5|Pruning bits 13 to 2 of CORETSE_AHBo0iI[13:0] -- not in use ...
+
+@W: CL271 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_sys.v":1447:0:1447:5|Pruning bits 1 to 0 of CORETSE_AHBI0iI[13:0] -- not in use ...
+
+@W: CL271 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_sys.v":1380:0:1380:5|Pruning bits 1 to 0 of CORETSE_AHBO0iI[13:0] -- not in use ...
+
+@W: CL265 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_sys.v":1609:0:1609:5|Pruning bit 38 of CORETSE_AHBI1iI[39:0] -- not in use ...
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":6:0:6:11|Synthesizing module amcxrfif_fab
+
+	RABITS=32'b00000000000000000000000000001100
+	CORETSE_AHBIo1=32'b00000000000000000000000000100000
+	CORETSE_AHBlo1=32'b00000000000000000000000000000010
+	CORETSE_AHBol0I=13'b0000000000000
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+   Generated name = amcxrfif_fab_12s_32s_2s_0_1s
+
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":971:0:971:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":977:0:977:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":983:0:983:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":989:0:989:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":995:0:995:14|Removing redundant assignment
+@W: CL190 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":1581:0:1581:5|Optimizing register bit CORETSE_AHBI0OI[36] to a constant 0
+@W: CL190 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":1581:0:1581:5|Optimizing register bit CORETSE_AHBI0OI[37] to a constant 0
+@W: CL190 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":1581:0:1581:5|Optimizing register bit CORETSE_AHBI0OI[38] to a constant 0
+@W: CL190 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":1581:0:1581:5|Optimizing register bit CORETSE_AHBI0OI[39] to a constant 0
+@W: CL279 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":1581:0:1581:5|Pruning register bits 39 to 36 of CORETSE_AHBI0OI[39:0] 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":1022:0:1022:5|Pruning register CORETSE_AHBO10I 
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_sys.v":6:0:6:11|Synthesizing module amcxrfif_sys
+
+	CORETSE_AHBoOI=32'b00000000000000000000000000000000
+	RABITS=32'b00000000000000000000000000001100
+	CORETSE_AHBIo1=32'b00000000000000000000000000100000
+	CORETSE_AHBlo1=32'b00000000000000000000000000000010
+	CORETSE_AHBlO1I=14'b00000000000000
+	CORETSE_AHBoO1I=13'b0000000000000
+	CORETSE_AHBol0I=15'b000000000000000
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+   Generated name = amcxrfif_sys_0s_12s_32s_2s_0_0_0_1s
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_wtm.v":6:0:6:11|Synthesizing module amcxtfif_wtm
+
+	RABITS=32'b00000000000000000000000000001100
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+	CORETSE_AHBoloI=12'b000000000000
+	CORETSE_AHBol0I=13'b0000000000000
+   Generated name = amcxtfif_wtm_12s_1s_0_0
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxfif_hst.v":6:0:6:10|Synthesizing module amcxfif_hst
+
+	TABITS=32'b00000000000000000000000000001011
+	RABITS=32'b00000000000000000000000000001100
+	CORETSE_AHBIo1=32'b00000000000000000000000000100000
+	CORETSE_AHBlo1=32'b00000000000000000000000000000010
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+	CORETSE_AHBlOlI=13'b0000000000000
+	CORETSE_AHBoOlI=4'b0000
+	CORETSE_AHBiOlI=19'b0000000000000000000
+	CORETSE_AHBOIlI=12'b111111111111
+	CORETSE_AHBIIlI=12'b111111111111
+	CORETSE_AHBlIlI=14'b00000000000000
+	CORETSE_AHBoIlI=4'b0000
+	CORETSE_AHBiIlI=3'b000
+	CORETSE_AHBOllI=18'b000000000000000000
+	CORETSE_AHBIllI=13'b1111111111111
+	CORETSE_AHBlllI=13'b1111111111111
+	CORETSE_AHBollI=12'b111111111111
+   Generated name = amcxfif_hst_Z8
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxfif_hst.v":904:0:904:14|No assignment to wire CORETSE_AHBIolI
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxfif_clkrst.v":7:0:7:13|Synthesizing module amcxfif_clkrst
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxfif.v":6:0:6:6|Synthesizing module amcxfif
+
+	TABITS=32'b00000000000000000000000000001011
+	RABITS=32'b00000000000000000000000000001100
+	CORETSE_AHBIo1=32'b00000000000000000000000000100000
+	CORETSE_AHBlo1=32'b00000000000000000000000000000010
+	CORETSE_AHBoOI=32'b00000000000000000000000000000000
+   Generated name = amcxfif_11s_12s_32s_2s_0s
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petmc_top.v":6:0:6:8|Synthesizing module petmc_top
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pecrc.v":6:0:6:4|Synthesizing module pecrc
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":6:0:6:8|Synthesizing module petfn_top
+
+	CORETSE_AHBiOI=32'b00000000000000000000000000000000
+	CORETSE_AHBlOI=1'b0
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+   Generated name = petfn_top_0s_0_1s
+
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":9927:0:9927:15|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":9987:0:9987:15|Removing redundant assignment
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":418:0:418:15|No assignment to CORETSE_AHBOo1II
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":421:0:421:15|No assignment to wire CORETSE_AHBIo1II
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":445:0:445:15|No assignment to wire CORETSE_AHBOilII
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":956:0:956:15|No assignment to wire CORETSE_AHBlOIlI
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":4062:0:4062:5|Pruning register CORETSE_AHBIioII[15:0] 
+
+@W: CL190 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":3748:0:3748:5|Optimizing register bit CORETSE_AHBOiiII[5] to a constant 0
+@W: CL190 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":3748:0:3748:5|Optimizing register bit CORETSE_AHBOiiII[6] to a constant 0
+@W: CL279 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":3748:0:3748:5|Pruning register bits 6 to 5 of CORETSE_AHBOiiII[6:0] 
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perfn_top.v":6:0:6:8|Synthesizing module perfn_top
+
+	CORETSE_AHBoOI=32'b00000000000000000000000000000000
+	CORETSE_AHBlOI=1'b0
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+   Generated name = perfn_top_0s_0_1s
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perfn_top.v":343:0:343:15|No assignment to wire CORETSE_AHBo0lOI
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perfn_top.v":650:0:650:15|No assignment to wire CORETSE_AHBIOoOI
+
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perfn_top.v":653:0:653:15|No assignment to CORETSE_AHBlOoOI
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\permc_top.v":6:0:6:8|Synthesizing module permc_top
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pe_mcxmac_core.v":6:0:6:13|Synthesizing module pe_mcxmac_core
+
+	CORETSE_AHBlOI=1'b0
+	CORETSE_AHBoOI=32'b00000000000000000000000000000000
+	CORETSE_AHBiOI=32'b00000000000000000000000000000000
+   Generated name = pe_mcxmac_core_0_0s_0s
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemgt.v":6:0:6:4|Synthesizing module pemgt
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":6:0:6:4|Synthesizing module pehst
+
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":613:0:613:14|No assignment to CORETSE_AHBoiOo
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":709:0:709:14|No assignment to CORETSE_AHBiiOo
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":714:0:714:14|No assignment to CORETSE_AHBOOIo
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":716:0:716:14|No assignment to CORETSE_AHBIOIo
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":1969:0:1969:5|Pruning register CORETSE_AHBo1oo 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":1939:0:1939:5|Pruning register CORETSE_AHBl1oo 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":1909:0:1909:5|Pruning register CORETSE_AHBI1oo 
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pecar.v":6:0:6:4|Synthesizing module pecar
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pe_mcxmac.v":6:0:6:8|Synthesizing module pe_mcxmac
+
+	CORETSE_AHBlOI=1'b0
+	CORETSE_AHBiOI=32'b00000000000000000000000000000000
+	CORETSE_AHBoOI=32'b00000000000000000000000000000000
+   Generated name = pe_mcxmac_0_0s_0s
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pe_mcxmac.v":676:0:676:14|No assignment to wire CORETSE_AHBOOi1
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pe_mcxmac.v":679:0:679:14|No assignment to wire CORETSE_AHBo1O1
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pe_mcxmac.v":682:0:682:14|No assignment to wire CORETSE_AHBi1O1
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":4:0:4:8|Synthesizing module tsmac_top
+
+	TABITS=32'b00000000000000000000000000001011
+	RABITS=32'b00000000000000000000000000001100
+	MCXMAC_SAL_ON=32'b00000000000000000000000000000001
+	MCXMAC_WOL_ON=32'b00000000000000000000000000000001
+	MCXMAC_STATS_ON=32'b00000000000000000000000000000001
+	CORETSE_AHBoOI=32'b00000000000000000000000000000000
+	CORETSE_AHBiOI=32'b00000000000000000000000000000000
+	CORETSE_AHBlOI=32'b00000000000000000000000000000000
+	CORETSE_AHBIII=32'b00000000000000000000000000000001
+	CORETSE_AHBlII=32'b00000000000000000000000000000010
+	CORETSE_AHBoII=32'b00000000000000000000000000000001
+	CORETSE_AHBiII=32'b00000000000000000000000000000010
+	CORETSE_AHBOlI=32'b00000000000000000000000000010010
+	CORETSE_AHBIlI=32'b00000000000000000000000000010010
+	CORETSE_AHBllI=32'b00000000000000000000000000000101
+	CORETSE_AHBolI=32'b00000000000000000000000000000101
+	CORETSE_AHBOII=32'b00000000000000000000000000000000
+   Generated name = tsmac_top_Z9
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\sib_sync_pulse.v":5:0:5:13|Synthesizing module sib_sync_pulse
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\sib_sync_2flp.v":5:0:5:12|Synthesizing module sib_sync_2flp
+
+	CORETSE_AHBlIloI=32'b00000000000000000000000000000001
+	CORETSE_AHBoIloI=32'b00000000000000000000000000000000
+   Generated name = sib_sync_2flp_1s_0s
+
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\sib_sync_2flp.v":62:0:62:14|No assignment to CORETSE_AHBOloI
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_cntrl.v":6:0:6:12|Synthesizing module pemstat_cntrl
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_cntrl.v":108:0:108:14|No assignment to wire CORETSE_AHBi1li
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_cntrl.v":110:0:110:14|No assignment to wire CORETSE_AHBOoli
+
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_cntrl.v":113:0:113:14|No assignment to CORETSE_AHBIoli
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_cntrl.v":115:0:115:14|No assignment to CORETSE_AHBloli
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_cntrl.v":124:0:124:14|No assignment to CORETSE_AHBOOoI
+@W: CG133 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_cntrl.v":126:0:126:14|No assignment to CORETSE_AHBIili
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_linc.v":6:0:6:11|Synthesizing module pemstat_linc
+
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_linc.v":183:0:183:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_linc.v":255:0:255:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_ladd.v":6:0:6:11|Synthesizing module pemstat_ladd
+
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_ladd.v":338:0:338:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinc.v":6:0:6:11|Synthesizing module pemstat_sinc
+
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinc.v":183:0:183:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinc.v":255:0:255:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinchd.v":6:0:6:13|Synthesizing module pemstat_sinchd
+
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinchd.v":183:0:183:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinchd.v":255:0:255:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sadd.v":6:0:6:11|Synthesizing module pemstat_sadd
+
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sadd.v":201:0:201:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sadd.v":278:0:278:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sincnf.v":6:0:6:13|Synthesizing module pemstat_sincnf
+
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sincnf.v":183:0:183:14|Removing redundant assignment
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sincnf.v":255:0:255:14|Removing redundant assignment
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_store.v":6:0:6:12|Synthesizing module pemstat_store
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_eim.v":6:0:6:10|Synthesizing module pemstat_eim
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat.v":6:0:6:6|Synthesizing module pemstat
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\mmcxwol.v":6:0:6:6|Synthesizing module mmcxwol
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\si_sal.v":4:0:4:5|Synthesizing module si_sal
+
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\si_sal.v":886:0:886:15|Removing redundant assignment
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":277:0:277:13|No assignment to wire CORETSE_AHBll0
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":279:0:279:13|No assignment to wire CORETSE_AHBol0
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":281:0:281:13|No assignment to wire CORETSE_AHBil0
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":283:0:283:13|No assignment to wire CORETSE_AHBO00
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":285:0:285:13|No assignment to wire CORETSE_AHBI00
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tx2048x40.v":6:0:6:8|Synthesizing module tx2048x40
+
+	TABITS=32'b00000000000000000000000000001011
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+	CORETSE_AHBOoOoI=32'b00000000000000000000000000000001
+	CORETSE_AHBIoOoI=32'b00000000000000000000000000000100
+   Generated name = tx2048x40_11s_1s_1s_4s
+
+@N: CL134 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tx2048x40.v":131:0:131:5|Found RAM CORETSE_AHBooOoI, depth=2048, width=40
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\rx4096x36.v":6:0:6:8|Synthesizing module rx4096x36
+
+	RABITS=32'b00000000000000000000000000001100
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+	CORETSE_AHBOoOoI=32'b00000000000000000000000000000001
+	CORETSE_AHBIoOoI=32'b00000000000000000000000000000100
+   Generated name = rx4096x36_12s_1s_1s_4s
+
+@N: CL134 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\rx4096x36.v":131:0:131:5|Found RAM CORETSE_AHBooOoI, depth=4096, width=36
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":2:0:2:10|Synthesizing module CoreTSE_top
+
+	FAMILY=32'b00000000000000000000000000010011
+	GMII_TBI=32'b00000000000000000000000000000001
+	TABITS=32'b00000000000000000000000000001011
+	RABITS=32'b00000000000000000000000000001100
+	MCXMAC_SAL_ON=32'b00000000000000000000000000000001
+	MCXMAC_WOL_ON=32'b00000000000000000000000000000001
+	MCXMAC_STATS_ON=32'b00000000000000000000000000000001
+	MDIO_PHYID=32'b00000000000000000000000000010010
+   Generated name = CoreTSE_top_19s_1s_11s_12s_1s_1s_1s_18s
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_clkrst.v":7:0:7:12|Synthesizing module msgmii_clkrst
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvtxi.v":6:0:6:12|Synthesizing module msgmii_cnvtxi
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvtxi.v":319:0:319:5|Pruning register CORETSE_AHBiio0[3:0] 
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvtxo.v":6:0:6:12|Synthesizing module msgmii_cnvtxo
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\t8b10b.v":6:0:6:5|Synthesizing module t8b10b
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petex_top.v":6:0:6:8|Synthesizing module petex_top
+
+	CORETSE_AHBlOI=32'b00000000000000000000000000000000
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+   Generated name = petex_top_0s_1s
+
+@N: CG179 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petex_top.v":2036:0:2036:15|Removing redundant assignment
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petex_top.v":639:0:639:5|Pruning register CORETSE_AHBIllII 
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pma.v":6:0:6:8|Synthesizing module perex_pma
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pma.v":1536:0:1536:5|Pruning register CORETSE_AHBOOlOI 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pma.v":1506:0:1506:5|Pruning register CORETSE_AHBiiIOI 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pma.v":1476:0:1476:5|Pruning register CORETSE_AHBoiIOI 
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\r10b8b.v":6:0:6:5|Synthesizing module r10b8b
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pcs.v":6:0:6:8|Synthesizing module perex_pcs
+
+	CORETSE_AHBlOI=32'b00000000000000000000000000000000
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+   Generated name = perex_pcs_0s_1s
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pcs.v":4065:0:4065:5|Pruning register CORETSE_AHBiIIOI 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pcs.v":4010:0:4010:5|Pruning register CORETSE_AHBlIIOI 
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pcs.v":3869:0:3869:5|Pruning register CORETSE_AHBlOIOI 
+
+@W: CL265 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pcs.v":1203:0:1203:5|Pruning bit 3 of CORETSE_AHBi0oi[3:0] -- not in use ...
+
+@W: CL265 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pcs.v":1203:0:1203:5|Pruning bit 1 of CORETSE_AHBi0oi[3:0] -- not in use ...
+
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pcs.v":3570:0:3570:5|Sharing sequential element CORETSE_AHBIiOOI.
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\peanx_sync.v":6:0:6:9|Synthesizing module peanx_sync
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_peanx_top.v":6:0:6:15|Synthesizing module msgmii_peanx_top
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_peanx_top.v":3007:0:3007:5|Pruning register CORETSE_AHBiI01 
+
+@W: CL265 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_peanx_top.v":2929:0:2929:5|Pruning bit 14 of CORETSE_AHBlI01[15:0] -- not in use ...
+
+@W: CL265 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_peanx_top.v":2329:0:2329:5|Pruning bit 14 of CORETSE_AHBl1l1[15:0] -- not in use ...
+
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_peanx_top.v":2255:0:2255:5|Sharing sequential element CORETSE_AHBI0l1.
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petbm.v":6:0:6:4|Synthesizing module petbm
+
+	CORETSE_AHBlOI=32'b00000000000000000000000000000000
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+   Generated name = petbm_0s_1s
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petbm.v":2461:0:2461:5|Pruning register CORETSE_AHBloIII 
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petcr.v":7:0:7:4|Synthesizing module petcr
+
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petcr.v":329:0:329:5|Sharing sequential element CORETSE_AHBOI0o.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petcr.v":470:0:470:5|Sharing sequential element CORETSE_AHBOIlII.
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_tbi.v":6:0:6:9|Synthesizing module msgmii_tbi
+
+	CORETSE_AHBlOI=32'b00000000000000000000000000000000
+	CORETSE_AHBIoII=32'b00000000000000000000000000000001
+   Generated name = msgmii_tbi_0s_1s
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_tbi.v":387:0:387:14|No assignment to wire CORETSE_AHBo101
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvrxi.v":6:0:6:12|Synthesizing module msgmii_cnvrxi
+
+@W: CL169 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvrxi.v":416:0:416:5|Pruning register CORETSE_AHBli10[1:0] 
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_cnvrxo.v":6:0:6:12|Synthesizing module msgmii_cnvrxo
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_core.v":6:0:6:10|Synthesizing module msgmii_core
+
+	CORETSE_AHBlOI=32'b00000000000000000000000000000000
+	MDIO_PHYID=32'b00000000000000000000000000010010
+   Generated name = msgmii_core_0s_18s
+
+@W: CG781 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":1323:0:1323:0|Undriven input CORETSE_AHBlI0 on instance CORETSE_AHBilI, tying to 0
+@W: CG781 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":1327:0:1327:0|Undriven input CORETSE_AHBoI0 on instance CORETSE_AHBilI, tying to 0
+@W: CG781 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":1331:0:1331:0|Undriven input CORETSE_AHBiI0 on instance CORETSE_AHBilI, tying to 0
+@W: CG781 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":1335:0:1335:0|Undriven input CORETSE_AHBOl0 on instance CORETSE_AHBilI, tying to 0
+@W: CG781 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":1339:0:1339:0|Undriven input CORETSE_AHBIl0 on instance CORETSE_AHBilI, tying to 0
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":589:0:589:12|No assignment to wire CORETSE_AHBo0
+
+@W: CG360 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":697:0:697:13|No assignment to wire CORETSE_AHBOOI
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\CORETSE_AHB_0\rtl\vlog\core_obfuscated\CoreTSE_AHB.v":2:0:2:42|Synthesizing module CoreTSE_Webserver_CORETSE_AHB_0_CORETSE_AHB
+
+	FAMILY=32'b00000000000000000000000000010011
+	GMII_TBI=32'b00000000000000000000000000000001
+	PACKET_SIZE=32'b00000000000000000000000000001011
+	SAL=32'b00000000000000000000000000000001
+	WOL=32'b00000000000000000000000000000001
+	STATS=32'b00000000000000000000000000000001
+	MDIO_PHYID=32'b00000000000000000000000000010010
+   Generated name = CoreTSE_Webserver_CORETSE_AHB_0_CORETSE_AHB_19s_1s_11s_1s_1s_1s_18s
+
+@W: CG781 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\CORETSE_AHB_0\rtl\vlog\core_obfuscated\CoreTSE_AHB.v":668:0:668:0|Undriven input AHBS_HPROT_I on instance CoreTSE_top_inst, tying to 0
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver_MSS\CoreTSE_Webserver_MSS_syn.v":5:7:5:13|Synthesizing module MSS_075
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver_MSS\CoreTSE_Webserver_MSS.v":9:7:9:27|Synthesizing module CoreTSE_Webserver_MSS
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":727:7:727:9|Synthesizing module CCC
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\FCCC_0\CoreTSE_Webserver_FCCC_0_FCCC.v":5:7:5:35|Synthesizing module CoreTSE_Webserver_FCCC_0_FCCC
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\FCCC_1\CoreTSE_Webserver_FCCC_1_FCCC.v":5:7:5:35|Synthesizing module CoreTSE_Webserver_FCCC_1_FCCC
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\FCCC_2\CoreTSE_Webserver_FCCC_2_FCCC.v":5:7:5:35|Synthesizing module CoreTSE_Webserver_FCCC_2_FCCC
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\FCCC_3\CoreTSE_Webserver_FCCC_3_FCCC.v":5:7:5:35|Synthesizing module CoreTSE_Webserver_FCCC_3_FCCC
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\OSC_0\CoreTSE_Webserver_OSC_0_OSC.v":5:7:5:33|Synthesizing module CoreTSE_Webserver_OSC_0_OSC
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":320:7:320:16|Synthesizing module INBUF_DIFF
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\SERDES_IF2_0\CoreTSE_Webserver_SERDES_IF2_0_SERDES_IF2_syn.v":5:7:5:18|Synthesizing module SERDESIF_075
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\SERDES_IF2_0\CoreTSE_Webserver_SERDES_IF2_0_SERDES_IF2.v":5:7:5:47|Synthesizing module CoreTSE_Webserver_SERDES_IF2_0_SERDES_IF2
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":718:7:718:14|Synthesizing module SYSRESET
+
+@N: CG364 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\CoreTSE_Webserver.v":9:7:9:23|Synthesizing module CoreTSE_Webserver
+
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\OSC_0\CoreTSE_Webserver_OSC_0_OSC.v":15:7:15:24|*Output RCOSC_25_50MHZ_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\OSC_0\CoreTSE_Webserver_OSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\OSC_0\CoreTSE_Webserver_OSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\OSC_0\CoreTSE_Webserver_OSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\OSC_0\CoreTSE_Webserver_OSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits -- simulation mismatch possible.
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\OSC_0\CoreTSE_Webserver_OSC_0_OSC.v":14:7:14:9|Input XTL is unused
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver_MSS\CoreTSE_Webserver_MSS.v":79:14:79:31|Input port bit 0 of FIC_0_AHB_S_HTRANS[1:0] is unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\CORETSE_AHB_0\rtl\vlog\core_obfuscated\CoreTSE_AHB.v":275:0:275:4|Input port bits 2 to 1 of HSIZE[2:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\CORETSE_AHB_0\rtl\vlog\core_obfuscated\CoreTSE_AHB.v":283:0:283:5|Input port bits 2 to 1 of HBURST[2:0] are unused
+
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\CORETSE_AHB_0\rtl\vlog\core_obfuscated\CoreTSE_AHB.v":344:0:344:6|*Output TXHLOCK has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\work\CoreTSE_Webserver\CORETSE_AHB_0\rtl\vlog\core_obfuscated\CoreTSE_AHB.v":415:0:415:6|*Output RXHLOCK has undriven bits -- simulation mismatch possible.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petcr.v":343:0:343:5|Sharing sequential element CORETSE_AHBII0o.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petcr.v":484:0:484:5|Sharing sequential element CORETSE_AHBIIlII.
+@W: CL190 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petbm.v":669:0:669:5|Optimizing register bit CORETSE_AHBl0OII[5] to a constant 0
+@W: CL260 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petbm.v":669:0:669:5|Pruning register bit 5 of CORETSE_AHBl0OII[5:0] 
+
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_peanx_top.v":3325:0:3325:5|Trying to extract state machine for register CORETSE_AHBil01
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_peanx_top.v":113:0:113:14|Input port bit 14 of CORETSE_AHBolO1[15:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\msgmii_peanx_top.v":113:0:113:14|Input port bit 11 of CORETSE_AHBolO1[15:0] is unused
+
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perex_pcs.v":4633:0:4633:5|Trying to extract state machine for register CORETSE_AHBIii0
+Extracted state machine for register CORETSE_AHBIii0
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":276:0:276:11|Input port bits 31 to 10 of AHBS_HADDR_I[31:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":276:0:276:11|Input port bits 1 to 0 of AHBS_HADDR_I[31:0] are unused
+
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":228:0:228:10|*Output TSMAC_TXD_O has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":231:0:231:11|*Output TSMAC_TXEN_O has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":234:0:234:11|*Output TSMAC_TXER_O has undriven bits -- simulation mismatch possible.
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":242:0:242:10|Input TSMAC_RXD_I is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":245:0:245:11|Input TSMAC_RXDV_I is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":248:0:248:11|Input TSMAC_RXER_I is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":251:0:251:10|Input TSMAC_CRS_I is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":254:0:254:10|Input TSMAC_COL_I is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":459:0:459:12|Input AHBS_HBURST_I is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":462:0:462:15|Input AHBS_HMASTLOCK_I is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":465:0:465:11|Input AHBS_HPROT_I is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\CoreTSE_top.v":468:0:468:11|Input AHBS_HSIZE_I is unused
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_eim.v":151:0:151:14|Input port bits 24 to 20 of CORETSE_AHBOOIi[31:0] are unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_store.v":176:0:176:14|Input port bit 31 of CORETSE_AHBl1li[31:0] is unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sincnf.v":44:0:44:14|Input port bits 30 to 12 of CORETSE_AHBl1li[30:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sadd.v":54:0:54:14|Input port bits 30 to 12 of CORETSE_AHBl1li[30:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinchd.v":44:0:44:14|Input port bits 30 to 12 of CORETSE_AHBl1li[30:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_sinc.v":44:0:44:14|Input port bits 30 to 12 of CORETSE_AHBl1li[30:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_ladd.v":54:0:54:14|Input port bits 30 to 24 of CORETSE_AHBl1li[30:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_linc.v":44:0:44:14|Input port bits 30 to 18 of CORETSE_AHBl1li[30:0] are unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_cntrl.v":51:0:51:13|Input port bit 22 of CORETSE_AHBl1o[30:0] is unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_cntrl.v":51:0:51:13|Input port bits 17 to 16 of CORETSE_AHBl1o[30:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_cntrl.v":62:0:62:14|Input port bits 31 to 30 of CORETSE_AHBlOo1[51:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemstat_cntrl.v":62:0:62:14|Input port bits 23 to 21 of CORETSE_AHBlOo1[51:0] are unused
+
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\sib_sync_2flp.v":24:0:24:15|Input CORETSE_AHBllloI is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\sib_sync_2flp.v":26:0:26:15|Input CORETSE_AHBolloI is unused
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":277:0:277:13|*Output CORETSE_AHBll0 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":279:0:279:13|*Output CORETSE_AHBol0 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":281:0:281:13|*Output CORETSE_AHBil0 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":283:0:283:13|*Output CORETSE_AHBO00 has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":285:0:285:13|*Output CORETSE_AHBI00 has undriven bits -- simulation mismatch possible.
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":267:0:267:13|Input CORETSE_AHBOl0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":269:0:269:13|Input CORETSE_AHBIl0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":271:0:271:13|Input CORETSE_AHBlI0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":273:0:273:13|Input CORETSE_AHBoI0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\tsmac_top.v":275:0:275:13|Input CORETSE_AHBiI0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pecar.v":120:0:120:13|Input CORETSE_AHBllo is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pecar.v":130:0:130:13|Input CORETSE_AHBl0o is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pecar.v":143:0:143:13|Input CORETSE_AHBOi1 is unused
+@A: CL153 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":613:0:613:14|*Unassigned bits of CORETSE_AHBoiOo are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":709:0:709:14|*Unassigned bits of CORETSE_AHBiiOo are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":714:0:714:14|*Unassigned bits of CORETSE_AHBOOIo are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":716:0:716:14|*Unassigned bits of CORETSE_AHBIOIo are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pehst.v":198:0:198:14|Input CORETSE_AHBOi11 is unused
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\pemgt.v":547:0:547:5|Trying to extract state machine for register CORETSE_AHBiooo
+Extracted state machine for register CORETSE_AHBiooo
+State machine has 32 reachable states with original encodings of:
+   00000
+   00001
+   00010
+   00011
+   00100
+   00101
+   00110
+   00111
+   01000
+   01001
+   01010
+   01011
+   01100
+   01101
+   01110
+   01111
+   10000
+   10001
+   10010
+   10011
+   10100
+   10101
+   10110
+   10111
+   11000
+   11001
+   11010
+   11011
+   11100
+   11101
+   11110
+   11111
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\permc_top.v":98:0:98:14|Input port bit 0 of CORETSE_AHBoo01[1:0] is unused
+
+@W: CL138 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perfn_top.v":3373:0:3373:5|Removing register 'CORETSE_AHBOIo1' because it is only assigned 0 or its original value.
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perfn_top.v":5127:0:5127:5|Trying to extract state machine for register CORETSE_AHBl1o
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\perfn_top.v":142:0:142:14|Input port bits 1 to 0 of CORETSE_AHBIii1[7:0] are unused
+
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":6208:0:6208:5|Found seqShift CORETSE_AHBOlIlI, depth=3, width=8
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":7123:0:7123:5|Found seqShift CORETSE_AHBI0IlI, depth=4, width=1
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":6990:0:6990:5|Found seqShift CORETSE_AHBilIlI, depth=4, width=1
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":7241:0:7241:5|Found seqShift CORETSE_AHBo0IlI, depth=4, width=1
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":2644:0:2644:5|Found seqShift CORETSE_AHBlooII, depth=3, width=1
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":2813:0:2813:5|Found seqShift CORETSE_AHBOIiII, depth=3, width=4
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":8331:0:8331:5|Found seqShift CORETSE_AHBOl, depth=4, width=1
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":7636:0:7636:5|Found seqShift CORETSE_AHBoI, depth=4, width=1
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":10292:0:10292:5|Trying to extract state machine for register CORETSE_AHBlOo1
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":214:0:214:14|Input port bits 1 to 0 of CORETSE_AHBI1i1[6:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":216:0:216:14|Input port bits 1 to 0 of CORETSE_AHBl1i1[6:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":218:0:218:14|Input port bits 1 to 0 of CORETSE_AHBo1i1[6:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":226:0:226:14|Input port bits 9 to 6 of CORETSE_AHBi1i1[9:0] are unused
+
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":326:0:326:14|Input CORETSE_AHBOoo1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":329:0:329:14|Input CORETSE_AHBIoo1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":337:0:337:14|Input CORETSE_AHBloo1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":340:0:340:14|Input CORETSE_AHBooo1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":351:0:351:14|Input CORETSE_AHBioo1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petfn_top.v":343:0:343:14|Input CORETSE_AHBOio1 is unused
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\petmc_top.v":113:0:113:14|Input port bit 0 of CORETSE_AHBoo01[1:0] is unused
+
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxfif_hst.v":232:0:232:14|Input CORETSE_AHBO0OI is unused
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_wtm.v":268:0:268:5|Trying to extract state machine for register CORETSE_AHBiOOl
+Extracted state machine for register CORETSE_AHBiOOl
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_sys.v":234:0:234:14|Input port bits 39 to 36 of CORETSE_AHBIlII[39:0] are unused
+
+@N: CL135 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":1079:0:1079:5|Found seqShift CORETSE_AHBOIOI, depth=3, width=1
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":588:0:588:5|Trying to extract state machine for register CORETSE_AHBIi0I
+Extracted state machine for register CORETSE_AHBIi0I
+State machine has 5 reachable states with original encodings of:
+   0000
+   1000
+   1100
+   1110
+   1111
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxrfif_fab.v":123:0:123:14|Input port bit 12 of CORETSE_AHBllII[13:0] is unused
+
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\amcxtfif_sys.v":804:0:804:5|Trying to extract state machine for register CORETSE_AHBOIiI
+Extracted state machine for register CORETSE_AHBOIiI
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\slave.v":74:0:74:5|Input port bit 0 of HTRANS[1:0] is unused
+
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":348:0:348:14|Input CORETSE_AHBlIll is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dma_dual.v":356:0:356:14|Input CORETSE_AHBoIll is unused
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":1039:0:1039:5|Trying to extract state machine for register CORETSE_AHBI0ol
+Extracted state machine for register CORETSE_AHBI0ol
+State machine has 4 reachable states with original encodings of:
+   000
+   100
+   110
+   111
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":501:0:501:5|Trying to extract state machine for register CORETSE_AHBOOol
+Extracted state machine for register CORETSE_AHBOOol
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmarx.v":90:0:90:5|Input port bits 1 to 0 of HRDATA[31:0] are unused
+
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmatx.v":1110:0:1110:5|Trying to extract state machine for register CORETSE_AHBI0ol
+Extracted state machine for register CORETSE_AHBI0ol
+State machine has 4 reachable states with original encodings of:
+   000
+   100
+   110
+   111
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CORETSE_AHB\2.1.105\rtl\vlog\core_obfuscated\dmatx.v":566:0:566:5|Trying to extract state machine for register CORETSE_AHBOOol
+Extracted state machine for register CORETSE_AHBOOol
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2.
+@N: CL177 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2.
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":107:20:107:37|Input SOFT_EXT_RESET_OUT is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":108:20:108:33|Input SOFT_RESET_F2M is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":109:20:109:32|Input SOFT_M3_RESET is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":110:20:110:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":111:20:111:39|Input SOFT_FDDR_CORE_RESET is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":112:20:112:39|Input SOFT_SDIF0_PHY_RESET is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":113:20:113:40|Input SOFT_SDIF0_CORE_RESET is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":114:20:114:39|Input SOFT_SDIF1_PHY_RESET is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":115:20:115:40|Input SOFT_SDIF1_CORE_RESET is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":116:20:116:39|Input SOFT_SDIF2_PHY_RESET is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":117:20:117:40|Input SOFT_SDIF2_CORE_RESET is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":118:20:118:39|Input SOFT_SDIF3_PHY_RESET is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":119:20:119:40|Input SOFT_SDIF3_CORE_RESET is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":123:20:123:42|Input SOFT_SDIF0_0_CORE_RESET is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":124:20:124:42|Input SOFT_SDIF0_1_CORE_RESET is unused
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vlog\core\coreconfigp.v":447:4:447:9|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vlog\core\coreconfigp.v":71:24:71:35|Input SDIF1_PREADY is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vlog\core\coreconfigp.v":72:24:72:36|Input SDIF1_PSLVERR is unused
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":120:15:120:23|Input port bit 0 of HTRANS_M0[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":131:15:131:23|Input port bit 0 of HTRANS_M1[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":142:15:142:23|Input port bit 0 of HTRANS_M2[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":153:15:153:23|Input port bit 0 of HTRANS_M3[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":163:15:163:22|Input port bit 1 of HRESP_S0[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":176:15:176:22|Input port bit 1 of HRESP_S1[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":189:15:189:22|Input port bit 1 of HRESP_S2[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":202:15:202:22|Input port bit 1 of HRESP_S3[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":215:15:215:22|Input port bit 1 of HRESP_S4[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":228:15:228:22|Input port bit 1 of HRESP_S5[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":241:15:241:22|Input port bit 1 of HRESP_S6[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":254:15:254:22|Input port bit 1 of HRESP_S7[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":267:15:267:22|Input port bit 1 of HRESP_S8[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":280:15:280:22|Input port bit 1 of HRESP_S9[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":293:15:293:23|Input port bit 1 of HRESP_S10[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":306:15:306:23|Input port bit 1 of HRESP_S11[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":319:15:319:23|Input port bit 1 of HRESP_S12[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":332:15:332:23|Input port bit 1 of HRESP_S13[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":345:15:345:23|Input port bit 1 of HRESP_S14[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":358:15:358:23|Input port bit 1 of HRESP_S15[1:0] is unused
+
+@W: CL247 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":371:15:371:23|Input port bit 1 of HRESP_S16[1:0] is unused
+
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":123:15:123:23|Input HBURST_M0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":124:15:124:22|Input HPROT_M0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":134:15:134:23|Input HBURST_M1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":135:15:135:22|Input HPROT_M1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":145:15:145:23|Input HBURST_M2 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":146:15:146:22|Input HPROT_M2 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":156:15:156:23|Input HBURST_M3 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":157:15:157:22|Input HPROT_M3 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":69:18:69:26|Input HWDATA_M3 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":73:18:73:26|Input HRDATA_S0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":74:13:74:24|Input HREADYOUT_S0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":75:13:75:20|Input HRESP_S0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":84:18:84:26|Input HRDATA_S1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":85:13:85:24|Input HREADYOUT_S1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":86:13:86:20|Input HRESP_S1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":117:18:117:26|Input HRDATA_S4 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":118:13:118:24|Input HREADYOUT_S4 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":119:13:119:20|Input HRESP_S4 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":128:18:128:26|Input HRDATA_S5 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":129:13:129:24|Input HREADYOUT_S5 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":130:13:130:20|Input HRESP_S5 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":139:18:139:26|Input HRDATA_S6 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":140:13:140:24|Input HREADYOUT_S6 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":141:13:141:20|Input HRESP_S6 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":150:18:150:26|Input HRDATA_S7 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":151:13:151:24|Input HREADYOUT_S7 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":152:13:152:20|Input HRESP_S7 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":161:18:161:26|Input HRDATA_S8 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":162:13:162:24|Input HREADYOUT_S8 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":163:13:163:20|Input HRESP_S8 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":172:18:172:26|Input HRDATA_S9 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":173:13:173:24|Input HREADYOUT_S9 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":174:13:174:20|Input HRESP_S9 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":183:18:183:27|Input HRDATA_S10 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":184:13:184:25|Input HREADYOUT_S10 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":185:13:185:21|Input HRESP_S10 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":194:18:194:27|Input HRDATA_S11 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":195:13:195:25|Input HREADYOUT_S11 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":196:13:196:21|Input HRESP_S11 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":205:18:205:27|Input HRDATA_S12 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":206:13:206:25|Input HREADYOUT_S12 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":207:13:207:21|Input HRESP_S12 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":216:18:216:27|Input HRDATA_S13 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":217:13:217:25|Input HREADYOUT_S13 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":218:13:218:21|Input HRESP_S13 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":227:18:227:27|Input HRDATA_S14 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":228:13:228:25|Input HREADYOUT_S14 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":229:13:229:21|Input HRESP_S14 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":238:18:238:27|Input HRDATA_S15 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":239:13:239:25|Input HREADYOUT_S15 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":240:13:240:21|Input HRESP_S15 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":249:18:249:27|Input HRDATA_S16 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":250:13:250:25|Input HREADYOUT_S16 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":251:13:251:21|Input HRESP_S16 is unused
+@N: CL201 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Trying to extract state machine for register arbRegSMCurrentState
+Extracted state machine for register arbRegSMCurrentState
+State machine has 16 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1100
+   1101
+   1110
+   1111
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":42:16:42:25|Input SDATAREADY is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":43:16:43:21|Input SHRESP is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":52:16:52:24|Input HRDATA_S0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":53:11:53:22|Input HREADYOUT_S0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":54:16:54:24|Input HRDATA_S1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":55:11:55:22|Input HREADYOUT_S1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":56:16:56:24|Input HRDATA_S2 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":57:11:57:22|Input HREADYOUT_S2 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":58:16:58:24|Input HRDATA_S3 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":59:11:59:22|Input HREADYOUT_S3 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":60:16:60:24|Input HRDATA_S4 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":61:11:61:22|Input HREADYOUT_S4 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":62:16:62:24|Input HRDATA_S5 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":63:11:63:22|Input HREADYOUT_S5 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":64:16:64:24|Input HRDATA_S6 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":65:11:65:22|Input HREADYOUT_S6 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":66:16:66:24|Input HRDATA_S7 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":67:11:67:22|Input HREADYOUT_S7 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":68:16:68:24|Input HRDATA_S8 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":69:11:69:22|Input HREADYOUT_S8 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":70:16:70:24|Input HRDATA_S9 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":71:11:71:22|Input HREADYOUT_S9 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":72:16:72:25|Input HRDATA_S10 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":73:11:73:23|Input HREADYOUT_S10 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":74:16:74:25|Input HRDATA_S11 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":75:11:75:23|Input HREADYOUT_S11 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":76:16:76:25|Input HRDATA_S12 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":77:11:77:23|Input HREADYOUT_S12 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":78:16:78:25|Input HRDATA_S13 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":79:11:79:23|Input HREADYOUT_S13 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":80:16:80:25|Input HRDATA_S14 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":81:11:81:23|Input HREADYOUT_S14 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":82:16:82:25|Input HRDATA_S15 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":83:11:83:23|Input HREADYOUT_S15 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":84:16:84:25|Input HRDATA_S16 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":85:11:85:23|Input HREADYOUT_S16 is unused
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":42:16:42:25|Input port bits 16 to 3 of SDATAREADY[16:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":42:16:42:25|Input port bits 1 to 0 of SDATAREADY[16:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":43:16:43:21|Input port bits 16 to 3 of SHRESP[16:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":43:16:43:21|Input port bits 1 to 0 of SHRESP[16:0] are unused
+
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":52:16:52:24|Input HRDATA_S0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":53:11:53:22|Input HREADYOUT_S0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":54:16:54:24|Input HRDATA_S1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":55:11:55:22|Input HREADYOUT_S1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":58:16:58:24|Input HRDATA_S3 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":59:11:59:22|Input HREADYOUT_S3 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":60:16:60:24|Input HRDATA_S4 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":61:11:61:22|Input HREADYOUT_S4 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":62:16:62:24|Input HRDATA_S5 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":63:11:63:22|Input HREADYOUT_S5 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":64:16:64:24|Input HRDATA_S6 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":65:11:65:22|Input HREADYOUT_S6 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":66:16:66:24|Input HRDATA_S7 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":67:11:67:22|Input HREADYOUT_S7 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":68:16:68:24|Input HRDATA_S8 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":69:11:69:22|Input HREADYOUT_S8 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":70:16:70:24|Input HRDATA_S9 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":71:11:71:22|Input HREADYOUT_S9 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":72:16:72:25|Input HRDATA_S10 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":73:11:73:23|Input HREADYOUT_S10 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":74:16:74:25|Input HRDATA_S11 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":75:11:75:23|Input HREADYOUT_S11 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":76:16:76:25|Input HRDATA_S12 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":77:11:77:23|Input HREADYOUT_S12 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":78:16:78:25|Input HRDATA_S13 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":79:11:79:23|Input HREADYOUT_S13 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":80:16:80:25|Input HRDATA_S14 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":81:11:81:23|Input HREADYOUT_S14 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":82:16:82:25|Input HRDATA_S15 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":83:11:83:23|Input HREADYOUT_S15 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":84:16:84:25|Input HRDATA_S16 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":85:11:85:23|Input HREADYOUT_S16 is unused
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":42:16:42:25|Input port bits 16 to 4 of SDATAREADY[16:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":42:16:42:25|Input port bits 2 to 0 of SDATAREADY[16:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":43:16:43:21|Input port bits 16 to 4 of SHRESP[16:0] are unused
+
+@W: CL246 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":43:16:43:21|Input port bits 2 to 0 of SHRESP[16:0] are unused
+
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":52:16:52:24|Input HRDATA_S0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":53:11:53:22|Input HREADYOUT_S0 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":54:16:54:24|Input HRDATA_S1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":55:11:55:22|Input HREADYOUT_S1 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":56:16:56:24|Input HRDATA_S2 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":57:11:57:22|Input HREADYOUT_S2 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":60:16:60:24|Input HRDATA_S4 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":61:11:61:22|Input HREADYOUT_S4 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":62:16:62:24|Input HRDATA_S5 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":63:11:63:22|Input HREADYOUT_S5 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":64:16:64:24|Input HRDATA_S6 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":65:11:65:22|Input HREADYOUT_S6 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":66:16:66:24|Input HRDATA_S7 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":67:11:67:22|Input HREADYOUT_S7 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":68:16:68:24|Input HRDATA_S8 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":69:11:69:22|Input HREADYOUT_S8 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":70:16:70:24|Input HRDATA_S9 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":71:11:71:22|Input HREADYOUT_S9 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":72:16:72:25|Input HRDATA_S10 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":73:11:73:23|Input HREADYOUT_S10 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":74:16:74:25|Input HRDATA_S11 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":75:11:75:23|Input HREADYOUT_S11 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":76:16:76:25|Input HRDATA_S12 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":77:11:77:23|Input HREADYOUT_S12 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":78:16:78:25|Input HRDATA_S13 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":79:11:79:23|Input HREADYOUT_S13 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":80:16:80:25|Input HRDATA_S14 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":81:11:81:23|Input HREADYOUT_S14 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":82:16:82:25|Input HRDATA_S15 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":83:11:83:23|Input HREADYOUT_S15 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":84:16:84:25|Input HRDATA_S16 is unused
+@W: CL159 :"D:\CASES\coretse\CoreTSE_Webserver\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":85:11:85:23|Input HREADYOUT_S16 is unused
+
+At c_ver Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 127MB peak: 151MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:08s cputime
+# Thu Nov 17 15:26:43 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+File D:\CASES\coretse\CoreTSE_Webserver_SC4.0\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 97MB peak: 97MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Nov 17 15:26:44 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:09s cputime
+# Thu Nov 17 15:26:44 2016
+
+###########################################################]

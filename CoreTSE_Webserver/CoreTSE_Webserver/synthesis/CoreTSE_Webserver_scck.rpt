@@ -1,0 +1,40 @@
+# Synopsys Constraint Checker(syntax only), version mapact, Build 1659R, built Dec 10 2015
+# Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+# Written on Thu Nov 17 15:26:47 2016
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "CoreTSE_Webserver"
+Constraint File(s):      "D:\CASES\coretse\CoreTSE_Webserver\designer\CoreTSE_Webserver\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                                        Requested     Requested     Clock                                                         Clock              
+Clock                                        Frequency     Period        Type                                                          Group              
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+CLK1_PAD                                     50.0 MHz      20.000        declared                                                      default_clkgroup   
+CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB       12.5 MHz      80.000        declared                                                      default_clkgroup   
+FCCC_0/GL0                                   50.0 MHz      20.000        generated (from CLK1_PAD)                                     default_clkgroup   
+FCCC_1/GL0                                   62.5 MHz      16.000        generated (from SERDES_IF2_0/SERDESIF_INST/EPCS_RXCLK[1])     default_clkgroup   
+FCCC_1/GL1                                   62.5 MHz      16.000        generated (from SERDES_IF2_0/SERDESIF_INST/EPCS_RXCLK[1])     default_clkgroup   
+FCCC_2/GL0                                   125.0 MHz     8.000         generated (from SERDES_IF2_0/SERDESIF_INST/EPCS_TXCLK[1])     default_clkgroup   
+FCCC_3/GL0                                   125.0 MHz     8.000         generated (from SERDES_IF2_0/SERDESIF_INST/EPCS_TXCLK[1])     default_clkgroup   
+FCCC_3/GL1                                   125.0 MHz     8.000         generated (from SERDES_IF2_0/SERDESIF_INST/EPCS_TXCLK[1])     default_clkgroup   
+OSC_0/I_RCOSC_25_50MHZ/CLKOUT                50.0 MHz      20.000        declared                                                      default_clkgroup   
+SERDES_IF2_0/SERDESIF_INST/EPCS_RXCLK[1]     125.0 MHz     8.000         declared                                                      default_clkgroup   
+SERDES_IF2_0/SERDESIF_INST/EPCS_TXCLK[1]     125.0 MHz     8.000         declared                                                      default_clkgroup   
+System                                       100.0 MHz     10.000        system                                                        system_clkgroup    
+pemgt|CORETSE_AHBi01_inferred_clock          100.0 MHz     10.000        inferred                                                      Inferred_clkgroup_0
+==========================================================================================================================================================

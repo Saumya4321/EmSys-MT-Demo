@@ -1,0 +1,29 @@
+#===========================================================
+# Created by Microsemi SmartDesign Thu Nov 17 15:25:44 2016
+#
+# Syntax: 
+# ------- 
+#
+# memmap    resource_name base_address;
+#
+# write     width resource_name byte_offset data;
+# read      width resource_name byte_offset;
+# readcheck width resource_name byte_offset data;
+#
+#===========================================================
+
+#-----------------------------------------------------------
+# Memory Map
+# Define name and base address of each resource.
+#-----------------------------------------------------------
+
+memmap CoreTSE_Webserver_MSS_0 0x20000000;
+memmap CORETSE_AHB_0 0x30000000;
+memmap SERDES_IF2_0 0x40028000;
+
+
+#-----------------------------------------------------------
+# Secondary subsystems.  To test this subsystem, uncomment the following code.
+#-----------------------------------------------------------
+# memmap CoreTSE_Webserver_MSS_0_FIC_0_AHB_SLAVE 0x20000000;
+# memmap CORETSE_AHB_0_AHBS 0x30000000;

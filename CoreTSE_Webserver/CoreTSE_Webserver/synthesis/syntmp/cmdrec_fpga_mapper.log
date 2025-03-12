@@ -1,0 +1,16 @@
+D:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\CASES\coretse\CoreTSE_Webserver\synthesis   -part M2S090TS  -package FBGA484  -grade -1    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile D:\CASES\coretse\CoreTSE_Webserver\synthesis\synlog\report\CoreTSE_Webserver_fpga_mapper.xml  -top_level_module  CoreTSE_Webserver  -licensetype  synplifypro_actel  -flow mapping  -mp  1  -prjfile  D:\CASES\coretse\CoreTSE_Webserver\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.edn   -freq 100.000   -tcl  D:\CASES\coretse\CoreTSE_Webserver\designer\CoreTSE_Webserver\synthesis.fdc  D:\CASES\coretse\CoreTSE_Webserver\synthesis\synwork\CoreTSE_Webserver_prem.srd  -sap  D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.sap  -otap  D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.tap  -omap  D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.map  -devicelib  D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v  -sap  D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.sap  -ologparam  D:\CASES\coretse\CoreTSE_Webserver\synthesis\syntmp\CoreTSE_Webserver.plg  -osyn  D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.srm  -prjdir  D:\CASES\coretse\CoreTSE_Webserver\synthesis\  -prjname  CoreTSE_Webserver_syn  -log  D:\CASES\coretse\CoreTSE_Webserver\synthesis\synlog\CoreTSE_Webserver_fpga_mapper.srr 
+rc:1 success:1
+D:\CASES\coretse\CoreTSE_Webserver\synthesis\scratchproject.prs|o|1479376594|14376
+D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.edn|o|1479376672|13934353
+D:\CASES\coretse\CoreTSE_Webserver\designer\CoreTSE_Webserver\synthesis.fdc|i|1479376593|3204
+D:\CASES\coretse\CoreTSE_Webserver\synthesis\synwork\CoreTSE_Webserver_prem.srd|i|1479376608|1084876
+D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.sap|o|1479376609|421515
+D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.tap|o|0|0
+D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.map|o|1479376674|28
+D:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v|i|1449201930|16359
+D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.sap|o|1479376609|421515
+D:\CASES\coretse\CoreTSE_Webserver\synthesis\syntmp\CoreTSE_Webserver.plg|o|1479376674|8197
+D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.srm|o|1479376670|44146
+D:\CASES\coretse\CoreTSE_Webserver\synthesis\synlog\CoreTSE_Webserver_fpga_mapper.srr|o|1479376674|260369
+D:\Microsemi\Libero_SoC_v11.7\Synplify\bin\m_generic.exe|i|1449719344|15814144
+D:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe|i|1449720956|27632640

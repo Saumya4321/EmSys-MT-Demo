@@ -1,0 +1,14 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "D:\CASES\coretse\CoreTSE_Webserver\designer\impl1\CoreTSE_Webserver.adb"
+LIST SOURCE_FILES
+VALUE "D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.edn;edn"
+VALUE "D:\CASES\coretse\CoreTSE_Webserver\constraint\io\user.pdc;pdc"
+VALUE "D:\CASES\coretse\CoreTSE_Webserver\constraint\user.sdc;sdc"
+VALUE "D:\CASES\coretse\CoreTSE_Webserver\constraint\CoreTSE_Webserver_derived_constraints.sdc;sdc"
+VALUE "D:\CASES\coretse\CoreTSE_Webserver\constraint\fp\CoreTSE_Webserver_derived_constraints.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

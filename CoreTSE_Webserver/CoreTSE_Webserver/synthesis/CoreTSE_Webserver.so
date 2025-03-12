@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>CoreTSE_Webserver</design>
+	<target_edif>D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.edn</target_edif>
+</SynplifyOutput>

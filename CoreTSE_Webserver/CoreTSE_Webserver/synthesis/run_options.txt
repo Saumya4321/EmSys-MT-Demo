@@ -1,0 +1,159 @@
+#--  Synopsys, Inc.
+#--  Version J-2015.03M-SP1-2
+#--  Project file D:\CASES\coretse\CoreTSE_Webserver\synthesis\run_options.txt
+#--  Written on Thu Nov 17 15:26:34 2016
+
+
+#project files
+add_file -include "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/include.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CoreConfigP/7.1.100/rtl/vlog/core/coreconfigp.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/msgmii_clkrst.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/msgmii_cnvrxi.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/msgmii_cnvrxo.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/msgmii_cnvtxi.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/msgmii_cnvtxo.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/peanx_sync.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/msgmii_peanx_top.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/r10b8b.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/perex_pcs.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/perex_pma.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/petbm.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/petcr.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/t8b10b.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/petex_top.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/msgmii_tbi.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/msgmii_core.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/rx4096x36.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/amcxfif_clkrst.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/amcxfif_hst.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/amcxrfif_fab.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/amcxrfif_sys.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/amcxtfif_fab.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/amcxtfif_sys.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/amcxtfif_wtm.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/amcxfif.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/arfque.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/decoder.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/dmarx.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/dmatx.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/dma_dual.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/slave.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/tsm_sysreg.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/mahbe_dual.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/mmcxwol.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pecrc.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/perfn_top.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/permc_top.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/petfn_top.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/petmc_top.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pe_mcxmac_core.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pecar.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pehst.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pemgt.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pe_mcxmac.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pemstat_cntrl.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pemstat_eim.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pemstat_ladd.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pemstat_linc.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pemstat_sadd.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pemstat_sinc.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pemstat_sinchd.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pemstat_sincnf.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pemstat_store.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/pemstat.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/sib_fifo_mem2p.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/sib_sync_2flp.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/sib_fifo_top.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/ptp_hstinf.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/ptp_rfp.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/ptp_rtc.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/ptp_tfp.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/ptp_top.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/si_sal.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/sib_sync_pulse.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/tsmac_top.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/tx2048x40.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CORETSE_AHB/2.1.105/rtl/vlog/core_obfuscated/CoreTSE_top.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/work/CoreTSE_Webserver/CORETSE_AHB_0/rtl/vlog/core_obfuscated/CoreTSE_AHB.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/work/CoreTSE_Webserver/FCCC_0/CoreTSE_Webserver_FCCC_0_FCCC.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/work/CoreTSE_Webserver/FCCC_1/CoreTSE_Webserver_FCCC_1_FCCC.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/work/CoreTSE_Webserver/FCCC_2/CoreTSE_Webserver_FCCC_2_FCCC.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/work/CoreTSE_Webserver/FCCC_3/CoreTSE_Webserver_FCCC_3_FCCC.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/work/CoreTSE_Webserver_MSS/CoreTSE_Webserver_MSS_syn.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/work/CoreTSE_Webserver_MSS/CoreTSE_Webserver_MSS.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/work/CoreTSE_Webserver/OSC_0/CoreTSE_Webserver_OSC_0_OSC.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/work/CoreTSE_Webserver/SERDES_IF2_0/CoreTSE_Webserver_SERDES_IF2_0_SERDES_IF2_syn.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/work/CoreTSE_Webserver/SERDES_IF2_0/CoreTSE_Webserver_SERDES_IF2_0_SERDES_IF2.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_addrdec.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_defaultslavesm.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_masterstage.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavearbiter.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavestage.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_matrix4x16.v"
+add_file -verilog -lib COREAHBLITE_LIB "D:/CASES/coretse/CoreTSE_Webserver/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite.v"
+add_file -verilog "D:/CASES/coretse/CoreTSE_Webserver/component/work/CoreTSE_Webserver/CoreTSE_Webserver.v"
+add_file -fpga_constraint "D:/CASES/coretse/CoreTSE_Webserver/designer/CoreTSE_Webserver/synthesis.fdc"
+
+
+
+#implementation: "synthesis"
+impl -add synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
+#device options
+set_option -technology SmartFusion2
+set_option -part M2S090TS
+set_option -package FBGA484
+set_option -speed_grade -1
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "CoreTSE_Webserver"
+
+# mapper_options
+set_option -frequency 100.000
+set_option -write_verilog 0
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microsemi G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 12
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 0
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./CoreTSE_Webserver.edn"
+impl -active "synthesis"

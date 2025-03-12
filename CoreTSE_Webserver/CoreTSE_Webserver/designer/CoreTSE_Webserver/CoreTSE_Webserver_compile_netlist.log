@@ -1,0 +1,63 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       27 
+      Globals that cannot be demoted:      6 
+      Globals considered for demotion:     21 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    2805   0      0      'FCCC_0/GL0_INST' 
+    1397   0      0      'FCCC_3/GL1_INST' 
+    408    0      0      'FCCC_1/GL0_INST' 
+    333    0      0      'FCCC_2/GL0_INST' 
+    12     0      0      'FCCC_1/GL1_INST' 
+    1      0      0      'FCCC_3/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    124    0      3      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBooOo/CORETSE_AHBi01_inferred_clock_RNIGRJ9' 
+    93     0      0      'CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST_RNI3KN8' 
+    30     0      0      'OSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
+    0      2328   28     'CoreResetP_0/MSS_HPMS_READY_int_RNI13UF' 
+    0      406    0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBi011/CORETSE_AHBoOlII_RNIPHQF' 
+    0      330    0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBOilo_RNINHQ8' 
+    0      296    0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBi011/CORETSE_AHBoO0o_RNIQ2P4' 
+    0      279    0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBiilo_RNIH0B5' 
+    0      238    0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBI0II_RNI5BQ8' 
+    0      198    0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBO0II_RNIBTCF' 
+    0      177    0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBilII_RNI16TD' 
+    0      174    0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBl0II_RNI8L6F' 
+    0      128    0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBO00o_RNI20S6' 
+    0      126    0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBo1i0/un1_CORETSE_AHBOI10_RNI9F7D' 
+    0      101    0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBi00o_RNISEC3' 
+    0      95     0      'CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST_RNI3KN8_0' 
+    0      90     0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBo0II_RNIBUF2' 
+    0      36     0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBIl0o_RNIO792' 
+    0      25     0      'CoreResetP_0/sm0_areset_n_clk_base_RNICMD4' 
+    0      24     0      'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBo1i0/un1_CORETSE_AHBoO10_RNIFSG' 
+    0      14     0      'CoreResetP_0/sdif0_areset_n_rcosc_RNIOBM2' 
+
+Info: Demotion information: 
+      Disconnected 3 data pins from global 'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBooOo/CORETSE_AHBi01_inferred_clock_RNIGRJ9'. 
+      Disconnected 28 data pins from global 'CoreResetP_0/MSS_HPMS_READY_int_RNI13UF'. 
+      Deleted global instance 'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBilII_RNI16TD'.
+      Deleted global instance 'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBl0II_RNI8L6F'.
+      Deleted global instance 'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBO00o_RNI20S6'.
+      Deleted global instance 'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBo1i0/un1_CORETSE_AHBOI10_RNI9F7D'.
+      Deleted global instance 'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBi00o_RNISEC3'.
+      Deleted global instance 'CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST_RNI3KN8_0'.
+      Deleted global instance 'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBo0II_RNIBUF2'.
+      Deleted global instance 'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBIl0o_RNIO792'.
+      Deleted global instance 'CoreResetP_0/sm0_areset_n_clk_base_RNICMD4'.
+      Deleted global instance 'CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBo1i0/un1_CORETSE_AHBoO10_RNIFSG'.
+      Deleted global instance 'CoreResetP_0/sdif0_areset_n_rcosc_RNIOBM2'.
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 11 global instances.
+
+===============================================================================.
+

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>CoreTSE_Webserver</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2S090TS</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>484 FBGA</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Design State</cell>
+ <cell>Post-Layout</cell>
+</row>
+<row>
+ <cell>Data source</cell>
+ <cell>Production</cell>
+</row>
+<row>
+ <cell>Min Operating Conditions</cell>
+ <cell>BEST - 1.26 V - 0 C</cell>
+</row>
+<row>
+ <cell>Max Operating Conditions</cell>
+ <cell>WORST - 1.14 V - 85 C</cell>
+</row>
+<row>
+ <cell>Scenario for Timing Analysis</cell>
+ <cell>timing_analysis</cell>
+</row>
+</table>
+<text></text>
+<section>
+<name>Summary</name>
+<table>
+<header>
+ <cell>Clock Domain</cell>
+ <cell>Period (ns)</cell>
+ <cell>Frequency (MHz)</cell>
+ <cell>Required Period (ns)</cell>
+ <cell>Required Frequency (MHz)</cell>
+ <cell>External Setup (ns)</cell>
+ <cell>External Hold (ns)</cell>
+ <cell>Min Clock-To-Out (ns)</cell>
+ <cell>Max Clock-To-Out (ns)</cell>
+</header>
+<row>
+ <cell>CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBooOo/CORETSE_AHBi01:Q</cell>
+ <cell>6.621</cell>
+ <cell>151.035</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+<row>
+ <cell>FCCC_0/GL0</cell>
+ <cell>11.973</cell>
+ <cell>83.521</cell>
+ <cell>20.000</cell>
+ <cell>50.000</cell>
+ <cell>3.408</cell>
+ <cell>-1.478</cell>
+ <cell>5.897</cell>
+ <cell>15.786</cell>
+</row>
+<row>
+ <cell>FCCC_1/GL0</cell>
+ <cell>9.343</cell>
+ <cell>107.032</cell>
+ <cell>16.000</cell>
+ <cell>62.500</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+<row>
+ <cell>FCCC_1/GL1</cell>
+ <cell>3.135</cell>
+ <cell>318.979</cell>
+ <cell>16.000</cell>
+ <cell>62.500</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+<row>
+ <cell>FCCC_2/GL0</cell>
+ <cell>5.717</cell>
+ <cell>174.917</cell>
+ <cell>8.000</cell>
+ <cell>125.000</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+<row>
+ <cell>FCCC_3/GL0</cell>
+ <cell>2.518</cell>
+ <cell>397.141</cell>
+ <cell>8.000</cell>
+ <cell>125.000</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+<row>
+ <cell>OSC_0/I_RCOSC_25_50MHZ/CLKOUT</cell>
+ <cell>2.425</cell>
+ <cell>412.371</cell>
+ <cell>20.000</cell>
+ <cell>50.000</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+<row>
+ <cell>CoreTSE_Webserver_MSS_0/CLK_CONFIG_APB</cell>
+ <cell>19.446</cell>
+ <cell>51.424</cell>
+ <cell>80.000</cell>
+ <cell>12.500</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+<row>
+ <cell>SERDES_IF2_0/SERDESIF_INST/EPCS_RXCLK[1]</cell>
+ <cell>1.818</cell>
+ <cell>550.055</cell>
+ <cell>8.000</cell>
+ <cell>125.000</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+<row>
+ <cell>SERDES_IF2_0/SERDESIF_INST/EPCS_TXCLK[1]</cell>
+ <cell>1.142</cell>
+ <cell>875.657</cell>
+ <cell>8.000</cell>
+ <cell>125.000</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+<row>
+ <cell>FCCC_3/GL1</cell>
+ <cell>2.518</cell>
+ <cell>397.141</cell>
+ <cell>8.000</cell>
+ <cell>125.000</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+</table>
+<text></text>
+<table>
+<header>
+ <cell></cell>
+ <cell>Min Delay (ns)</cell>
+ <cell>Max Delay (ns)</cell>
+</header>
+<row>
+ <cell>Input to Output</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+</table>
+</section>
+</doc>

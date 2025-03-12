@@ -1,0 +1,426 @@
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 1  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 1  
+ Total paths found:    22      
+ Total paths improved: 22      
+-------------------------
+
+Path 1
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_TXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]:D
+------------------------
+Path min-delay slack:     -3809 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]:D
+-------------------------------------
+  Pin max-delay slack:    13391 ps
+  Min-delay inserted:      3899 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]_CFG1C_TEST
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]_CFG1D_TEST8
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]_CFG1D_TEST7
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]_CFG1D_TEST6
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]_CFG1D_TEST5
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]_CFG1D_TEST4
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]_CFG1D_TEST3
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]_CFG1D_TEST2
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]_CFG1D_TEST1
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]_CFG1D_TEST0
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBIOI[0]_CFG1D_TEST
+
+
+Path 2
+------------------------
+From: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBOoi0/CORETSE_AHBo110:CLK
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBl1Oo/CORETSE_AHBIOlo/CORETSE_AHBoi1II:D
+------------------------
+Path min-delay slack:     -1452 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBlOO1/CORETSE_AHBO01:A
+-------------------------------------
+  Pin max-delay slack:     9987 ps
+  Min-delay inserted:      1516 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBlOO1/CORETSE_AHBO01_CFG1A_TEST
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBlOO1/CORETSE_AHBO01_CFG1D_TEST2
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBlOO1/CORETSE_AHBO01_CFG1D_TEST1
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBlOO1/CORETSE_AHBO01_CFG1D_TEST0
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBlOO1/CORETSE_AHBO01_CFG1D_TEST
+
+
+Path 3
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[14]:D
+------------------------
+Path min-delay slack:      -411 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[14]:B
+-------------------------------------
+  Pin max-delay slack:     7619 ps
+  Min-delay inserted:       528 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[14]_CFG1C_TEST
+
+
+Path 4
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[3]:D
+------------------------
+Path min-delay slack:      -384 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[13]:B
+-------------------------------------
+  Pin max-delay slack:     7542 ps
+  Min-delay inserted:       686 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[13]_CFG1C_TEST1
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[13]_CFG1C_TEST0
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[13]_CFG1C_TEST
+
+
+Path 5
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[7]:D
+------------------------
+Path min-delay slack:      -306 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[17]:B
+-------------------------------------
+  Pin max-delay slack:     7450 ps
+  Min-delay inserted:       740 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[17]_CFG1A_TEST
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[17]_CFG1C_TEST0
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[17]_CFG1C_TEST
+
+
+Path 6
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[16]:D
+------------------------
+Path min-delay slack:      -287 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[16]:B
+-------------------------------------
+  Pin max-delay slack:     7411 ps
+  Min-delay inserted:       558 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[16]_CFG1C_TEST0
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[16]_CFG1C_TEST
+
+
+Path 7
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[4]:D
+------------------------
+Path min-delay slack:      -281 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[14]:B
+-------------------------------------
+  Pin max-delay slack:     7619 ps
+  Min-delay inserted:       528 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[14]_CFG1C_TEST
+
+
+Path 8
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[11]:D
+------------------------
+Path min-delay slack:      -272 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[11]:B
+-------------------------------------
+  Pin max-delay slack:     7379 ps
+  Min-delay inserted:       563 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[11]_CFG1D_TEST
+
+
+Path 9
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[13]:D
+------------------------
+Path min-delay slack:      -253 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[13]:B
+-------------------------------------
+  Pin max-delay slack:     7542 ps
+  Min-delay inserted:       686 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[13]_CFG1C_TEST1
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[13]_CFG1C_TEST0
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[13]_CFG1C_TEST
+
+
+Path 10
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[12]:D
+------------------------
+Path min-delay slack:      -250 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[12]:B
+-------------------------------------
+  Pin max-delay slack:     7363 ps
+  Min-delay inserted:       464 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[12]_CFG1C_TEST
+
+
+Path 11
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[0]:D
+------------------------
+Path min-delay slack:      -238 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[10]:B
+-------------------------------------
+  Pin max-delay slack:     7356 ps
+  Min-delay inserted:       628 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[10]_CFG1D_TEST
+
+
+Path 12
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[19]:D
+------------------------
+Path min-delay slack:      -229 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[19]:B
+-------------------------------------
+  Pin max-delay slack:     7316 ps
+  Min-delay inserted:       436 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[19]_CFG1C_TEST0
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[19]_CFG1C_TEST
+
+
+Path 13
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[15]:D
+------------------------
+Path min-delay slack:      -224 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[15]:B
+-------------------------------------
+  Pin max-delay slack:     7221 ps
+  Min-delay inserted:       529 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[15]_CFG1C_TEST
+
+
+Path 14
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[17]:D
+------------------------
+Path min-delay slack:      -176 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[17]:B
+-------------------------------------
+  Pin max-delay slack:     7450 ps
+  Min-delay inserted:       740 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[17]_CFG1A_TEST
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[17]_CFG1C_TEST0
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[17]_CFG1C_TEST
+
+
+Path 15
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[18]:D
+------------------------
+Path min-delay slack:      -160 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[18]:B
+-------------------------------------
+  Pin max-delay slack:     7410 ps
+  Min-delay inserted:       445 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[18]_CFG1D_TEST
+
+
+Path 16
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[6]:D
+------------------------
+Path min-delay slack:      -147 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[16]:B
+-------------------------------------
+  Pin max-delay slack:     7411 ps
+  Min-delay inserted:       558 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[16]_CFG1C_TEST0
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[16]_CFG1C_TEST
+
+
+Path 17
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[1]:D
+------------------------
+Path min-delay slack:      -141 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[11]:B
+-------------------------------------
+  Pin max-delay slack:     7379 ps
+  Min-delay inserted:       563 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[11]_CFG1D_TEST
+
+
+Path 18
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI[10]:D
+------------------------
+Path min-delay slack:      -120 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[10]:B
+-------------------------------------
+  Pin max-delay slack:     7356 ps
+  Min-delay inserted:       628 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[10]_CFG1D_TEST
+
+
+Path 19
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[2]:D
+------------------------
+Path min-delay slack:      -110 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[12]:B
+-------------------------------------
+  Pin max-delay slack:     7363 ps
+  Min-delay inserted:       464 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[12]_CFG1C_TEST
+
+
+Path 20
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[9]:D
+------------------------
+Path min-delay slack:       -88 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[19]:B
+-------------------------------------
+  Pin max-delay slack:     7316 ps
+  Min-delay inserted:       436 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[19]_CFG1C_TEST0
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[19]_CFG1C_TEST
+
+
+Path 21
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[5]:D
+------------------------
+Path min-delay slack:       -87 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[15]:B
+-------------------------------------
+  Pin max-delay slack:     7221 ps
+  Min-delay inserted:       529 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[15]_CFG1C_TEST
+
+
+Path 22
+------------------------
+From: SERDES_IF2_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_RXCLK[1]
+  To: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBooIOI[8]:D
+------------------------
+Path min-delay slack:       -82 ps
+------------------------
+  On sink pin: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[18]:B
+-------------------------------------
+  Pin max-delay slack:     7410 ps
+  Min-delay inserted:       445 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBol11/CORETSE_AHBioIOI_5[18]_CFG1D_TEST
+
+
+
+
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 2  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 2  
+ Total paths found:    0       
+ Total paths improved: 0       
+-------------------------
+
+
+Note:
+    [1]: A net cannot be modified for repair if:
+         - it is hardwired, preserved, or global;
+         - the sink pin is a clock pin;
+         - the sink pin has negative max-delay slack allowance;
+         - the sink and driving pins are placed in the same cluster.
+
+    [2]: A location is not feasible for inserting a delay buffer if the estimated minimum delay to be inserted might exceed the max-delay slack allowance of the sink pin.
+
+
+

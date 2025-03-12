@@ -1,0 +1,49 @@
+Resource Usage Report for CoreTSE_Webserver 
+
+Mapping to part: m2s090tsfbga484-1
+Cell usage:
+AND2            1 use
+CCC             4 uses
+CLKINT          27 uses
+MSS_075         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SERDESIF_075    1 use
+SYSRESET        1 use
+CFG1           22 uses
+CFG2           1353 uses
+CFG3           1788 uses
+CFG4           5163 uses
+
+Carry primitives used for arithmetic functions:
+ARI1           1456 uses
+
+
+Sequential Cells: 
+SLE            5172 uses
+
+DSP Blocks:    0
+
+I/O ports: 41
+I/O primitives: 23
+BIBUF          5 uses
+INBUF          4 uses
+INBUF_DIFF     1 use
+OUTBUF         10 uses
+TRIBUFF        3 uses
+
+
+Global Clock Buffers: 27
+
+
+Total LUTs:    9782
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 504; LUTs = 504;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  5172 + 0 + 504 + 0 = 5676;
+Total number of LUTs after P&R:  9782 + 0 + 504 + 0 = 10286;
+

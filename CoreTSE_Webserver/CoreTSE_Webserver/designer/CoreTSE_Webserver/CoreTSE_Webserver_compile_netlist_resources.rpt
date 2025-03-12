@@ -1,0 +1,261 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release v11.7 SP2 (Version 11.7.2.2)
+Date: Thu Nov 17 15:28:12 2016
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S090TS       |
+| Package                        | 484 FBGA       |
+| Speed Grade                    | -1             |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 3.3V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+--------------------------------------------------------------------+
+| Topcell | CoreTSE_Webserver                                                  |
+| Format  | EDIF                                                               |
+| Source  | D:\CASES\coretse\CoreTSE_Webserver\synthesis\CoreTSE_Webserver.edn |
++---------+--------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+-------+-------+------------+
+| Type                      | Used  | Total | Percentage |
++---------------------------+-------+-------+------------+
+| 4LUT                      | 10352 | 86184 | 12.01      |
+| DFF                       | 5676  | 86184 | 6.59       |
+| I/O Register              | 0     | 801   | 0.00       |
+| User I/O                  | 24    | 267   | 8.99       |
+| -- Single-ended I/O       | 22    | 267   | 8.24       |
+| -- Differential I/O Pairs | 1     | 133   | 0.75       |
+| RAM64x18                  | 0     | 112   | 0.00       |
+| RAM1K18                   | 14    | 109   | 12.84      |
+| MACC                      | 0     | 84    | 0.00       |
+| Chip Globals              | 16    | 16    | 100.00     |
+| CCC                       | 4     | 6     | 66.67      |
+| RCOSC_25_50MHZ            | 1     | 1     | 100.00     |
+| RCOSC_1MHZ                | 0     | 1     | 0.00       |
+| XTLOSC                    | 0     | 1     | 0.00       |
+| SERDESIF Blocks           | 1     | 1     | 100.00     |
+| -- SERDESIF Lanes         | 1     | 4     | 25.00      |
+| MSS                       | 1     | 1     | 100.00     |
++---------------------------+-------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+-------+------+
+| Type                     | 4LUT  | DFF  |
++--------------------------+-------+------+
+| Fabric Logic             | 9848  | 5172 |
+| RAM64x18 Interface Logic | 0     | 0    |
+| RAM1K18 Interface Logic  | 504   | 504  |
+| MACC Interface Logic     | 0     | 0    |
+| Total Used               | 10352 | 5676 |
++--------------------------+-------+------+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (512KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 2    | 2     |
+| I2C           | 0    | 2     |
+| UART          | 1    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 0    | 1     |
+| PDMA          | 0    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+SERDESIF Lanes Usage
++------------+-------+-------+-------+-------+
+| SERDESIF   | Lane0 | Lane1 | Lane2 | Lane3 |
++------------+-------+-------+-------+-------+
+| SERDESIF_0 | ----  | ----  | ----  | EPCS  |
++------------+-------+-------+-------+-------+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 6      | 1    |
+| 7      | 4    |
+| 8      | 3    |
+| 9      | 10   |
+| 10     | 2    |
+| 11     | 2    |
+| 12     | 7    |
+| 13     | 33   |
+| 14     | 5    |
+| 15     | 4    |
+| 16     | 10   |
+| 17     | 4    |
+| 19     | 13   |
+| 21     | 1    |
+| 22     | 1    |
+| 25     | 2    |
+| 30     | 2    |
+| 31     | 2    |
+| Total  | 106  |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 4            | 0           | 0               |
+| Output I/O                    | 13           | 0           | 0               |
+| Bidirectional I/O             | 5            | 0           | 0               |
+| Differential Input I/O Pairs  | 1            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  4    |  13    |  5            |
+| LVDS         |  2.50v |  N/A |  2    |  0     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  12   | 50.00%     |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  12   | 50.00%     |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                                         |
++--------+---------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| 2805   | INT_NET | Net   : FCCC_0_GL0                                                                                                                           |
+|        |         | Driver: FCCC_0/GL0_INST/U0_RGB1                                                                                                              |
+|        |         | Source: NETLIST                                                                                                                              |
+| 2328   | INT_NET | Net   : CoreResetP_0_MSS_HPMS_READY                                                                                                          |
+|        |         | Driver: CoreResetP_0/MSS_HPMS_READY_int_RNI13UF/U0_RGB1                                                                                      |
+|        |         | Source: NETLIST                                                                                                                              |
+| 1397   | INT_NET | Net   : FCCC_3_GL1                                                                                                                           |
+|        |         | Driver: FCCC_3/GL1_INST/U0_RGB1                                                                                                              |
+|        |         | Source: NETLIST                                                                                                                              |
+| 408    | INT_NET | Net   : FCCC_1_GL0                                                                                                                           |
+|        |         | Driver: FCCC_1/GL0_INST/U0_RGB1                                                                                                              |
+|        |         | Source: NETLIST                                                                                                                              |
+| 406    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBi010_i                                                       |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBi011_inst_1/CORETSE_AHBoOlII_RNIPHQF/U0_RGB1 |
+|        |         | Source: NETLIST                                                                                                                              |
+| 333    | INT_NET | Net   : FCCC_2_GL0                                                                                                                           |
+|        |         | Driver: FCCC_2/GL0_INST/U0_RGB1                                                                                                              |
+|        |         | Source: NETLIST                                                                                                                              |
+| 330    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBIio1_i                                                                      |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI_inst_1/CORETSE_AHBlOIo/CORETSE_AHBOilo_RNINHQ8/U0_RGB1                |
+|        |         | Source: NETLIST                                                                                                                              |
+| 296    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBI1O1_i                                       |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0_CORETSE_AHBOi0/CORETSE_AHBIoi0/CORETSE_AHBi011_inst_1/CORETSE_AHBoO0o_RNIQ2P4/U0_RGB1  |
+|        |         | Source: NETLIST                                                                                                                              |
+| 279    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBlio1_i                                                                      |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI_inst_1/CORETSE_AHBlOIo/CORETSE_AHBiilo_RNIH0B5/U0_RGB1                |
+|        |         | Source: NETLIST                                                                                                                              |
+| 238    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBI0II_i                                                     |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBI0II_RNI5BQ8/U0_RGB1                   |
+|        |         | Source: NETLIST                                                                                                                              |
+| 198    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBO0II_i                                                     |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBO0II_RNIBTCF/U0_RGB1                   |
+|        |         | Source: NETLIST                                                                                                                              |
+| 124    | INT_NET | Net   : PHY_MDC_c                                                                                                                            |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI_inst_1/CORETSE_AHBooOo/CORETSE_AHBi01_inferred_clock_RNIGRJ9/U0_RGB1  |
+|        |         | Source: NETLIST                                                                                                                              |
+| 93     | INT_NET | Net   : CoreConfigP_0_APB_S_PCLK                                                                                                             |
+|        |         | Driver: CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST_RNI3KN8/U0_RGB1                                                                               |
+|        |         | Source: NETLIST                                                                                                                              |
+| 30     | INT_NET | Net   : OSC_0_RCOSC_25_50MHZ_O2F                                                                                                             |
+|        |         | Driver: OSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1                                                                                            |
+|        |         | Source: NETLIST                                                                                                                              |
+| 12     | INT_NET | Net   : FCCC_1_GL1                                                                                                                           |
+|        |         | Driver: FCCC_1/GL1_INST/U0_RGB1                                                                                                              |
+|        |         | Source: NETLIST                                                                                                                              |
+| 1      | INT_NET | Net   : FCCC_3/FCCC_3_GL0                                                                                                                    |
+|        |         | Driver: FCCC_3/GL0_INST/U0_RGB1                                                                                                              |
+|        |         | Source: NETLIST                                                                                                                              |
++--------+---------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+--------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                               |
++--------+---------+--------------------------------------------------------------------------------------------------------------------+
+| 177    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBilII         |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBilII         |
+| 174    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBl0II         |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBl0II         |
+| 130    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBI0i1[1]                                                          |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBl1Oo/CORETSE_AHBIOlo/un4_m1_0_a2 |
+| 128    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBO00o             |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBO00o             |
+| 126    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBo1i0/un1_CORETSE_AHBOI10           |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBo1i0/un1_CORETSE_AHBOI10           |
+| 111    | INT_NET | Net   : CoreAHBLite_0.matrix4x16.slavestage_3.masterDataInProg[0]                                                  |
+|        |         | Driver: CoreAHBLite_0/matrix4x16/slavestage_3/masterDataInProg[0]                                                  |
+| 101    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBi00o             |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBi00o             |
+| 95     | INT_NET | Net   : CoreTSE_Webserver_MSS_0/CONFIG_PRESET_N                                                                    |
+|        |         | Driver: CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST                                                                     |
+| 90     | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBo0II         |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBo0II         |
+| 82     | INT_NET | Net   : CoreAHBLite_0_AHBmslave3_HWDATA[0]                                                                         |
+|        |         | Driver: CoreAHBLite_0/matrix4x16/slavestage_3/HWDATA[0]                                                            |
++--------+---------+--------------------------------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+--------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                               |
++--------+---------+--------------------------------------------------------------------------------------------------------------------+
+| 177    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBilII         |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBilII         |
+| 174    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBl0II         |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBl0II         |
+| 130    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBI0i1[1]                                                          |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBl1Oo/CORETSE_AHBIOlo/un4_m1_0_a2 |
+| 128    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBO00o             |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBO00o             |
+| 126    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBo1i0/un1_CORETSE_AHBOI10           |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBio0.CORETSE_AHBOi0/CORETSE_AHBo1i0/un1_CORETSE_AHBOI10           |
+| 111    | INT_NET | Net   : CoreAHBLite_0.matrix4x16.slavestage_3.masterDataInProg[0]                                                  |
+|        |         | Driver: CoreAHBLite_0/matrix4x16/slavestage_3/masterDataInProg[0]                                                  |
+| 101    | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBi00o             |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBiOooI/CORETSE_AHBlOIo/CORETSE_AHBi00o             |
+| 95     | INT_NET | Net   : CoreTSE_Webserver_MSS_0/CONFIG_PRESET_N                                                                    |
+|        |         | Driver: CoreTSE_Webserver_MSS_0/MSS_ADLIB_INST                                                                     |
+| 90     | INT_NET | Net   : CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBo0II         |
+|        |         | Driver: CORETSE_AHB_0/CoreTSE_top_inst/CORETSE_AHBilI/CORETSE_AHBoOooI/CORETSE_AHBOoII/un1_CORETSE_AHBo0II         |
+| 82     | INT_NET | Net   : CoreAHBLite_0_AHBmslave3_HWDATA[0]                                                                         |
+|        |         | Driver: CoreAHBLite_0/matrix4x16/slavestage_3/HWDATA[0]                                                            |
++--------+---------+--------------------------------------------------------------------------------------------------------------------+
+

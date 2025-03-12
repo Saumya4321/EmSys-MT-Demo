@@ -1,0 +1,30 @@
+data DESIGN CoreTSE_Webserver
+data HPATH 'D:/Microsemi_prj/CoreTSE_Webserver/designer/CoreTSE_Webserver'
+data CPATH 'D:/Microsemi_prj/CoreTSE_Webserver/constraint/io'
+data CDIR 'D:/Microsemi_prj/CoreTSE_Webserver/constraint'
+data ETYPE IO
+data FAM SmartFusion2
+data DIE PA4M7500_TS
+data PACKAGE fg484
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data VCCI_1.2_VOLTR COM
+data VCCI_1.5_VOLTR COM
+data VCCI_1.8_VOLTR COM
+data VCCI_2.5_VOLTR COM
+data VCCI_3.3_VOLTR COM
+data FLOW_TYPE NEW
+data AFL 'D:/Microsemi_prj/CoreTSE_Webserver/designer/CoreTSE_Webserver/COMPILE/CoreTSE_Webserver.afl'
+data ADL 'D:/Microsemi_prj/CoreTSE_Webserver/designer/CoreTSE_Webserver/CoreTSE_Webserver.adl'
+data LOC 'D:/Microsemi_prj/CoreTSE_Webserver/designer/CoreTSE_Webserver/COMPILE/CoreTSE_Webserver.loc'
+data SEG 'D:/Microsemi_prj/CoreTSE_Webserver/designer/CoreTSE_Webserver/COMPILE/CoreTSE_Webserver.seg'
+
+data TARGET_IOPDC  'D:/Microsemi_prj/CoreTSE_Webserver/constraint/io/user.pdc'
+data TARGET_FPPDC  'D:/Microsemi_prj/CoreTSE_Webserver/constraint/fp/user.pdc'
+data TARGET_DEVICES_FOR_MIGRATION 'PA4M7500_TS '
+data RESTRICTPROBEPINS 1
+data RESTRICTSPIPINS 0
+data GDEV_SKIP_UNASSIGN_CMP_CHECK    1 
+data HIDE_MIGRATION_PINS_MENU        1 
+data IO_DEFT_STD LVCMOS25
+
